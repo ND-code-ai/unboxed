@@ -1,0 +1,128 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "Bosch EasyDrill 18V-38 durability lifespan warranty",
+    "purpose": "evidence",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "ebay.be",
+        "ebay.fr",
+        "ebay.it",
+        "ebay.es",
+        "ebay.at",
+        "ebay.ie",
+        "ebay.pl",
+        "ebay.ch",
+        "ebay.co.uk",
+        "ebay.ca",
+        "ebay.com.au"
+      ],
+      "include_raw_content": "text"
+    }
+  },
+  "retrieved_at": "2026-10-24T11:22:38.553205Z",
+  "response": {
+    "query": "Bosch EasyDrill 18V-38 durability lifespan warranty",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.joybuy.nl/blog/cordlessdrillbuyingguide/ei0ciwRE",
+        "title": "Cordless Drill: 7 Smart Ways to Choose the Right One - Joybuy",
+        "content": "Bosch EasyDrill 18V-38 is part of the Bosch POWER FOR ALL 18V system. The manufacturer states that it comes with a 36-month warranty. This version is designed",
+        "score": 0.90965873,
+        "raw_content": null,
+        "id": "ffeebf-00"
+      },
+      {
+        "url": "https://timberpilot.com/best-cordless-drills-for-woodworking",
+        "title": "The 5 Best Cordless Drills for Woodworking: Power and ...",
+        "content": "Limited warranty period of 12 months may not be as extensive as some competing products. Bosch EasyDrill 18V-38 Cordless Drill",
+        "score": 0.7811474,
+        "raw_content": null,
+        "id": "2d3995-01"
+      },
+      {
+        "url": "https://www.amazon.it/-/en/Bosch-EasyImpact-18V-38-Cordless-Battery/dp/B0FC6YFDL7",
+        "title": "Bosch EasyImpact 18V-38 Cordless Hammer Drill (1 x 2.5Ah ...",
+        "content": "Return this item for free ; Legal warranty. Available. Warranty and Repairs ; Insurance plans. Available. Cover against accidental damage or theft ; Payment.",
+        "score": 0.63234437,
+        "raw_content": null,
+        "id": "be3741-02"
+      },
+      {
+        "url": "https://m.joybuy.nl/blog/cordless-drill-guide-2026/0AUXpb9u",
+        "title": "Cordless Drills: Bosch 18V or Makita 73 Nm for DIY & Pros",
+        "content": "Its brushless motor and aluminium gear housing guarantee durability and performance under tough conditions.",
+        "score": 0.47022632,
+        "raw_content": null,
+        "id": "c413c6-03"
+      },
+      {
+        "url": "https://www.bosch-diy.com/gb/en/power-tools/drills-and-screw-drivers",
+        "title": "Drills and screw drivers for DIYers | Bosch DIY",
+        "content": "Drilling diameter in steel: 13 mm\nVariants:2\n87.11 GBP\nUniversalDrill 18V\n Battery voltage: 18.0 V\n Max. torque: 40 Nm\n Drill chuck: 10-mm keyless chuck\n Screw diameter up to: 8 mm\n Drilling diameter in steel: 10 mm\nVariants:1\n79.99 GBP\nEasyDrill 18V-40\n Battery voltage: 18.0 V\n Max. torque: 40 Nm\n Drill chuck: 13-mm keyless chuck\n Screw diameter up to: 8 mm\n Drilling diameter in steel: 13 mm\nVariants:3\n59.83 GBP\nEasyImpact 18V-40\n Battery voltage: 18.0 V\n Max. torque: 40 Nm [...] Cordless drill drivers combine screwdriving and drilling functions in one tool. They're excellent all-round tools for DIY projects, including home repairs, woodworking and general construction work. A cordless combination drill has one gear (some 12V models) or two gears (12V and 18V models) for different speed and torque settings. The first gear offers higher torque and lower speed, ideal for driving large screws. The second gear has a higher speed and lower torque for faster drilling. [...] Cordless or corded? Choosing the right power source\nFor DIY enthusiasts who prefer not to worry about battery life, a corded combi drill is an excellent choice. Mains-powered combi drills from Bosch deliver consistent power for extended drilling sessions, making them ideal for larger projects where uninterrupted performance matters.\nChoose Bosch drills and screwdrivers for any application",
+        "score": 0.37161595,
+        "raw_content": "Tools for Home & Garden\nFind a dealer\nFind a dealer\nFind a dealer\n1. Home\n2. ...\n3. Power tools\n4. Drills and screw drivers\nDrills and screw drivers\nAI generated\nGet Your Home Sorted for Autumn!\nGet 12% off garden and cleaning tools. Discount applied automatically. Valid until 12.11.2026.\nDiscover now\nCordless Tools\nDrills and screw drivers\nSaws\nSanders\nAngle grinders\nRouters\nMulti tools\nAir Pumps\nBenchtop tools\nMini angle grinders\nPlaners\nPaint spray guns\nHeat gun\nTackers\nGlue pens and Glue guns\nFans\nBluetooth speakers\nLights\nSystemBox\nProduct\nFilters\nDrills and screw drivers\nCordless screwdrivers\nCordless drills / Combi drills\nImpact drivers / Impact wrenches\nImpact Drills\nSDS drills\nNEW\nIXO 8\n Weight: 0.350 kg\nVariants:3\n72.16 GBP\nNEW\nPSR SELECT\n Screw diameter up to: 5 mm\n No-load speed: 210 rpm\n Weight: 0.600 kg\nVariants:1\n63.35 GBP\nPushDrive\n Battery voltage: 3.6 V\n Screw diameter up to: 5 mm\n No-load speed: 360 rpm\n Weight: 0.280 kg\nVariants:1\n66.88 GBP\nIXO 6\n Battery voltage: 3.6 V\n Screw diameter up to: 5 mm\n No-load speed: 215 rpm\n Weight: 0.340 kg\nVariants:1\n63.35 GBP\nNEW\nPSR18V-60\n Battery voltage: 18 V Li-Ion battery\n Max. torque: 60 Nm\n Drill chuck: Keyless chuck\n Screw diameter up to: 10 mm\n Drilling diameter in steel: 13 mm\nVariants:1\n78.31 GBP\nNEW\nPSB18V-60\n Battery voltage: 18 V Li-Ion battery\n Max. torque: 24 Nm\n Drill chuck: Keyless chuck\n Screw diameter up to: 10 mm\n Drilling diameter in steel: 13 mm\nVariants:2\n87.11 GBP\nUniversalDrill 18V\n Battery voltage: 18.0 V\n Max. torque: 40 Nm\n Drill chuck: 10-mm keyless chuck\n Screw diameter up to: 8 mm\n Drilling diameter in steel: 10 mm\nVariants:1\n79.99 GBP\nEasyDrill 18V-40\n Battery voltage: 18.0 V\n Max. torque: 40 Nm\n Drill chuck: 13-mm keyless chuck\n Screw diameter up to: 8 mm\n Drilling diameter in steel: 13 mm\nVariants:3\n59.83 GBP\nEasyImpact 18V-40\n Battery voltage: 18.0 V\n Max. torque: 40 Nm\n Drill chuck: 13-mm keyless chuck\n Screw diameter up to: 8 mm\n Drilling diameter in steel: 13 mm\nVariants:3\n68.63 GBP\nUniversalDrill 18V-60\n Battery voltage: 18.0 V\n Max. torque: 60 Nm\n Drill chuck: 13-mm keyless chuck\n Screw diameter up to: 10 mm\n Drilling diameter in steel: 13 mm\nVariants:2\n78.31 GBP\nUniversalImpact 18V-60\n Battery voltage: 18.0 V\n Max. torque: 60 Nm\n Drill chuck: 13-mm keyless chuck\n Screw diameter up to: 10 mm\n Drilling diameter in steel: 13 mm\nVariants:3\n87.11 GBP\nAdvancedDrill 18V-80 QuickSnap\n Battery voltage: 18.0 V\n Max. torque: 78 Nm\n Drill chuck: 13-mm keyless chuck\n Screw diameter up to: 10 mm\n Drilling diameter in steel: 13 mm\nVariants:1\n99.43 GBP\nPower combi drill tools for drilling and screwdriving for DIYers\nWhether you're assembling furniture, hanging a picture or changing your tyres twice a year, there are many everyday situations where a combi drill comes in handy. Bosch has the right combi drill for a wide range of uses, with both cordless and corded combi drill options available. In addition to dedicated screwdrivers and drill drivers, there are also versatile combination tools – the combi drill combines both drilling and screwdriving functions in one device, and its advantage is clear: after drilling a hole, you can drive in the screw straight away without changing tools.\nDrilling and screwdriving tools: what to consider when choosing\nWood, metal, masonry or concrete – before purchasing a combi drill or other power tool, you should consider exactly what you want to use it for, as different uses place different demands on the tool.\nConsider: what purpose should the combi drill tool serve?\nIf you simply want to replace a manual screwdriver with an electric helper, a cordless screwdriver is a good choice. DIY enthusiasts who occasionally want to drill holes in walls or other workpieces will also need a drill. It makes sense to invest in a combi drill, which handles many everyday tasks with ease.\nFor specialist tasks such as changing wheels or chiselling work, all-rounders can sometimes reach their limits. That's when specialist power tools like the cordless impact driver or rotary hammer are needed.\nWhat material will you be working with while using a combi drill?\nIn addition to the intended use, the material you'll be working with is crucial when deciding on a tool. For light drilling and screwdriving tasks in soft materials, a cordless combi drill is sufficient. The harder the surface, the more power the tool needs. The comprehensive drill guide from Bosch provides helpful information on drilling and fixing correctly in wood, metal and more.\nWhen choosing a combi drill, torque and speed specifications are particularly important. Drilling requires high speeds and low torque, whilst screwdriving requires the opposite.\n Speed: The speed at which the tool rotates determines how quickly it can cut through materials and the quality of the hole produced. A higher speed enables faster drilling and smoother, cleaner holes. A lower speed may be better suited to certain materials or delicate tasks. Choosing the right speed for the material and drill bit size is crucial to ensure optimal drilling performance, avoid damage to the material and maximise the tool's lifespan.\n Torque: Torque, measured in Newton metres (Nm), determines the rotational force with which screws are driven into materials. Sufficient torque ensures a secure fastening, whilst insufficient torque can result in loose screws. Adjustable torque settings prevent over-tightening or under-tightening, provide better control and reduce the risk of damage. Depending on the material, a soft torque setting may be required.\nSome drilling tools are also equipped with hammer or impact functions:\n Hammer function: The hammer function is a clutch system that generates rotational force combined with a hammering action, making it suitable for drilling through materials such as masonry, hollow bricks or aerated concrete. When the hammer function is deactivated, the tool can be used like a standard combi drill.\n Rotary hammer function: The rotary hammer func",
+        "id": "9e516a-04"
+      },
+      {
+        "url": "https://www.bosch-presse.de/pressportal/de/media/content/pm7570/power-tools-2016-e.pdf",
+        "title": "Bosch Power Tools achieves strong growth once again in ...",
+        "content": "growth. The Bosch Group’s strategic objective is to deliver innovations for a connected life. Bosch improves quali-ty of life worldwide with products and services that are innovative and spark enthusiasm. In short, Bosch creates technology that is “Invented for life.” Additional information is available online at www.bosch.com, www.bosch-press.com, twit-ter.com/BoschPresse PI9191 Press Photo 1-PT-21975 PI9191 Bildtext | Caption Handlichster Akku-Bohrschrauber der Welt: EasyDrill 12 von Bosch [...] EasyDrill 12 from Bosch for do-it-yourselfers The EasyDrill 12 from Bosch is the most handy cordless drill/driver in the world. It is only 15.5 x 19 centimeters in size, weighs just 900 grams and is therefore lighter than comparable entry-level tools in the market. Even the name ‘EasyDrill’ says it all: Do-it-yourselfers who have found existing comparable cordless drill/drivers too complicated have discovered a simple yet powerful solution for many screwing and drilling applications in the form [...] in the form of the EasyDrill 12.",
+        "score": 0.3326794,
+        "raw_content": "23. June 2016 Robert Bosch GmbH P.O.Box 10 60 50 70049 Stuttgart Corporate Communications Head: Dr. Christoph Zemelka Press forum: www.bosch-presse.de [ 01 ] Consistently focused on the user: Bosch Power Tools achieves strong growth once again in 2015 Increased turnover in all regions [ 02 ] Innovation designed for the user: Bosch Power Tools make work easier Speech by - Henning von Boxberg, President of the Power Tools Division - Henk Becker, Member of the executive management of the Power Tools Division of Robert Bosch GmbH on the occasion of the press conference in Leinfelden on 3rd March 2016 [ 03 ] Consistently focused on the user: Bosch Power Tools achieves strong growth once again in 2015 Speech by Henning von Boxberg, President of the Power Tools Division of Robert Bosch GmbH on the occasion of the press conference in Leinfelden on 3rd March 2016 [ 04 ] World's first for do-it-yourselfers: 'NanoBlade' saw blade technology from Bosch Effortless sawing with high precision [ 05 ] Easy-to-use allrounders for do-it-yourselfers: New multi-tools by Bosch Featuring Starlock universal mounting system for the first time [ 06 ] Lightweight, compact and powerful: The new impact drills from Bosch The right tool for every DIY application 23. June 2016 Robert Bosch GmbH P.O.Box 10 60 50 70049 Stuttgart Corporate Communications Head: Dr. Christoph Zemelka Press forum: www.bosch-presse.de [ 07 ] The most handy cordless drill/driver in the world: EasyDrill 12 from Bosch for do-it-yourselfers Up to 150 screws with one battery charge [ 08 ] Handy tool with a shiny appearance: A new look for the Bosch Zamo Newly designed laser measure [ 09 ] Simplify precise alignment for DIY enthusiasts: New Quigo cross line laser from Bosch Optimized functions and a wider range of applications [ 10 ] A handy tool: Just 12 centimeters long: new Skil cordless screwdriver Easy and convenient to use [ 11 ] Increased control for more precise work results: Powerful multifunction tool from Skil Multiple applications with just one tool [ 12 ] Expansion of the inductive charging system: 10.8 V 'Wireless Charging' batteries from Bosch Increased productivity and flexibility for tradespeople [ 13 ] Even higher performance and precision: Starlock accessories for multi-cutters by Bosch Universal mounting system, unique accessories [ 14 ] Even more power and control for professionals: Four new Bosch hammers in the two-kilogram class Rotary hammers now featuring 'KickBack Control' [ 15 ] With the universal Starlock mounting system: New multi-cutters from Bosch for professionals More precise results due to optimized mounting system [ 16 ] Combines three apps in one: New Bosch Measuring Master App for professionals Document measured values easily and quickly 23. June 2016 Robert Bosch GmbH P.O.Box 10 60 50 70049 Stuttgart Corporate Communications Head: Dr. Christoph Zemelka Press forum: www.bosch-presse.de [ 17 ] Makes finding the right product easy: Bosch Pocket Assistant - product identification for professionals Easy operation by smartphone [ 18 ] Customizable by app: Bosch networks power tools Additional new \"Connectivity\" products for professionals [ 19 ] Easy-to-use, efficient, durable: The new generation of Bosch cordless screwdrivers for professionals Eight powerful models for increased flexibility in trade work [ 20 ] Exceptionally ergonomic: New Bosch saber saws for professionals Functional equipment for a wide range of applications Robert Bosch GmbH Postfach 10 60 50 D-70049 Stuttgart E-mail Martin.Steinlehner@de.bosch.com Phone +49 711 758-3132 Fax +49 711 811 5188012 Corporate Communications, Brand Management, and Sustainability Senior Vice President: Dr. Christoph Zemelka www.bosch-press.com March 3, 2016 PI 9187 PT MS Press release Consistently focused on the user: Bosch Power Tools achieves strong growth once again in 2015 Increased turnover in all regions  New record: Around 50 million power tools sold for the first time  Market leader: Bosch Power Tools is growing faster than the market  Strategic growth segments: Innovation, online and emerging markets Leinfelden – Bosch Power Tools experienced strong growth once again in 2015, with turnover rising to 4.5 billion euros. Nominally, this amounts to a growth of ten percent, or five percent in local currency. “We sold around 50 million power tools in 2015 – more than ever before,” said Henning von Boxberg, President of Bosch Power Tools, at the annual press conference in Leinfelden. “Our success is based on consistently focusing on the user. We know what their needs are – in particular, making work easier for do-it-yourselfers, and productivity for trades-people – and so we can offer the users suitable solutions.” One third of the turn-over generated by Bosch Power Tools in 2015 was in innovative products and services which have been on the market for less than two years. “We are also well-positioned for the future. We see opportunities for growth in emerging mar-kets and online in particular – for example with online sales and with our increas-ingly connected products.” Growth in all regions With a growth rate of more than five percent, Bosch Power Tools grew more than the market once again in 2015, which grew four percent. In Europe, the increase in turnover was five percent in local currency, primarily driven by Germany with a 17 percent growth. Turnover rose by 12 percent in North America. Despite lower growth in Brazil, Russia and China, the Bosch division grew in all continents, with a three percent increase in turnover in Latin America and five percent in the Asia-Pacific region. Africa was the continent on which Bosch achieved the greatest growth with 15 percent. Overall, Bosch Power Tools generated around 85 per-cent of its turnover for 2015 outside Germany. The importance of emerging mar-kets continues to grow. Bosch promotes growth by providing robust power tools PI9187 Page 2 of 4 that are easy to operate and meet specific local requirements, making it ",
+        "id": "8c833a-05"
+      },
+      {
+        "url": "https://www.galaxus.ch/en/s4/product/bosch-professional-gsr-18v-150-c-professional-cordless-drill-driver-18-v-150-nm-brushless-1x-recharg-56745937",
+        "title": "Bosch Professional GSR 18V-150 C",
+        "content": "Brushless motor for higher efficiency and longer lifespan · Three torque settings for various applications · Maximum drilling diameter in wood: 150 mm · Maximum",
+        "score": 0.21915402,
+        "raw_content": null,
+        "id": "1ce0dc-06"
+      },
+      {
+        "url": "https://www.reddit.com/r/Tools/comments/19ev93u/anybody_still_use_and_recommend_bosch_cordless",
+        "title": "Anybody still use and recommend Bosch cordless tools?",
+        "content": "I hate my Milwaukee stuff and was looking to switch brands. Flex is too expensive and limited so I'm considering Bosch",
+        "score": 0.076277,
+        "raw_content": null,
+        "id": "f96e8c-07"
+      }
+    ],
+    "response_time": 1.11,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "08d57370-8b88-4f1d-b5e1-35cadecd74de"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "Powerplus Compacte 4-in-1 multifunctionele schroevendraaier POWXBOX001 incl. batterij en 2.0Ah lader durability lifespan warranty",
+    "purpose": "evidence",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "ebay.be",
+        "ebay.fr",
+        "ebay.it",
+        "ebay.es",
+        "ebay.at",
+        "ebay.ie",
+        "ebay.pl",
+        "ebay.ch",
+        "ebay.co.uk",
+        "ebay.ca",
+        "ebay.com.au"
+      ],
+      "include_raw_content": "text"
+    }
+  },
+  "retrieved_at": "2026-10-24T11:24:26.290368Z",
+  "response": {
+    "query": "Powerplus Compacte 4-in-1 multifunctionele schroevendraaier POWXBOX001 incl. batterij en 2.0Ah lader durability lifespan warranty",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [],
+    "response_time": 1.58,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "24509fa3-4781-44ea-9f7a-ac9b4de5dfd9"
+  }
+}

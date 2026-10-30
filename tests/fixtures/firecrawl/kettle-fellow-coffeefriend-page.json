@@ -1,0 +1,25 @@
+{
+  "service": "firecrawl",
+  "request": {
+    "url": "https://www.coffeefriend.nl/p/fellow-corvo-ekg-elektrische-waterkoker-0-9-l-matzwart",
+    "parameters": {
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-17T15:45:20.145874Z",
+  "response": {
+    "success": true,
+    "data": {
+      "markdown": "# Fellow Corvo EKG Pro Elektrische waterkoker, 0.9 L – Matzwart\n\nOp voorraad",
+      "rawHtml": "<html><head><script type=\"application/ld+json\">{\"@context\": \"https://schema.org/\", \"@graph\": [{\"@context\": \"https://schema.org/\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"item\": {\"name\": \"Home\"}}, {\"@type\": \"ListItem\", \"position\": 2, \"item\": {\"name\": \"Kleine keukenapparatuur\"}}, {\"@type\": \"ListItem\", \"position\": 3, \"item\": {\"name\": \"Waterkokers\"}}, {\"@type\": \"ListItem\", \"position\": 4, \"item\": {\"name\": \"Fellow Corvo EKG Pro Elektrische waterkoker, 0.9 L &amp;#8211; Matzwart\"}}]}, {\"@context\": \"https://schema.org/\", \"@type\": \"Product\", \"name\": \"Fellow Corvo EKG Pro Elektrische waterkoker, 0.9 L - Matzwart\", \"sku\": \"FellowCorvoPROBlack\", \"gtin\": \"1230000201308\", \"offers\": [{\"@type\": \"Offer\", \"priceSpecification\": [{\"@type\": \"UnitPriceSpecification\", \"price\": \"200.00\", \"priceCurrency\": \"EUR\", \"validThrough\": \"2027-12-31\"}], \"priceValidUntil\": \"2027-12-31\", \"availability\": \"https://schema.org/InStock\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Coffee Friend\"}}]}]}</script></head></html>",
+      "metadata": {
+        "statusCode": 200,
+        "sourceURL": "https://www.coffeefriend.nl/p/fellow-corvo-ekg-elektrische-waterkoker-0-9-l-matzwart",
+        "creditsUsed": 1
+      }
+    }
+  }
+}

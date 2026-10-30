@@ -1,0 +1,99 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "drill kopen",
+    "purpose": "listing_pages",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "include_domains": [
+        "beslist.nl",
+        "kieskeurig.nl"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-23T20:18:37.175159Z",
+  "response": {
+    "query": "drill kopen",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.beslist.nl/p/metaal-drill/35000/5035048034880",
+        "title": "Metaal drill kopen? Vergelijk aanbiedingen",
+        "content": "Metaal drill ; Toolmax.nl.",
+        "score": 0.70214266,
+        "raw_content": null,
+        "id": "7da6eb-00"
+      },
+      {
+        "url": "https://www.beslist.nl/products/klussen/klussen_486173_4468902/r/drill",
+        "title": "Drill - Boormachine kopen? | Korting tot 55%",
+        "content": "Vergelijk de beste (accu) drill - boormachines van o.a.",
+        "score": 0.6530611,
+        "raw_content": null,
+        "id": "1f9f63-01"
+      },
+      {
+        "url": "https://www.beslist.nl/products/klussen/klussen_486172_488680/c/formaat_klusacc~20095402~~materiaal~486528~~merk~23867388",
+        "title": "Lange Metalen Drill America boren kopen?",
+        "content": "Lange Metalen Drill America boren ; Silverline Betonboor set - SDS Plus - 1000 mm - Ø 12, 16, 24 mm - 3-delig.",
+        "score": 0.6186197,
+        "raw_content": null,
+        "id": "868f30-02"
+      },
+      {
+        "url": "https://www.kieskeurig.nl/lasaccessoires/product/4284076-wolfcraft-houtspiraalboor-a-3-mm",
+        "title": "Wolfcraft 1 wood twist drill kopen? - lasaccessoires",
+        "content": "Waar kun je het beste een Wolfcraft 1 wood twist drill kopen?",
+        "score": 0.5973971,
+        "raw_content": null,
+        "id": "d7d2bf-03"
+      },
+      {
+        "url": "https://www.beslist.nl/products/klussen/r/cordless_drill_worx_wx3729",
+        "title": "Cordless drill worx wx3729 kopen? | Korting tot 61%",
+        "content": "Vergelijk cordless drill worx wx3729 - klus artikelen van de beste merken, o.a.",
+        "score": 0.5050542,
+        "raw_content": null,
+        "id": "4bc94f-04"
+      },
+      {
+        "url": "https://www.kieskeurig.nl/speelgoedgereedschap/product/50834989-learning-resources-design-drill-kracht-boor-constructie-speelgoed",
+        "title": "Learning Resources Design & Drill Power ...",
+        "content": "Learning Resources Design & Drill Power Drill Construction Toy: vergelijk 5 aanbieders, prijs vanaf € 13,99.",
+        "score": 0.35267037,
+        "raw_content": null,
+        "id": "33398e-05"
+      },
+      {
+        "url": "https://www.kieskeurig.nl/boorgeleiders/product/51997658-switchblade-zelfvoedende-boor-54-mm-4932479500",
+        "title": "Switchblade™ Self-Feeding Drill Bit 54 mm - 4932479500",
+        "content": "Bekend om zijn unieke ontwerp en hoge prestaties, biedt de Switchblade™ Zelfvoedende Boor 54 mm (4932479500) een premium oplossing voor zware boorwerkzaamheden.",
+        "score": 0.14296049,
+        "raw_content": null,
+        "id": "564562-06"
+      },
+      {
+        "url": "https://www.kieskeurig.nl/voetbal/product/55196848-the-best-10-drills-for-under-10-soccer-a-seasons-worth-of-practices-variations-and-progressions-for-the-coach-who-wants-more-than-a-drill-list",
+        "title": "The Best 10 Drills for Under 10 Soccer: A Season's Worth ...",
+        "content": "The Best 10 Drills for Under 10 Soccer: A Season's Worth of Practices, Variations, and Progressions for the Coach Who Wants More Than a Drill List.",
+        "score": 0.04864503,
+        "raw_content": null,
+        "id": "88f6d1-07"
+      }
+    ],
+    "response_time": 1.97,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "720db405-080e-42d1-abb5-6b8f4f1b40b6"
+  }
+}

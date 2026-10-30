@@ -1,0 +1,101 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "accuboormachine kopen",
+    "purpose": "listing_pages",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "include_domains": [
+        "beslist.nl",
+        "kieskeurig.nl",
+        "tweakers.net",
+        "klarna.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-22T18:28:08.432742Z",
+  "response": {
+    "query": "accuboormachine kopen",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.beslist.nl/products/klussen/klussen_486173_4468902/c/merk~19241590~~soort_boormachines~4551279",
+        "title": "Hikoki Accuboormachines kopen? ✔️ Tot 26% korting!",
+        "content": "HiKOKI accuboormachines zijn ontworpen voor zowel professionals als doe-het-zelvers, met een focus op kracht, veelzijdigheid en gebruiksgemak.",
+        "score": 0.81097376,
+        "raw_content": null,
+        "id": "1871d5-00"
+      },
+      {
+        "url": "https://www.beslist.nl/products/klussen/klussen_486173_4468902/c/soort_boormachines~4551279",
+        "title": "Accuboormachines kopen? ✔️ Tot 64% korting!",
+        "content": "De Bosch AdvancedDrill 18V-80 QuickSnap is een krachtige accu-schroefboormachine die ontworpen is voor veelzijdig gebruik.",
+        "score": 0.81025416,
+        "raw_content": null,
+        "id": "4a5c60-01"
+      },
+      {
+        "url": "https://www.beslist.nl/products/klussen/klussen_486173_4468902/c/merk~486318~~soort_boormachines~4551279",
+        "title": "Ferm Accuboormachines kopen? ✔️ Tot 20% korting!",
+        "content": "De accuboormachine is zeer geschikt voor werkzaamheden zoals het boren van gaten maar ook het vastschroeven van materialen.",
+        "score": 0.80698997,
+        "raw_content": null,
+        "id": "6e8951-02"
+      },
+      {
+        "url": "https://www.kieskeurig.nl/boormachine/product/59321768-bosch-gbh-18v-26-f-professional-accuboormachine-18-v-26-j-sds-plus-brushless-2x-accu-40-ah-oplader-l-boxx",
+        "title": "Bosch Professional Bosch GBH 18V-26 F ...",
+        "content": "Waar kun je het beste een Bosch Professional Bosch GBH 18V-26 F Professional accuboormachine kopen?",
+        "score": 0.75616,
+        "raw_content": null,
+        "id": "635aff-03"
+      },
+      {
+        "url": "https://www.beslist.nl/products/klussen/klussen_486173_4468902/c/kleur~486503~~merk~4954915~~soort_boormachines~4551279",
+        "title": "scheppach Blauwe Accuboormachines kopen? ✔️ Tot 30% ...",
+        "content": "Met deze uitgebreide set heb jij niet alleen een krachtige accu boormachine, inclusief twee accu's en oplader, maar ook een 74-delige accessoireset met koffer.",
+        "score": 0.74697095,
+        "raw_content": null,
+        "id": "4fa94a-04"
+      },
+      {
+        "url": "https://www.beslist.nl/products/klussen/klussen_486173_4468902/c/kleur~486511~~merk~488283~~soort_boormachines~4551279~~type_gereedschap~4551248",
+        "title": "Metabo Paarse Elektrische Accuboormachines",
+        "content": "Metabo BS 18 Set 602207710 - Accu-schroefboormachine - 18 V - Inclusief 2 Accu's en Koffer.",
+        "score": 0.6369636,
+        "raw_content": null,
+        "id": "e908b1-05"
+      },
+      {
+        "url": "https://www.beslist.nl/products/klussen/klussen_486173_4468902/c/kleur~486503~~merk~574598~~soort_boormachines~4551279~~type_gereedschap~19199040",
+        "title": "DEWALT Blauwe Accu Accuboormachines",
+        "content": "Het gereedschap heeft een borstelloze motor zodat één acculading langer meegaat dan bij gereedschap met koolborstels.",
+        "score": 0.52393246,
+        "raw_content": null,
+        "id": "8490e7-06"
+      },
+      {
+        "url": "https://www.kieskeurig.nl/boormachine",
+        "title": "Boormachine vergelijken op accuspanning, koppel en klop",
+        "content": "Vergelijk boormachines en filter op accuspanning, koppel, klopfunctie en boorhouder.",
+        "score": 0.39922652,
+        "raw_content": null,
+        "id": "8f51e5-07"
+      }
+    ],
+    "response_time": 1.84,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "2ebe2a78-f32a-441b-a159-222dbe6d1796"
+  }
+}

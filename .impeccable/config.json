@@ -1,0 +1,46 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "http://localhost:3000/",
+          "https://truecost-unboxed.vercel.app/",
+          "web/app/globals.css"
+        ],
+        "createdAt": "2026-10-27T20:05:38.863Z",
+        "reason": "user confirmed: panel #FBF6F3 is locked in docs/design/chat_page_brief.md (The world, as locked); the alternatives tried are listed there"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/**"
+        ],
+        "createdAt": "2026-10-27T20:10:40.525Z",
+        "reason": "Agent: spent decision mocks with deliberately cropped, scaled preview frames; gitignored, never shipped"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/**"
+        ],
+        "createdAt": "2026-10-27T20:27:26.274Z",
+        "reason": "Agent: spent decision mocks written before DESIGN.md existed; gitignored, never shipped"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/*.html"
+        ],
+        "createdAt": "2026-10-29T19:16:04.664Z",
+        "reason": "Agent: decision sketches of the results page use the panel #FBF6F3, locked by the user (chat_page_brief.md, The world, as locked; DESIGN.md Panel); gitignored, never shipped"
+      }
+    ]
+  }
+}

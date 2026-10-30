@@ -1,0 +1,25 @@
+{
+  "service": "firecrawl",
+  "request": {
+    "url": "https://example.org/shop/blocked",
+    "parameters": {
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-13T09:00:00Z",
+  "response": {
+    "success": true,
+    "data": {
+      "markdown": "Access denied",
+      "rawHtml": "<html><body>Access denied</body></html>",
+      "metadata": {
+        "statusCode": 403,
+        "sourceURL": "https://example.org/shop/blocked",
+        "creditsUsed": 1
+      }
+    }
+  }
+}

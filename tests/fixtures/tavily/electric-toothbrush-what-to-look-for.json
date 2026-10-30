@@ -1,0 +1,112 @@
+{
+ "service": "tavily",
+ "request": {
+  "search_query": "electric toothbrush buying guide what to look for",
+  "purpose": "category",
+  "parameters": {
+   "search_depth": "basic",
+   "auto_parameters": false,
+   "max_results": 8,
+   "chunks_per_source": 3,
+   "topic": "general",
+   "include_answer": false,
+   "include_usage": true,
+   "exclude_domains": [
+    "facebook.com",
+    "instagram.com",
+    "tiktok.com",
+    "x.com",
+    "twitter.com",
+    "linkedin.com",
+    "youtube.com",
+    "vimeo.com",
+    "dailymotion.com",
+    "pinterest.com",
+    "pinterest.nl",
+    "pinterest.co.uk",
+    "reddit.com",
+    "quora.com",
+    "ebay.com",
+    "ebay.nl",
+    "ebay.de",
+    "marktplaats.nl",
+    "vinted.nl",
+    "aliexpress.com",
+    "temu.com",
+    "amazon.com",
+    "amazon.nl",
+    "amazon.de",
+    "bol.com",
+    "coolblue.nl",
+    "mediamarkt.nl",
+    "blokker.nl",
+    "action.com"
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-18T19:35:35.643681Z",
+ "response": {
+  "query": "electric toothbrush buying guide what to look for",
+  "results": [
+   {
+    "url": "https://www.colgate.com/en-ph/oral-health/selecting-dental-products/electric-toothbrush-buying-guide-everything-you-need-to-know",
+    "title": "Electric Toothbrush Buying Guide",
+    "content": "Electric toothbrushes come with either rechargeable or disposable batteries.",
+    "score": 0.8455478,
+    "id": "2fa114-00"
+   },
+   {
+    "url": "https://winchesterdentalstudio.com/pick-the-right-electric-toothbrush",
+    "title": "Pick The Right Electric Toothbrush: A Modern Guide To Power Brushing",
+    "content": "## Key Features to Consider When You Pick the Right Electric Toothbrush Not all power brushes are created equal.",
+    "score": 0.82254606,
+    "id": "e2c90a-01"
+   },
+   {
+    "url": "https://www.consumerreports.org/health/toothbrushes/buying-guide",
+    "title": "Electric Toothbrush Buying Guide - Consumer Reports",
+    "content": "Pick a toothpaste that has fluoride.",
+    "score": 0.8190992,
+    "id": "70e52a-02"
+   },
+   {
+    "url": "https://www.oral-b.co.in/en-in/learn/why-oral-b/electric-toothbrushes/buying-electric-toothbrush",
+    "title": "Things to Consider When Buying an Electric Toothbrush",
+    "content": "How to choose an electric toothbrush really comes down to one factor: likability.",
+    "score": 0.7823471,
+    "id": "409865-03"
+   },
+   {
+    "url": "https://www.cnet.com/health/personal-care/best-electric-toothbrush",
+    "title": "Best Electric Toothbrushes of 2026, Expert Tested",
+    "content": "If you have sensitive gums, look for an electric toothbrush that has a gentle setting, like the Quip or CariPro.",
+    "score": 0.75464433,
+    "id": "f20289-04"
+   },
+   {
+    "url": "https://www.electricteeth.com/best-electric-toothbrush",
+    "title": "Best electric toothbrush 2026 - reviews & recommendations",
+    "content": "The main thing you do want to watch out for if you’re buying generic heads is that you don’t get cheap counterfeits as they won’t do as good a job.",
+    "score": 0.7498395,
+    "id": "ef5c47-05"
+   },
+   {
+    "url": "https://www.drbassdds.com/blog-posts/1331813-what-to-look-for-when-buying-a-toothbrush-and-why-electric-is-better",
+    "title": "What to look for When Buying a Toothbrush (and Why ...",
+    "content": "What to Look for in Any Toothbrush · 1.Soft Bristles Are a Must · 2.",
+    "score": 0.72675586,
+    "id": "5d15e7-06"
+   },
+   {
+    "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-electric-toothbrush",
+    "title": "Best Electric Toothbrushes 2026 - Forbes Vetted",
+    "content": "After testing a variety of models, we determined the Oral-B iO Series 2 to be the best electric toothbrush overall.",
+    "score": 0.48952848,
+    "id": "f98d14-07"
+   }
+  ],
+  "usage": {
+   "credits": 1
+  }
+ }
+}

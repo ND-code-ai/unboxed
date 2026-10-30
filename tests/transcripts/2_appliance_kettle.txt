@@ -1,0 +1,168 @@
+Query: a kettle that boils quickly, around 60 euros
+Run: 24 October 2026, task 1.10, terminal app, live services and models, tracing on
+Typed: --skip-all
+Time (Measure-Command): 65 s
+Credits: Tavily 0, Firecrawl 0 (cached from this task's earlier run: 91 s, Tavily 7, Firecrawl 0)
+================================================================================
+Looking for: kettle · Budget: €60
+Researching kettle...
+From your request: "boils quickly"
+
+Lifespan sourced for 0 of 3 options. CO2e to make: AI synthetic estimate for 3.
+
+From your request: "boils quickly"
+
+Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter
+Price: €8.08, plus €6.98 shipping, price seen at EchtVEELvoorWeinig.nl via beslist.nl on 24 October 2026
+Link: https://www.beslist.nl/p/esperanza-niagara-camping-waterkoker-wit-0-5-liter/12000/5901299949498/?aff_id=908
+You asked for "boils quickly": could not be confirmed
+Lifespan: 2 years (rough estimate)
+  No durability evidence found
+Recurring cost: recurring costs not found
+Cost per year: €4.04
+Cost per use: not available (uses per year not given)
+Purchases over 10 years: 5
+Cost over 10 years: €40.40
+CO2e: 7.2 to 15 kg CO2e to make, over 10 years (AI synthetic estimate)
+  Built from (estimated): polypropylene, typical, 0.35 kg; stainless steel, 0.1 kg; stainless steel, typical, 0.05 kg; printed circuit board, 0.01 kg; silicone, typical, 0.01 kg; copper, typical, 0.02 kg
+
+KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter
+Price: €83.12, free shipping, price seen at Joybuy.nl via beslist.nl on 24 October 2026
+Link: https://www.beslist.nl/p/kitchenaid-5kek1222esx-waterkoker-rvs-1-25-liter/12000/5413184912734/?aff_id=908
+You asked for "boils quickly": could not be confirmed
+Lifespan: 4 years (rough estimate)
+  Wears: limescale filter (alghandielectronics.com) (the manufacturer states)
+  No owner or tester reports found
+Recurring cost: recurring costs not found
+Cost per year: €20.78
+Cost per use: not available (uses per year not given)
+Purchases over 10 years: 3
+Cost over 10 years: €249.36
+CO2e: 10 to 21 kg CO2e to make, over 10 years (AI synthetic estimate)
+  Built from (estimated): stainless steel, typical, 0.7 kg; stainless steel, typical, 0.1 kg; polypropylene, typical, 0.15 kg; stainless steel, 0.1 kg; printed circuit board, 0.015 kg; silicone, typical, 0.01 kg; copper, typical, 0.03 kg; stainless steel, typical, 0.1 kg
+Over your budget
+
+Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt
+Price: €34.99, free shipping, price seen at bol.com via beslist.nl on 24 October 2026
+Link: https://www.beslist.nl/p/seeger-sgr100bk-waterkoker-zwart-plisse-design-1-7-liter-bpa-vrij-2200-watt/12000/8712837885201/?aff_id=908
+You asked for "boils quickly": could not be confirmed
+Lifespan: 3 years (rough estimate)
+  Repairs: repairs available for 2 years (amazon.de) (the seller states)
+  No owner or tester reports found
+Recurring cost: recurring costs not found
+Cost per year: €11.66
+Cost per use: not available (uses per year not given)
+Purchases over 10 years: 4
+Cost over 10 years: €139.96
+CO2e: 9.7 to 20 kg CO2e to make, over 10 years (AI synthetic estimate)
+  Built from (estimated): polypropylene, typical, 0.5 kg; polypropylene, typical, 0.2 kg; stainless steel, 0.12 kg; printed circuit board, 0.02 kg; silicone, typical, 0.015 kg; copper, typical, 0.03 kg; stainless steel, typical, 0.05 kg
+
+Over 10 years: KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter costs €208.96 more than Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter. A lifespan behind this is a rough estimate.
+Over 10 years: Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt costs €99.56 more than Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter. A lifespan behind this is a rough estimate.
+
+Check before you buy
+Not yet known
+- Induction hob compatibility: Only kettles with a ferromagnetic base work on induction hobs.
+- Capacity requirement: Choosing a kettle size that matches how many cups you need to boil avoids multiple boils or wasted space.
+- Automatic shut‑off: Prevents the kettle from boiling dry and protects the heating element.
+- Material care: Copper kettles need regular polishing to prevent tarnishing and avoid dents.
+- Exterior cleaning method: Stainless steel exteriors benefit from occasional olive‑oil polishing to maintain shine without scratching.
+- Kettle filter replacement cost: Replacement filters are needed to keep filtered water flowing and add ongoing expense.
+Could not be confirmed
+- "boils quickly": You asked for this. (Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter, KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter, Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt)
+- Confirm the current price: Prices change after the day each was seen.
+
+Trail
+supervisor [small, nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B] decided: Understood as: kettle; scope tuned; budget €60
+brief found: Category research for kettle from the cache, researched on 2026-10-24
+brief found: Searched "kettle buying guide what to look for": 7 results, from the cache
+brief found: Searched "kettle care maintenance and replacement parts": 8 results, from the cache
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Read 15 search results: 5 cited, 6 factors kept
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Follow-up search: "kettle filter replacement cost and interval"; reason: the read reported gaps
+brief found: Searched "kettle filter replacement cost and interval": 8 results
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Read 23 search results: 4 cited, 6 factors kept
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Induction hob compatibility" (compatibility), stated by a tester; source: https://www.kitchenaid.com/countertop-appliances/pinch-of-help/types-of-tea-kettles
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Capacity requirement" (requirement), stated by the manufacturer; source: https://www.kitchenaid.com/countertop-appliances/pinch-of-help/types-of-tea-kettles
+brief [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out the factor "Whistle feature"; reason: its quote is not in the search result it cites
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Automatic shut‑off" (requirement), stated by the manufacturer; source: https://www.kitchenaid.com/countertop-appliances/pinch-of-help/types-of-tea-kettles
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Material care" (care), stated by the manufacturer; source: https://www.kitchenaid.com/countertop-appliances/pinch-of-help/types-of-tea-kettles
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Exterior cleaning method" (care), stated by the manufacturer; source: https://www.kitchenaid.com/countertop-appliances/pinch-of-help/how-to-clean-an-electric-kettle
+brief [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out the factor "Descaling interval"; reason: its quote is not in the search result it cites
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Kettle filter replacement cost" (recurring_cost), stated by a tester; source: https://www.frizzlife.com/blogs/guide/water-filtration-replacement-tips-for-effective-water-filter-system
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered by the search results: Exact price range of kettles themselves; reason: Buyers need to know upfront cost to compare models.
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered by the search results: Energy consumption figures for different kettle types; reason: Operating cost influences long‑term affordability.
+brief excluded: No typical yearly cost for "Kettle filter replacement cost"; reason: its amount quote holds no single amount with a currency
+brief [medium, nvidia/nemotron-3-super-120b-a12b] excluded: No question about the factor "Capacity requirement"; reason: a choice holds a number that is not in the search result its factor cites
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Offered for how often the product is used: several times a day, every day, a few times a week, about once a week; reason: picked by the model for the category
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Local category term: waterkoker
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Stated in the request: "boils quickly" as a requirement of its own; reason: it fits none of the decision factors
+tco found: Searched "waterkoker kopen": 8 results, from the cache
+tco found: Read the listing page: 10 products; source: https://www.beslist.nl/products/huishoudelijke_apparatuur/huishoudelijke_apparatuur_19968034_19970345
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter" by its name: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt" by its name: medium (stainless steel heating element with plastic housing), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter" by its name: long (stainless steel construction), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Russell Hobbs - Brontë Stone - Waterkoker - Goud - 1,7L - 2400W - Mat Design" by its name: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Russell Hobbs - 24992-70 - Waterkoker - Rood - 2400W" by its name: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Rommelsbacher - Reisdompelaar Type 343 - Waterkokers - 350 Watt - Met Glas" by its name: short (glass body prone to breakage), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Midea - Roestvrijstalen waterkoker - Wit - 1,5 liter - 2200 W - Met temperatuurinstelling en veiligheidsfuncties" by its name: long (stainless steel construction), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "SMEG KLF04CREU - Waterkoker - Crème - 1,7L - 7 Temperaturen" by its name: medium (stainless steel body with painted finish), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "CREATE Waterkoker Retro 1200 Watt 1 Liter RVS BPA vrij Elektrisch Antikalk Sage Kettle Retro" by its name: long (stainless steel construction), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Korkmaz - Demmatik - Elektrische Theepot - Rvs - 1.7 Liter - Digitaal Touchscreen - 1500W" by its name: long (stainless steel construction), the model's judgement, not a sourced figure
+tco decided: To read: 7 listed products within €60, and "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter" over it, judged long; reason: 10 products listed; the rest are over the budget
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter" at beslist.nl: €83.12 plus €0 shipping, sold by Joybuy.nl, in stock; source: https://www.beslist.nl/p/kitchenaid-5kek1222esx-waterkoker-rvs-1-25-liter/12000/5413184912734/?aff_id=908
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter" at beslist.nl: €8.08 plus €6.98 shipping, sold by EchtVEELvoorWeinig.nl, in stock; source: https://www.beslist.nl/p/esperanza-niagara-camping-waterkoker-wit-0-5-liter/12000/5901299949498/?aff_id=908
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt" at beslist.nl: €34.99 plus €0 shipping, sold by bol.com, in stock; source: https://www.beslist.nl/p/seeger-sgr100bk-waterkoker-zwart-plisse-design-1-7-liter-bpa-vrij-2200-watt/12000/8712837885201/?aff_id=908
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Russell Hobbs - Brontë Stone - Waterkoker - Goud - 1,7L - 2400W - Mat Design" at beslist.nl: €50.99 plus €0 shipping, sold by Galaxus.nl, in stock; source: https://www.beslist.nl/p/russell-hobbs-bronte-stone-waterkoker-goud-1-7l-2400w-mat-design/12000/5038061169386/?aff_id=908
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Russell Hobbs - 24992-70 - Waterkoker - Rood - 2400W" at beslist.nl: €34.03 plus €0 shipping, sold by Galaxus.nl, in stock; source: https://www.beslist.nl/p/russell-hobbs-24992-70-waterkoker-rood-2400w/12000/4008496982882/?aff_id=908
+tco decided: Left 3 listed products unread; reason: 5 buyable candidates found
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter" by its product page: long (roestvrij staal lichaam), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter" by its product page: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt" by its product page: medium (kunststof lichaam (BPA‑vrij)), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Russell Hobbs - Brontë Stone - Waterkoker - Goud - 1,7L - 2400W - Mat Design" by its product page: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Russell Hobbs - 24992-70 - Waterkoker - Rood - 2400W" by its product page: unknown, the model's judgement, not a sourced figure
+tco decided: Chose "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter" as the cheapest; reason: €15.06 with its stated shipping
+tco decided: Chose "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter" as the durable pick; reason: ordered by the model's judgement: long (roestvrij staal lichaam), not a sourced figure
+tco decided: Chose "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt" as the durable pick within budget; reason: ordered by the model's judgement: medium (kunststof lichaam (BPA‑vrij)), not a sourced figure
+tco excluded: Left out "Russell Hobbs - Brontë Stone - Waterkoker - Goud - 1,7L - 2400W - Mat Design"; reason: each slot went to a cheaper candidate or to one the model judged to last longer
+tco excluded: Left out "Russell Hobbs - 24992-70 - Waterkoker - Rood - 2400W"; reason: each slot went to a cheaper candidate or to one the model judged to last longer
+tco found: Searched "Esperanza Niagara durability lifespan warranty": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the evidence for "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter": 1 result cited of 9 shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out a warranty for "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter"; reason: it is no longer than the EU legal guarantee, which says nothing about this product
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Estimated the lifespan of "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter" at 2 years; reason: no durability evidence was found
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: No recurring cost found for "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter"; reason: the results state no price with an interval
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Fit of "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter" with your answers: boils quickly: unverified
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter": lifespan information; reason: not stated in the results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter": care instructions; reason: not stated in the results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter": repairability details; reason: not stated in the results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter": consumable details; reason: not stated in the results
+tco found: Searched "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter long term review durability": 1 result, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the owner and tester reports for "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter": 0 findings kept of 0 given, 1 result shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: No owner or tester report of "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter": durability information about the Esperanza Niagara camping kettle; reason: none of the provided search results discuss the product's longevity, part failures, repairs, or owner experiences
+tco found: Searched "KitchenAid 5KEK1222ESX durability lifespan warranty": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the evidence for "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter": 2 results cited of 9 shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out a warranty for "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter"; reason: the passage of its quote does not name the product
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Estimated the lifespan of "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter" at 4 years; reason: the read named no evidence it rests on
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: No recurring cost found for "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter"; reason: the results state no price with an interval
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Fit of "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter" with your answers: boils quickly: unverified; reason: boils quickly: the passage of its quote does not name the product
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter": lifespan information; reason: no statement about how long the kettle typically lasts found in the results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter": repairability details; reason: no statement about spare parts or repair options
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter": care instructions; reason: no statement about recommended cleaning or maintenance
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter": consumable price and interval; reason: no statement giving both a price and a replacement interval for the limescale filter
+tco found: Searched "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter long term review durability": 1 result, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the owner and tester reports for "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter": 0 findings kept of 0 given, 1 result shown
+tco found: Searched "SEEGER SGR100BK durability lifespan warranty": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the evidence for "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt": 2 results cited of 9 shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out a warranty for "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt"; reason: the passage of its quote does not name the product
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Estimated the lifespan of "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt" at 3 years; reason: none of the evidence it rests on passed the checks
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: No recurring cost found for "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt"; reason: the results state no price with an interval
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Fit of "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt" with your answers: boils quickly: unverified
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt": lifespan statement; reason: no result states how long the kettle typically lasts
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt": wear‑material information; reason: no result names any material that wears out
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt": care instructions; reason: no result states any required care such as descaling or hand‑washing
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt": consumable price and replacement interval; reason: while a micro‑strainer filter is mentioned, no result gives its price or how often it must be replaced
+tco found: Searched "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt long term review durability": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the owner and tester reports for "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt": 0 findings kept of 0 given, 8 results shown
+lca [large, nvidia/Nemotron-3-Ultra-550b-a55b] decided: LCA tier 3 estimated "Esperanza - Niagara - Camping Waterkoker - Wit - 0,5 Liter": 6 materials and manufacturing and assembly
+lca [large, nvidia/Nemotron-3-Ultra-550b-a55b] decided: LCA tier 3 estimated "KitchenAid - 5KEK1222ESX - Waterkoker - RVS - 1.25 liter": 8 materials and manufacturing and assembly
+lca [large, nvidia/Nemotron-3-Ultra-550b-a55b] decided: LCA tier 3 estimated "Seeger - SGR100BK - Waterkoker - Zwart - Plissé Design - 1.7 liter - BPA-Vrij - 2200 Watt": 7 materials and manufacturing and assembly
+second_hand decided: Stub: used listings are not searched yet

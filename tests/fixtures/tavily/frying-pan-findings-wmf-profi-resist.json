@@ -1,0 +1,117 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "WMF - Profi Resist - Koekenpan - Roestvrij Staal long term review durability",
+    "purpose": "findings",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "exclude_domains": [
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "amazon.com",
+        "amazon.nl",
+        "amazon.de",
+        "bol.com",
+        "coolblue.nl",
+        "mediamarkt.nl",
+        "blokker.nl",
+        "action.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-24T11:22:31.243100Z",
+  "response": {
+    "query": "WMF - Profi Resist - Koekenpan - Roestvrij Staal long term review durability",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.wmf.com/de/en/wmf-profi-select-fry-pan-24-cm-3201113175.html",
+        "title": "WMF Profi Select Fry Pan 24 cm",
+        "content": "With its 3-layer construction, the coating promises non-stick performance and effortless clean-up. long-lasting and dishwasher-safe everyday convenience. long-",
+        "score": 0.62879556,
+        "raw_content": null,
+        "id": "26288e-00"
+      },
+      {
+        "url": "https://www.beslist.nl/products/huis_tuin/huis_tuin_6069774_6069771",
+        "title": "Kookthermometers kopen? ✔️ Tot 46% korting!",
+        "content": "WMF Profi Plus Digitale Thermometer. Met deze thermometer kunt u eenvoudig de temperatuur van uw oven meten, Gemaakt van duurzaam roestvrijstaal, biedt deze",
+        "score": 0.47387698,
+        "raw_content": null,
+        "id": "a670a8-01"
+      },
+      {
+        "url": "https://onlinetouch.nl/elektrocuypers",
+        "title": "Nederlands English - Online Touch",
+        "content": "Roestvrij Staal, Volledig geïntegreerd, 43 dB, 10 programma's, 8,4 liter, QuickPowerWash, ComfortClose, AutoOpen, halve belading & startuitstel",
+        "score": 0.22154471,
+        "raw_content": null,
+        "id": "bdf753-02"
+      },
+      {
+        "url": "https://picclick.it/Casa-arredamento-e-bricolage/Articoli-per-cucina-e-bar/Pentole-e-padelle/Pentole-e-tegami",
+        "title": "Pentole e tegami",
+        "content": "Made from high-quality copper, this saucepan is durable and efficient for all your cooking needs. Shows some wear and tear and a good polish is needed...I tried.",
+        "score": 0.22091375,
+        "raw_content": null,
+        "id": "85986d-03"
+      },
+      {
+        "url": "https://uxd.hu/product/With-Wire-Rack-Stainless-Steel-Baking-Oven-Sheet-Tray-Bacon/533078",
+        "title": "Bakeware Set P&P CHEF Toaster Oven Pan With Wire ...",
+        "content": "4.4 stars out of 1041 reviews (4.4)|. Solid construction with thick outer frame and cross bars, enjoy a healthy baking or roasting. Stored in dry place for its",
+        "score": 0.13347194,
+        "raw_content": null,
+        "id": "007c5d-04"
+      },
+      {
+        "url": "https://www.kulina.ie/potato-masher-ingenio-k1181214--stainless-steel--tefal",
+        "title": "Potato masher INGENIO K1181214, stainless steel, Tefal",
+        "content": "The ABS handle is sturdy and ergonomically shaped to feel good in your hand. hanging temperature resistance up to 230 °C silicone protection … roestvrij staal.",
+        "score": 0.10833058,
+        "raw_content": null,
+        "id": "e253d5-05"
+      },
+      {
+        "url": "https://www.meesterslijpers.nl",
+        "title": "Meesterslijpers",
+        "content": "Zakmessen\n  + Victorinox\n  + Opinel\n  + Laguiole\n  + Buck\n  + Fällkniven\n  + Spyderco\n\n  Leatherman Multitools Zaklampen\n\n  Koopadvies\n\n  + Opinel Zakmes Gids\n  + Laguiole info\n Pannen bekijk alles ›\n\n  Soorten\n  + Braadpannen\n  + Braadsledes\n  + Fondue\n  + Grillpannen / platen\n  + Koekenpannen\n\n  + Kookpannen\n  + Rookovens\n  + Snelkookpan\n  + Stoompannen\n  + Wokken\n\n  Koopadvies\n\n  + Koekenpan keuzehulp\n  + Gietijzer info\n  + Plaatstaal info\n  + Onderhoudtips\n Kinderbestek bekijk alles › [...] Tondeuses    Kappersscharen    Klassiek scheren    Scharen    Manicure en pedicure\n\n Braadpannen    Koekenpannen    Kookpannen & sets    Wokpannen    Grillplaten\n\n Dieren    Klassieke verhalen    Blanco kinderbestek    Film- en stripfiguren    Prinsessen en sprookjes\n\n Aanzetstalen    Slijpmachines    Slijpstenen    Slijpcursus    Hoe slijp je een mes\n\n Barbecues    Thermosflessen    Gadgets    Zaklampen\n\n Slowcookers    Keukenmachines    Staafmixers    Sodastream [...] Barbecues    Lunchboxen en drinkflessen    Gadgets    Zaklampen    Leatherman multitools  Bekijk alles › Outdoor\n\n Bakgerei    Decoreren & opmaken    Opbergen & bewaren    Pasta & pizza    Wegen & meten  Bekijk alles › Keukengerei\n\n## Ontdek onze topcategorieën\n\nKeukenmessen Keukenmessen   Zakmessen Zakmessen   Pannen Pannen   Tafelen Tafelen   Outdoor Outdoor   Keukengerei Keukengerei\n\n## Dit maakt ons speciaal",
+        "score": 0.09067929,
+        "raw_content": null,
+        "id": "8b3389-06"
+      },
+      {
+        "url": "https://www.galaxus.ch/en/s2/product/combekk-bratpfanne-river-pro-frying-pan-stainless-steel-pots-pans-59282667",
+        "title": "Combekk Bratpfanne River Pro",
+        "content": "The River Pro frying pan with a diameter of 24 cm combines modern design with sustainable quality. Made from 100% recycled stainless steel, it impresses",
+        "score": 0.065995164,
+        "raw_content": null,
+        "id": "41a3b8-07"
+      }
+    ],
+    "response_time": 1.7,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "d9fdd717-12b4-4955-a568-a74234898a81"
+  }
+}

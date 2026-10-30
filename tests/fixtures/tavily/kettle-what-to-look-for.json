@@ -1,0 +1,74 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "kettle buying guide what to look for",
+    "purpose": "category",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "reddit.com",
+        "quora.com",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "amazon.com",
+        "amazon.nl",
+        "amazon.de",
+        "bol.com",
+        "coolblue.nl",
+        "mediamarkt.nl",
+        "blokker.nl",
+        "action.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-14T07:57:40.064407Z",
+  "response": {
+    "query": "kettle buying guide what to look for",
+    "results": [
+      {
+        "url": "https://www.kitchenaid.com/countertop-appliances/pinch-of-help/types-of-tea-kettles",
+        "title": "Types of tea kettles: The ultimate kettle buying guide | KitchenAid US",
+        "content": "If you like to boil multiple cups of tea at once, be sure and look for a larger kettle. And, if you’re really concerned about making sure your kettle doesn’t boil dry, look for an option with an automatic shut off feature.",
+        "score": 0.78154784
+      },
+      {
+        "url": "https://www.nytimes.com/wirecutter/reviews/the-best-home-kettle",
+        "title": "The 4 Best Electric Kettles of 2026 | Reviews by Wirecutter",
+        "content": "For kettles with multiple temperatures, we looked for clearly marked and easily adjustable settings.",
+        "score": 0.7043437
+      },
+      {
+        "url": "https://cocinare.com/zh/blogs/journals/made-in-usa-gooseneck-kettle-buying-guide",
+        "title": "Made in USA Gooseneck Kettle Buying Guide",
+        "content": "For most home brewers, 0.8L to 1.0L is the sweet spot.",
+        "score": 0.58123237
+      }
+    ],
+    "usage": {
+      "credits": 1
+    }
+  }
+}

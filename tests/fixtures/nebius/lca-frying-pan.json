@@ -1,0 +1,9 @@
+{
+  "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+  "input": "Options:\n\n1. Tramontina Professional Fusion 10-Inch\n   Brand: Tramontina\n\n2. Demeyere Atlantis Proline\n   Brand: Demeyere",
+  "reply": "{\n  \"factors\": [\n    {\n      \"material\": \"stainless steel\",\n      \"form\": \"typical\",\n      \"factor_low\": 2.5,\n      \"factor_high\": 6.5\n    },\n    {\n      \"material\": \"aluminum\",\n      \"form\": \"typical\",\n      \"factor_low\": 4.0,\n      \"factor_high\": 16.0\n    }\n  ],\n  \"options\": [\n    {\n      \"name\": \"Tramontina Professional Fusion 10-Inch\",\n      \"inputs\": [\n        {\n          \"name\": \"stainless steel\",\n          \"form\": \"typical\",\n          \"factor\": 1,\n          \"mass_kg\": 0.72,\n          \"fixed_input\": null,\n          \"component\": false\n        },\n        {\n          \"name\": \"aluminum\",\n          \"form\": \"typical\",\n          \"factor\": 2,\n          \"mass_kg\": 0.29,\n          \"fixed_input\": null,\n          \"component\": false\n        }\n      ],\n      \"manufacturing_low\": 0.5,\n      \"manufacturing_high\": 1.5,\n      \"declined_because\": null\n    },\n    {\n      \"name\": \"Demeyere Atlantis Proline\",\n      \"inputs\": [\n        {\n          \"name\": \"stainless steel\",\n          \"form\": \"typical\",\n          \"factor\": 1,\n          \"mass_kg\": 1.23,\n          \"fixed_input\": null,\n          \"component\": false\n        },\n        {\n          \"name\": \"aluminum\",\n          \"form\": \"typical\",\n          \"factor\": 2,\n          \"mass_kg\": 0.37,\n          \"fixed_input\": null,\n          \"component\": false\n        }\n      ],\n      \"manufacturing_low\": 1.0,\n      \"manufacturing_high\": 2.5,\n      \"declined_because\": null\n    }\n  ]\n}",
+  "seconds": 8.6,
+  "prompt_tokens": 857,
+  "completion_tokens": 2252,
+  "finish_reason": "stop"
+}

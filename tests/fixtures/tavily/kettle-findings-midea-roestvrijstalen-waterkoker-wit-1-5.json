@@ -1,0 +1,61 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "Midea - Roestvrijstalen waterkoker - Wit - 1,5 liter - 2200 W - Met temperatuurinstelling en veiligheidsfuncties long term review durability",
+    "purpose": "findings",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "exclude_domains": [
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "amazon.com",
+        "amazon.nl",
+        "amazon.de",
+        "bol.com",
+        "coolblue.nl",
+        "mediamarkt.nl",
+        "blokker.nl",
+        "action.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-23T20:27:35.259112Z",
+  "response": {
+    "query": "Midea - Roestvrijstalen waterkoker - Wit - 1,5 liter - 2200 W - Met temperatuurinstelling en veiligheidsfuncties long term review durability",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.beslist.nl/products/huishoudelijke_apparatuur/huishoudelijke_apparatuur_19968034_19970345/r/kitchen",
+        "title": "Kitchen - Waterkoker kopen? | Korting tot 22%",
+        "content": "Midea - Roestvrijstalen waterkoker - Wit - 1,5 liter - 2200 W - Met temperatuurinstelling en veiligheidsfuncties. €29,99€59,99. Vergelijk 4 prijzen",
+        "score": 0.8479807,
+        "raw_content": null,
+        "id": "89f0d6-00"
+      }
+    ],
+    "response_time": 2.03,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "bf79d588-1738-420a-944b-8247f805b4bb"
+  }
+}

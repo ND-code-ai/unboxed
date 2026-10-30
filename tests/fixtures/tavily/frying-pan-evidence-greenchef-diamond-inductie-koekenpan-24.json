@@ -1,0 +1,88 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "GreenChef Diamond Inductie Koekenpan durability lifespan warranty",
+    "purpose": "evidence",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "ebay.be",
+        "ebay.fr",
+        "ebay.it",
+        "ebay.es",
+        "ebay.at",
+        "ebay.ie",
+        "ebay.pl",
+        "ebay.ch",
+        "ebay.co.uk",
+        "ebay.ca",
+        "ebay.com.au"
+      ],
+      "include_raw_content": "text"
+    }
+  },
+  "retrieved_at": "2026-10-24T11:00:54.439068Z",
+  "response": {
+    "query": "GreenChef Diamond Inductie Koekenpan durability lifespan warranty",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.cookwarestore.co.uk/frying-pots-and-pans-greenchef-nordics-with-ceramic-nonstick-coating-24-cm",
+        "title": "Frying Pots and Pans GreenChef Nordics With Ceramic ...",
+        "content": "2 year warranty. Available in ... Equipped with Thermolon ceramic non-stick coating, reinforced with diamond. The body of the pan is made of quality aluminium.",
+        "score": 0.6383174,
+        "raw_content": null,
+        "id": "4eb6a1-00"
+      },
+      {
+        "url": "https://www.galaxus.ch/en/s2/product/greenchef-diamond-grillpan-28cm-zwart-inductie-pfas-vrij-grill-pan-aluminium-pots-pans-38675721?offertype=retail&offerid=406802",
+        "title": "Greenchef Diamond grillpan 28cm - zwart - inductie - PFAS ...",
+        "content": "The GreenChef Diamond induction grill pan with a diameter of 28 cm offers lasting cooking performance thanks to its PFAS-free ceramic non-stick coating",
+        "score": 0.6147415,
+        "raw_content": null,
+        "id": "2b8ca3-01"
+      },
+      {
+        "url": "https://www.cookwarestore.co.uk/cooking-pot-greenchef-nordics-with-ceramic-non-stick-coating-with-lid-18-cm-24",
+        "title": "Cooking Pot GreenChef Nordics With Ceramic Non-Stick ...",
+        "content": "Crafted from high-quality aluminum, this pot ensures durability and longevity, enhanced with diamond reinforcement,",
+        "score": 0.5855047,
+        "raw_content": null,
+        "id": "aa4f75-02"
+      }
+    ],
+    "response_time": 2.9,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "6e444fea-3fee-4bfe-8b56-4aec5e34eb5a"
+  }
+}

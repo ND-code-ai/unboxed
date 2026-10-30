@@ -1,0 +1,25 @@
+{
+  "service": "firecrawl",
+  "request": {
+    "url": "https://example.org/shop/de-buyer-mineral-b-28",
+    "parameters": {
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-13T09:00:00Z",
+  "response": {
+    "success": true,
+    "data": {
+      "markdown": "# De Buyer Mineral B koekenpan 28 cm\n\nCarbon steel, 2.1 kg, for all hobs including induction.",
+      "rawHtml": "<html><head><title>De Buyer Mineral B 28 cm</title><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": []}</script><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"De Buyer Mineral B koekenpan 28 cm\", \"brand\": {\"@type\": \"Brand\", \"name\": \"De Buyer\"}, \"offers\": {\"@type\": \"Offer\", \"price\": \"54,95\", \"priceCurrency\": \"EUR\"}}</script></head><body><h1>De Buyer Mineral B koekenpan 28 cm</h1></body></html>",
+      "metadata": {
+        "statusCode": 200,
+        "sourceURL": "https://example.org/shop/de-buyer-mineral-b-28",
+        "creditsUsed": 1
+      }
+    }
+  }
+}

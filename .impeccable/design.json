@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T21:00:00.000Z",
+  "title": "Design System: True Cost Copilot",
+  "extensions": {
+    "colorMeta": {
+      "field": { "role": "primary", "displayName": "Signal Coral", "canonical": "oklch(68.2% 0.171 34.1)", "tonalRamp": ["#140705", "#3e1a12", "#6d3022", "#a04733", "#d75f44", "#fd886d", "#ffb59e", "#ffd9c6"] },
+      "flap-back": { "role": "secondary", "displayName": "Flap Back Tint", "canonical": "oklch(86.0% 0.063 35.5)", "tonalRamp": ["#0f0a08", "#2b2523", "#4d423f", "#75615b", "#a08179", "#cca398", "#f7c3b5", "#ffe3d6"] },
+      "flap-side": { "role": "secondary", "displayName": "Flap Side Tint", "canonical": "oklch(91.0% 0.039 37.5)", "tonalRamp": ["#0d0a09", "#292524", "#484442", "#6e6360", "#968580", "#bfa8a1", "#e7c9c0", "#ffe7dd"] },
+      "lip": { "role": "secondary", "displayName": "Lip Tint", "canonical": "oklch(95.7% 0.019 38.2)", "tonalRamp": ["#0c0b0a", "#282625", "#464444", "#696564", "#8e8785", "#b5aba8", "#dbceca", "#faebe6"] },
+      "inside": { "role": "secondary", "displayName": "Box Inside", "canonical": "oklch(32.6% 0.091 31.7)", "tonalRamp": ["#1f0000", "#471209", "#6a3228", "#87584f", "#a47f78", "#c0a8a3", "#dacecb", "#f7ebe9"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "oklch(18.1% 0.013 36.5)", "tonalRamp": ["#100908", "#2b2523", "#494442", "#696564", "#8b8888", "#afadad", "#d2d0d0", "#f0eeed"] },
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "oklch(100% 0 0)", "tonalRamp": ["#0b0b0b", "#262626", "#454545", "#666666", "#898989", "#aeaeae", "#d1d1d1", "#eeeeee"] },
+      "panel": { "role": "neutral", "displayName": "Panel", "canonical": "oklch(97.6% 0.007 53.4)", "tonalRamp": ["#0d0a09", "#292623", "#484442", "#696563", "#8d8885", "#b1adaa", "#d5d0cd", "#f2edea"] },
+      "muted": { "role": "neutral", "displayName": "Muted Brown", "canonical": "oklch(44.3% 0.047 34.1)", "tonalRamp": ["#140705", "#35201b", "#5a3d36", "#7c5e56", "#9c827c", "#bda9a4", "#dbceca", "#f4ecea"] },
+      "faint": { "role": "neutral", "displayName": "Faint", "canonical": "oklch(79.8% 0.026 39.3)", "tonalRamp": ["#140704",  "#32221d",  "#4c3b36",  "#685650",  "#89756f",  "#ae9993",  "#d4bfb8",  "#fce6de"] }
+    },
+    "typographyMeta": {
+      "overline": { "displayName": "Overline", "purpose": "\"Or try one\" over the examples, ink, 13 px. Semibold, uppercase, 0.08em." },
+      "face-question": { "displayName": "Face question", "purpose": "\"What goes in the box?\" heading the box's face: bold, about 30 px at 1280 by 800, sized with the box, never under 15 px." },
+      "face-request": { "displayName": "Face request", "purpose": "The request typed on the box's face, in ink: about 26 px at 1280 by 800, shrinking with its length, never under 16 px; muted once sent." },
+      "headline": { "displayName": "Wordmark", "purpose": "The product name, top left of the field. Expanded, extra bold, lowercase; 1.375rem on a phone, 1.625rem from 1024 px." },
+      "title": { "displayName": "Question", "purpose": "The current question in its card." },
+      "body": { "displayName": "Body", "purpose": "The thread, reasons, the text box." },
+      "body-small": { "displayName": "Small", "purpose": "Source lines, 'more questions', small buttons, the tracing notice." },
+      "label-key": { "displayName": "Label key", "purpose": "The factor's name on a label, uppercase, muted, over its value." },
+      "label-value": { "displayName": "Label value", "purpose": "The answer on a label, bold, lowercase." },
+      "hand": { "displayName": "Hand", "purpose": "What the app writes on the box only: the first label, what was understood or \"?\", in capitals." }
+    },
+    "shadows": [],
+    "focus": [
+      { "name": "focus-ring", "value": "outline: 3px solid var(--color-ink); outline-offset: 3px", "purpose": "Every focusable element." }
+    ],
+    "motion": [
+      { "name": "ease-out-expo", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Arrivals: the label drop, flaps turning out, the scan window opening, the leader line drawing." },
+      { "name": "button-colour", "value": "150ms", "purpose": "Fill and border colour changes on buttons and chips." },
+      { "name": "label-drop", "value": "520ms ease-out-expo, from translateY(-48cqi)", "purpose": "A label dropping onto the box behind its front lip." },
+      { "name": "seal-and-open", "value": "about 500 to 640 ms, staged per flap, tape and window", "purpose": "The box sealing and opening; the same rules run both ways." },
+      { "name": "leader-line", "value": "1500ms: draw by 35%, hold to 75%, fade", "purpose": "Joins a new panel label to its twin on the box; wide screens with motion allowed only." },
+      { "name": "station-breathe", "value": "2000ms ease-in-out infinite, ring opacity 1 to 0.25", "purpose": "The current station of the route line: the page's one looping still-working signal." },
+      { "name": "marker-writing", "value": "hover: arrive 500ms, bob 1300ms alternate; write: 45ms a character, linear; lift 450ms", "purpose": "The box's first label: a marker hovers at its start while the request is read, then writes the category and budget, or \"?\", and lifts away." },
+      { "name": "label-slide", "value": "650ms ease-out-expo from 300ms, from the face's top edge, turning at the end", "purpose": "The blank first label sliding in over the faded request and settling just below it." },
+      { "name": "face-clear", "value": "heading fades 200ms; request and labels rise 500ms ease-out-expo", "purpose": "The questions asked: the face's heading goes and the request moves to its top, the labels with it, to leave room for five." },
+      { "name": "opening-move", "value": "600ms ease-out-expo transition of grid-template-columns (1fr 0fr to 5fr 3fr) and the box's max-width; the request fades to muted over 700ms", "purpose": "Next on a wide screen: the panel's column opens and the box slides left with it, a layout change; Start again and Edit run it back." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce", "purpose": "Every transition and animation jumps to its end state." }
+    ],
+    "breakpoints": [
+      { "name": "lg", "value": "64rem (1024px)", "purpose": "Before the first send the field fills the page, the composer on the box's face and the examples beside the box (below it on a phone); then field and panel side by side (5 to 3). Twelve ticks instead of four, the leader line appears." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Solid Button",
+      "kind": "button",
+      "refersTo": "button-solid",
+      "description": "The step forward: Next on the face and under an answer in the user's own words, Show my options at the closing step. Ink fill, paper type, square; hover fills with the box inside; faded when it cannot be pressed.",
+      "html": "<button class=\"ds-btn-solid\">Show my options</button>",
+      "css": ".ds-btn-solid { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px 20px; font: 600 1rem/1.5 Archivo, system-ui, sans-serif; color: #FFFFFF; background: #17100E; border: 2px solid #17100E; border-radius: 0; cursor: pointer; transition: background-color 150ms, border-color 150ms; } .ds-btn-solid:hover { background: #5A1E14; border-color: #5A1E14; } .ds-btn-solid:focus-visible { outline: 3px solid #17100E; outline-offset: 3px; } .ds-btn-solid:disabled { opacity: 0.4; cursor: not-allowed; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "The default button: Start again, controls in a line. Paper, 2 px ink border; hover fills with the lip tint.",
+      "html": "<button class=\"ds-btn-outline\">Start again</button>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px 20px; font: 600 1rem/1.5 Archivo, system-ui, sans-serif; color: #17100E; background: #FFFFFF; border: 2px solid #17100E; border-radius: 0; cursor: pointer; transition: background-color 150ms; } .ds-btn-outline:hover { background: #FDEDE8; } .ds-btn-outline:focus-visible { outline: 3px solid #17100E; outline-offset: 3px; } .ds-btn-outline:disabled { opacity: 0.4; cursor: not-allowed; }"
+    },
+    {
+      "name": "Link Button",
+      "kind": "button",
+      "refersTo": "button-link",
+      "description": "'skip the rest'. Underlined, no border; hover thickens the underline.",
+      "html": "<button class=\"ds-btn-link\">skip the rest</button>",
+      "css": ".ds-btn-link { padding: 0; font: 600 1rem/1.5 Archivo, system-ui, sans-serif; color: inherit; background: none; border: 0; text-align: left; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; cursor: pointer; } .ds-btn-link:hover { text-decoration-thickness: 2px; } .ds-btn-link:focus-visible { outline: 3px solid #17100E; outline-offset: 3px; }"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "An answer choice in the question card; the chosen one is filled ink. The last, Something else, carries a small pencil mark and unfolds a field for the user's own words.",
+      "html": "<div style=\"display:flex;gap:8px;flex-wrap:wrap\"><button class=\"ds-chip\" aria-pressed=\"true\">induction</button><button class=\"ds-chip\" aria-pressed=\"false\">gas</button><button class=\"ds-chip\" aria-pressed=\"false\">Not sure</button></div>",
+      "css": ".ds-chip { min-height: 44px; padding: 8px 20px; font: 600 1rem/1.5 Archivo, system-ui, sans-serif; text-align: left; color: #17100E; background: #FFFFFF; border: 2px solid #17100E; border-radius: 0; cursor: pointer; transition: background-color 150ms, color 150ms; } .ds-chip:hover { background: #FDEDE8; } .ds-chip[aria-pressed=\"true\"] { background: #17100E; color: #FFFFFF; } .ds-chip:focus-visible { outline: 3px solid #17100E; outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Box",
+      "kind": "input",
+      "refersTo": "textarea",
+      "description": "The panel's text boxes: the composer when a request does not run, the field under Something else, the closing step's. Paper, 2 px ink border, grows with its content. On the box's face the writing is borderless, in the shopper's type, over a faint baseline.",
+      "html": "<textarea class=\"ds-textarea\" rows=\"3\" placeholder=\"a product, and your budget (optional)\"></textarea>",
+      "css": ".ds-textarea { display: block; width: 100%; min-height: 96px; padding: 12px 14px; font: 400 1rem/1.5 Archivo, system-ui, sans-serif; color: #17100E; background: #FFFFFF; border: 2px solid #17100E; border-radius: 0; caret-color: #17100E; } .ds-textarea::placeholder { color: #6B4A42; } .ds-textarea:focus-visible { outline: 3px solid #17100E; outline-offset: 3px; } .ds-textarea:disabled { opacity: 0.4; cursor: not-allowed; }"
+    },
+    {
+      "name": "Label",
+      "kind": "custom",
+      "refersTo": "label-panel",
+      "description": "An answered question: key over lowercase value, slightly turned. Dashed and muted when the answer is 'not sure'. The same component sits on the box with the value alone on one line, a not-sure one reading its key and '?' (dishwasher?), so five fit the face. A factor of the user's own the reply added is its phrase alone: cut at about 30 characters on the box, whole in the panel.",
+      "html": "<div style=\"display:flex;gap:8px;align-items:flex-start;padding:12px\"><span class=\"ds-label\" style=\"rotate:-1.5deg\"><span class=\"ds-label-key\">hob</span><span class=\"ds-label-value\">induction</span></span><span class=\"ds-label ds-label-unsure\" style=\"rotate:1deg\"><span class=\"ds-label-key\">dishwasher</span><span class=\"ds-label-value\">not sure</span></span></div>",
+      "css": ".ds-label { display: inline-flex; flex-direction: column; align-items: flex-start; padding: 6px 12px; font: 700 1rem/1.25 Archivo, system-ui, sans-serif; color: #17100E; background: #FFFFFF; border: 2px solid #17100E; border-radius: 0; } .ds-label-key { font-size: 0.68em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #6B4A42; } .ds-label-value { text-transform: lowercase; } .ds-label-unsure { border-style: dashed; font-weight: 600; color: #6B4A42; } .ds-label:hover { background: #FDEDE8; }"
+    },
+    {
+      "name": "Question Card",
+      "kind": "card",
+      "refersTo": "question-card",
+      "description": "The open question: title, 'n of 5' beside it, reason and source in muted, then chips ending in Something else, whose field unfolds below them with Next. After the last question the same card is the closing step: Anything else we should know?, one field, Show my options.",
+      "html": "<section class=\"ds-card\"><div class=\"ds-card-head\"><p class=\"ds-card-q\">What kind of hob do you cook on?</p><p class=\"ds-card-n\">2 of 5</p></div><p class=\"ds-card-reason\">Some pans do not work on induction.</p><p class=\"ds-card-source\">Source: <a href=\"#\">a comparison site</a></p></section>",
+      "css": ".ds-card { padding: 16px 20px 20px; background: #FFFFFF; border: 2px solid #17100E; border-radius: 0; color: #17100E; font-family: Archivo, system-ui, sans-serif; } .ds-card-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; } .ds-card-q { margin: 0; font-size: 1.3125rem; line-height: 1.375; font-weight: 700; text-wrap: balance; } .ds-card-n { margin: 0; flex-shrink: 0; font-size: 0.875rem; font-weight: 600; color: #6B4A42; font-variant-numeric: tabular-nums; } .ds-card-reason { margin: 6px 0 0; color: #6B4A42; } .ds-card-source { margin: 4px 0 0; font-size: 0.875rem; color: #6B4A42; } .ds-card-source a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }"
+    },
+    {
+      "name": "Route Line",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "The rule under the box drawn as the agents' stations: done ticked, current ringed (the ring breathes), ahead hollow; the dot alone, the agent's line being the status line's.",
+      "html": "<ol class=\"ds-route\"><li class=\"ds-st ds-done\"><i></i>your request</li><li class=\"ds-st ds-now\" aria-current=\"step\"><i></i>questions</li><li class=\"ds-st\"><i></i>options</li><li class=\"ds-st\"><i></i>CO2e</li><li class=\"ds-st\"><i></i>second-hand</li></ol>",
+      "css": ".ds-route { position: relative; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); margin: 0; padding: 0; list-style: none; background: #EF6A4C; color: #17100E; font: 500 0.9375rem/1.2 Archivo, system-ui, sans-serif; } .ds-route::before { content: \"\"; position: absolute; left: 0; right: 0; top: 7px; border-top: 2px solid #17100E; } .ds-st { position: relative; padding: 26px 8px 0 0; } .ds-done, .ds-now { font-weight: 700; } .ds-st i { position: absolute; left: 0; top: 0; width: 16px; height: 16px; border: 2px solid #17100E; border-radius: 50%; background: #EF6A4C; box-sizing: border-box; } .ds-done i { background: #17100E; } .ds-now i { background: #FFFFFF; } .ds-now i::after { content: \"\"; position: absolute; inset: -7px; border: 2px solid #17100E; border-radius: 50%; animation: ds-breathe 2000ms ease-in-out infinite; } @keyframes ds-breathe { 50% { opacity: 0.25; } } @media (prefers-reduced-motion: reduce) { .ds-now i::after { animation: none; } }"
+    },
+    {
+      "name": "Scan Window",
+      "kind": "custom",
+      "refersTo": "scan-window",
+      "description": "Cut into the sealed box's face: one line per agent still at work, inverted.",
+      "html": "<div class=\"ds-scan\"><span class=\"ds-scan-line\">Read the product page</span><span class=\"ds-scan-line ds-scan-running\">Checking prices</span></div>",
+      "css": ".ds-scan { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 8px 16px; background: #5A1E14; color: #FDEDE8; font: 600 0.875rem/1.25 Archivo, system-ui, sans-serif; } .ds-scan-line { border-bottom: 1px solid #FDEDE8; } .ds-scan-running { padding: 0 4px; background: #FDEDE8; color: #5A1E14; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Labelled Box",
+    "overview": "The purchase is set like a Dutch public information system (Total Design, PTT), painted coral. One open box sits on a coral field. The shopper's criteria become white labels stuck on its front. The box is sealed while the agents work and opened when the answer is ready. Beside it, on a calm off-white panel, the thread does the reading and answering. Before the first message the field fills the page and the box's face is the composer; on Next the request stays on it, faded like pencil, and the app's marker writes what it understood on a label over it.\n\nThe page has two modes. The coral half is Experience: large, spare, one object. The panel half is Operate: the same type and palette, smaller and quieter, built for reading and tapping. Every working surface is white paper with a 2 px ink border, square at the corners. State is shown with lines: a dash marks a skipped answer and nothing else, solid is the rule, whatever is moving right now is inverted, and a control that cannot be used now fades.\n\nThe world refuses the AI-chat column of bubbles under a centred input, eco-green palettes and nature motifs, retail and deal-site looks, scores and badges, and spectacle (gradients, glow, glass, shadows).",
+    "keyCharacteristics": [
+      "A coral field with one drawn object, beside an off-white working panel.",
+      "White paper, 2 px ink borders, square corners, no shadows.",
+      "Archivo throughout: expanded and extra bold in lowercase for the wordmark, normal width for work; a marker hand only for what the app writes on the box.",
+      "State as line form: solid, inverted, and a dash only for a skipped answer.",
+      "Labels slightly turned, as if stuck on by hand."
+    ],
+    "rules": [
+      { "name": "The One Coral Rule", "body": "Coral is the field and the tape, nothing else. Buttons, chips, links and borders are ink. No coral type, no coral buttons, no coral behind a figure.", "section": "colors" },
+      { "name": "The Tints Stay Home Rule", "body": "The flap tints belong to the box. Off the box, only the lip tint appears, and only as a hover or working fill.", "section": "colors" },
+      { "name": "The Expanded Is For Signs Rule", "body": "The expanded cut is only for the wordmark. Labels, questions and the thread use the normal width.", "section": "typography" },
+      { "name": "The One Hand Rule", "body": "The marker face is for what the app writes on the box and nothing else: the first label. The shopper's own words are never in it; never the panel, a heading or a figure.", "section": "typography" },
+      { "name": "The Lowercase Sign Rule", "body": "The wordmark and label values are set in lowercase (the first label is written in capitals). Uppercase is only the label key and the overline.", "section": "typography" },
+      { "name": "The Flat Paper Rule", "body": "Surfaces separate by a 2 px ink border or a change of ground, never by a shadow, glow or blur.", "section": "elevation" },
+      { "name": "The Line Form Rule", "body": "State is a border style or an inversion, never a colour code. Dashed is a skipped answer only, inverted is chosen or at work; unavailable fades.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do put every working surface on paper with a 2 px ink border and square corners.",
+      "Do show state with line form: solid as the rule, inverted for chosen or at work, dashed for a skipped answer only; fade what cannot be used now.",
+      "Do keep coral to the field and the tape; use ink for every control.",
+      "Do set the wordmark in expanded Archivo, extra bold, lowercase; set everything else at normal width.",
+      "Do use the shared 3 px ink focus outline at a 3 px offset.",
+      "Do make every motion jump to its end state under reduced motion.",
+      "Do keep every price and figure in plain body type."
+    ],
+    "donts": [
+      "Don't add shadows, glows, blur, glass or colour gradients.",
+      "Don't round corners.",
+      "Don't use leaf greens, earth tones or nature motifs.",
+      "Don't shape anything like a price tag or a starburst, or put coral behind a price; labels are plain rectangles with no hole or point.",
+      "Don't add a progress bar, score, badge or confetti; the \"n of 5\" numeral is the progress cue.",
+      "Don't set the thread as chat bubbles; a user's turn is plain text behind a 3 px ink rule.",
+      "Don't add chrome beyond the wordmark and \"New search\"."
+    ]
+  }
+}

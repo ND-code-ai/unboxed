@@ -1,0 +1,25 @@
+{
+  "service": "firecrawl",
+  "request": {
+    "url": "https://www.beslist.nl/p/tramontina-professional-koekenpan-zwart-20-cm/165/7891112203860",
+    "parameters": {
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-17T15:45:48.077403Z",
+  "response": {
+    "success": true,
+    "data": {
+      "markdown": "# Tramontina - Professional - Koekenpan - Zwart - 20 cm",
+      "rawHtml": "<html><head><script type=\"application/ld+json\">[{\"@context\": \"http://schema.org\", \"@type\": \"Product\", \"gtin13\": \"7891112203860\", \"name\": \"Tramontina - Professional - Koekenpan - Zwart - 20 cm\", \"brand\": {\"@type\": \"Brand\", \"name\": \"Tramontina Churrasco\"}, \"additionalProperty\": [{\"@type\": \"PropertyValue\", \"name\": \"Kleur\", \"value\": \"Zwart\"}, {\"@type\": \"PropertyValue\", \"name\": \"Materiaal\", \"value\": \"Silicone, Aluminium, Metaal\"}, {\"@type\": \"PropertyValue\", \"name\": \"Warmtebron\", \"value\": \"Inductie\"}, {\"@type\": \"PropertyValue\", \"name\": \"Diameter\", \"value\": \"20 cm\"}, {\"@type\": \"PropertyValue\", \"name\": \"Formaat\", \"value\": \"Klein\"}, {\"@type\": \"PropertyValue\", \"name\": \"Opties\", \"value\": \"Anti-aanbaklaag, Zonder PFAS\"}], \"dateModified\": \"2026-10-17T05:45:00+00:00\", \"offers\": {\"@type\": \"AggregateOffer\", \"offerCount\": 4, \"highPrice\": 43.33, \"lowPrice\": 39.95, \"priceCurrency\": \"EUR\", \"offers\": [{\"@type\": \"Offer\", \"availability\": \"http://schema.org/InStock\", \"price\": 39.95, \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Kookexpert.nl\"}}, {\"@type\": \"Offer\", \"availability\": \"http://schema.org/InStock\", \"price\": 39.95, \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Etrias.nl\"}}, {\"@type\": \"Offer\", \"availability\": \"http://schema.org/InStock\", \"price\": 39.99, \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"Kaufland.nl\"}}, {\"@type\": \"Offer\", \"availability\": \"http://schema.org/InStock\", \"price\": 43.33, \"priceCurrency\": \"EUR\", \"seller\": {\"@type\": \"Organization\", \"name\": \"bol.com\"}}]}}, {\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"item\": {\"@type\": \"WebPage\", \"name\": \"home\"}}, {\"@type\": \"ListItem\", \"position\": 2, \"item\": {\"@type\": \"WebPage\", \"name\": \"Woonaccessoires\"}}, {\"@type\": \"ListItem\", \"position\": 3, \"item\": {\"@type\": \"WebPage\", \"name\": \"Pannen\"}}, {\"@type\": \"ListItem\", \"position\": 4, \"item\": {\"@type\": \"WebPage\", \"name\": \"Koekenpannen\"}}, {\"@type\": \"ListItem\", \"position\": 5, \"item\": {\"@type\": \"WebPage\", \"name\": \"Tramontina - Professional - Koekenpan - Zwart - 20 cm\"}}]}]</script></head></html>",
+      "metadata": {
+        "statusCode": 200,
+        "sourceURL": "https://www.beslist.nl/p/tramontina-professional-koekenpan-zwart-20-cm/165/7891112203860",
+        "creditsUsed": 1
+      }
+    }
+  }
+}

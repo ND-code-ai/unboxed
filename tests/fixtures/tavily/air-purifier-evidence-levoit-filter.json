@@ -1,0 +1,25 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "Levoit Core 300 air purifier replacement filter every 6 months price $",
+    "purpose": "evidence",
+    "parameters": {
+      "include_raw_content": "text",
+      "country": "netherlands"
+    }
+  },
+  "retrieved_at": "2026-10-17T21:06:21.100993Z",
+  "response": {
+    "results": [
+      {
+        "url": "https://levoit.com/products/core-300-replacement-filter-2-pack",
+        "title": "Levoit 2-Pack Replacement Filter for Core 300-P / 300S-P",
+        "content": "Core 300 Replacement Filter 2 - Pack - Levoit\n Core 300 Replacement Filter 2 - Pack - Levoit\n Core 300 Replacement Filter 2 - Pack - Levoit\n﻿\nUsually Purchased with\n  Levoit Core® 300 Air Purifier - Levoit\nLevoit Core® 300-P Air Purifier\n$99.99\n  Levoit Core 300-P Air Purifier 4-Stage Smoke Remover Replacement Filter\nLevoit Core 300-P 4-Stage Smoke Remover Replacement Filter\n$39.99\n  Levoit Core 300 air purifier 3 - Stage Toxin Absorber Filter [...] Keep your Levoit Core 300-P or Core 300S-P air purifier running at peak performance with this genuine 2-pack replacement filter. Recommended replacement every 6–8 months.\n2 Pack x Levoit Core 300-RF Original Filter\nLevoit Core® 300-P Air PurifierLevoit Core® 300S-P Smart Air PurifierLevoit Core® 200S-P Smart Air PurifierLevoit Core® 400S-P Smart Air PurifierLevoit Core® 600S-P Smart Air PurifierLevoit Core® P350-P Pet Care Air Purifier\nGet all in one place with VeSync Ecosystem [...] Keep your Levoit Core 300-P or Core 300S-P air purifier running at peak performance with this genuine 2-pack replacement filter. Recommended replacement every 6–8 months.\nHEPA-Grade Performance in Sleep Mode\nAchieves HEPA-level filtration efficiency during Sleep Mode with zero ozone emissions and ultra-quiet operation (≤26 dB). Tested per IEST RP C001.7 by an independent lab.\n3-Stage Filtration System\n Pre-Filter: Traps hair, dust, and large particles",
+        "raw_content": "Core 300-P Replacement Filter 2-Pack\nGenuine Replacement Filter for Core 300-P / 300S-P\nKeep your Levoit Core 300-P or Core 300S-P air purifier running at peak performance with this genuine 2-pack replacement filter. Recommended replacement every 6–8 months.\nHEPA-Grade Performance in Sleep Mode\nAchieves HEPA-level filtration efficiency during Sleep Mode with zero ozone emissions and ultra-quiet operation (≤26 dB). Tested per IEST RP C001.7 by an independent lab.\n3-Stage Filtration System\n Pre-Filter: Traps hair, dust, and large particles\n Main Filter: Removes 99.97% of particles down to 0.3 µm\n Activated Carbon Filter: Reduces gases, odors, and VOCs (FSC-certified wood carbon)\nProtection for Every Season\nIdeal for homes with babies, pets, smokers, or allergy sufferers. Effectively filters wildfire smoke, pollen, vehicle exhaust, and humidity-triggered odors.\nWhy Choose Genuine & AHAM Verifide Filters\nLevoit's Filter Life Indicator only works with authentic filters. AHAM Verifide certification ensures independently tested filtration performance, safety, and compatibility. Filters ship sealed to preserve service life—remove plastic packaging before use.\nMultiple Filter Choices Available\nChoose Toxin Absorber, Smoke Remover, or Pet Allergy filters to match your needs.\nRegular price$54.99\nUsually Purchased with\n  Levoit Core® 300 Air Purifier - Levoit\nLevoit Core® 300-P Air Purifier\n$99.99\n  Levoit Core 300-P Air Purifier 4-Stage Smoke Remover Replacement Filter\nLevoit Core 300-P 4-Stage Smoke Remover Replacement Filter\n$39.99\n  Levoit Core 300 air purifier 3 - Stage Toxin Absorber Filter\nLevoit Core 300-P Air Purifier 3-Stage Toxin Absorber Filter\n$35.99\n  Levoit Core 300 air purifier for home: 3 - Stage Pet Allergy Filter\nLevoit Core 300-P 3-Stage Pet Allergy Filter\n$35.99"
+      }
+    ],
+    "usage": {
+      "credits": 1
+    }
+  }
+}

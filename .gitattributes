@@ -1,0 +1,3 @@
+# Text files are stored and checked out with LF line endings on every machine, so a file never
+# shows as changed for line endings alone. Git detects binary files and leaves them untouched.
+* text=auto eol=lf

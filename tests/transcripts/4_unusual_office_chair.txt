@@ -1,0 +1,158 @@
+Query: an office chair for working from home, budget 200 euro
+Run: 24 October 2026, task 1.10, terminal app, live services and models, tracing on
+Typed: --skip-all
+Time (Measure-Command): 73 s
+Credits: Tavily 0, Firecrawl 0 (cached from this task's first run: 126 s, Tavily 9, Firecrawl 8)
+================================================================================
+Looking for: office chair · Budget: €200
+Researching office chair...
+From your request: Every day, 365 uses a year ("working from home")
+
+Lifespan sourced for 1 of 3 options. CO2e to make: AI synthetic estimate for 3.
+
+This category is not one the app is tuned for; check the sources.
+
+From your request: Every day, 365 uses a year ("working from home")
+
+Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun
+Price: €58.49, free shipping, price seen at bol.com via beslist.nl on 24 October 2026
+Link: https://www.beslist.nl/p/bureaustoel-ergonomische-stoel-roze-in-hoogte-verstelbaar-lendensteun/10/8712962711161/?aff_id=908
+Lifespan: 3 years (rough estimate)
+  Repairs: replacement parts (focus.flokk.com) (the manufacturer states)
+  Typical for budget ergonomic office chair: 2 to 5 years (backerz.com)
+  Owner and tester reports not looked up
+Cost per year: €19.50
+Cost per use: €0.05
+Purchases over 10 years: 4
+Cost over 10 years: €233.96
+CO2e: 180 to 380 kg CO2e to make, over 10 years (AI synthetic estimate)
+  Built from (estimated): carbon steel, typical, 8.5 kg; nylon, typical, 2.5 kg; polyurethane, typical, 0.3 kg; polypropylene, typical, 2 kg; polyurethane foam, typical, 1.5 kg; polyester mesh, typical, 0.6 kg; polyester fabric, typical, 0.3 kg
+
+SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun
+Price: €184.99, free shipping, price seen at Joybuy.nl via beslist.nl on 24 October 2026
+Link: https://www.beslist.nl/p/sihoo-m59as-ergonomische-bureaustoel-zwart-3d-verstelbare-armleuningen-dubbele-rugleuning-met-lendensteun/10/0850075417155/?aff_id=908
+Lifespan: 3 years (techbits.cc)
+  Warranty: 3 years (sihoo.com) (the manufacturer states)
+  No owner or tester reports found
+Cost per year: €61.66
+Cost per use: €0.17
+Purchases over 10 years: 4
+Cost over 10 years: €739.96
+CO2e: 220 to 460 kg CO2e to make, over 10 years (AI synthetic estimate)
+  Built from (estimated): carbon steel, typical, 10 kg; nylon, typical, 3 kg; polyurethane, typical, 0.4 kg; polypropylene, typical, 2.5 kg; polyurethane foam, typical, 2 kg; polyester mesh, typical, 0.8 kg; polyester fabric, typical, 0.4 kg
+
+Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes
+Price: €80.99, free shipping, price seen at bol.com via beslist.nl on 24 October 2026
+Link: https://www.beslist.nl/p/bureaustoel-rozen-met-wieltjes-hoogte-verstelbaar-5-wieltjes/10/3611655128079/?aff_id=908
+Lifespan: 5 years (rough estimate)
+  No durability evidence found
+Cost per year: €16.20
+Cost per use: €0.04
+Purchases over 10 years: 2
+Cost over 10 years: €161.98
+CO2e: 85 to 180 kg CO2e to make, over 10 years (AI synthetic estimate)
+  Built from (estimated): carbon steel, typical, 8 kg; nylon, typical, 2.2 kg; polyurethane, typical, 0.3 kg; polypropylene, typical, 1.8 kg; polyurethane foam, typical, 1.3 kg; polyester mesh, typical, 0.5 kg; polyester fabric, typical, 0.3 kg
+Against Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun: About 17 to 300 kg CO2e less to make over 10 years (AI synthetic estimate)
+
+Over 10 years: SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun costs €506 more than Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun. A lifespan behind this is a rough estimate.
+Over 10 years: Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes costs €71.98 less than Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun. A lifespan behind this is a rough estimate.
+
+Check before you buy
+Not yet known
+- Lumbar support: Proper lumbar support maintains spinal alignment during long sitting periods.
+- Seat height adjustability: Adjustable seat height ensures feet rest flat on the floor at a proper angle.
+- Upholstery durability: Durable materials withstand daily wear and tear from prolonged use.
+- Armrest adjustability: Adjustable armrests accommodate different body widths and reduce shoulder strain.
+- Confirm the current price: Prices change after the day each was seen.
+
+Trail
+supervisor [small, nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B] decided: Understood as: office chair; scope general; budget €200
+brief found: Category research for office chair from the cache, researched on 2026-10-24
+brief found: Searched "office chair buying guide what to look for": 8 results
+brief found: Searched "office chair care maintenance and replacement parts": 0 results
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Read 8 search results: 3 cited, 4 factors kept
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Follow-up search: "office chair replacement parts cost and maintenance schedule"; reason: the read reported gaps
+brief found: Searched "office chair replacement parts cost and maintenance schedule": 8 results
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Read 16 search results: 0 cited, 0 factors kept
+brief decided: The first read stands; reason: the second read kept 0 factors, the first 4
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Lumbar support" (requirement), stated by a seller; source: https://friskadesk.com/blogs/working-from-home/what-to-look-for-when-buying-an-office-chair
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Seat height adjustability" (requirement), stated by a tester; source: https://www.wired.com/gallery/best-office-chairs
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Upholstery durability" (requirement), stated by a seller; source: https://friskadesk.com/blogs/working-from-home/what-to-look-for-when-buying-an-office-chair
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Armrest adjustability" (requirement), stated by a tester; source: https://www.safety.pitt.edu/ehs/ergonomics/how-choose-ergonomic-chair
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered by the search results: Recurring costs such as replacement casters or gas lifts; reason: Buyers often need to replace worn parts over the chair’s lifespan.
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered by the search results: Care instructions for maintaining upholstery and mechanisms; reason: Proper care extends the chair’s usable life.
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Offered for how often the product is used: several times a day, every day, a few times a week, about once a week; reason: picked by the model for the category
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Local category term: bureaustoel
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Stated in the request: "working from home" as Usage frequency: Every day; reason: the request states it, so it is not asked
+tco found: Searched "bureaustoel kopen": 8 results, from the cache
+tco found: Read the listing page: 10 products; source: https://www.beslist.nl/products/meubilair/meubilair_389370_389410
+tco found: Read the listing page: 10 products; source: https://www.kieskeurig.nl/bureaustoel/top-10
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bureaustoel Stella - Fluweel - Creme/Goud - Gestoffeerd - Dubbele Wielen" by its name: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Trust GXT 723 Universele Gaming Stoel - Grijs" by its name: medium (steel frame with PU leather upholstery), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes" by its name: short (plastic base with fabric upholstery), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Trust GXT 721 Ruya Pro Gamestoel - Zwart" by its name: medium (steel frame with PU leather upholstery), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun" by its name: long (steel frame with mesh back and adjustable mechanisms), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Trust GXT 708 Resto Gaming Stoel - Zwart/Rood" by its name: medium (steel frame with PU leather upholstery), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun" by its name: medium (steel frame with fabric upholstery and lumbar support), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Trust GXT 716 Rizza RGB Gaming Chair - Black" by its name: medium (steel frame with PU leather upholstery and RGB lighting), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Tectake - Jillien - Bureaustoel - Beige - Met Voetsteun en Veloursbekleding" by its name: short (plastic base with velour upholstery), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Topstar P91 AL.G3 - Bureaustoel - Zwart - Professioneel - Verstelbare armleuningen" by its name: long (steel frame with professional mechanisms), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Ochama - Ergonomische Mesh Draaistoel - Lichtbeige - Bureaustoel met lumbale en hoofdsteun" by its name: medium (steel frame with mesh back and lumbar support), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Stane Elite Ergonomische Bureaustoel" by its name: long (steel frame with adjustable mechanisms), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Ochama - Draaibare Kantoorstoel - Roze - Polyesterstof - Hoogte Verstelbaar" by its name: medium (steel frame with polyester upholstery), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Stane Ergonomische Bureaustoel - Office Chair - Zwart - Mesh - Verstelbare Armleuning - 140 kg - NEN-EN 1335" by its name: medium (steel frame with mesh back and adjustable mechanisms), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bureaustoel - Blauw - Met Wieltjes - Verstelbaar - Kinderbureaustoel" by its name: short (plastic base with lightweight construction for kids), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Stane® Ergonomische Bureaustoel - Mesh - Verstelbare Armleuningen - Max. 155 kg" by its name: long (steel frame with mesh back and adjustable mechanisms), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Elekiatech - Ergonomische Bureaustoel - Zwart - Inklapbare Armleuningen - 150kg" by its name: medium (steel frame with adjustable mechanisms), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Schaffenburg Bureaustoel Serie 300 - Zwart Mesh Rug - Zwarte Stof Zitting - NEN-EN 1335" by its name: medium (steel frame with mesh back and fabric seat), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "JADE - Draaistoel - Roze - Voor Kinderen - Hoogte Verstelbaar" by its name: short (plastic base with lightweight construction for kids), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "vidaXL Sta-op-stoel verstelbaar stof donkergroen" by its name: short (plastic base with fabric upholstery), the model's judgement, not a sourced figure
+tco decided: To read: 13 listed products within €200, and "Topstar P91 AL.G3 - Bureaustoel - Zwart - Professioneel - Verstelbare armleuningen" over it, judged long; reason: 20 products listed; the rest are over the budget
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Topstar P91 AL.G3 - Bureaustoel - Zwart - Professioneel - Verstelbare armleuningen" at kieskeurig.nl: €203.58 plus €4.95 shipping, sold by 123inkt.nl, in stock; source: https://www.kieskeurig.nl/bureaustoel/product/6998838-topstar-p91-alg3-bureaustoel-professioneel-zwart
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Bureaustoel Stella - Fluweel - Creme/Goud - Gestoffeerd - Dubbele Wielen" at beslist.nl: €95.99 plus €0 shipping, sold by bol.com, in stock; source: https://www.beslist.nl/p/bureaustoel-stella-fluweel-creme-goud-gestoffeerd-dubbele-wielen/10/4061173271990/?aff_id=908
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes" at beslist.nl: €80.99 plus €0 shipping, sold by bol.com, in stock; source: https://www.beslist.nl/p/bureaustoel-rozen-met-wieltjes-hoogte-verstelbaar-5-wieltjes/10/3611655128079/?aff_id=908
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun" at beslist.nl: €184.99 plus €0 shipping, sold by Joybuy.nl, in stock; source: https://www.beslist.nl/p/sihoo-m59as-ergonomische-bureaustoel-zwart-3d-verstelbare-armleuningen-dubbele-rugleuning-met-lendensteun/10/0850075417155/?aff_id=908
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out "Trust GXT 708 Resto Gaming Stoel - Zwart/Rood"; reason: neither its name nor what the page sells holds the local term "bureaustoel"
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun" at beslist.nl: €58.49 plus €0 shipping, sold by bol.com, in stock; source: https://www.beslist.nl/p/bureaustoel-ergonomische-stoel-roze-in-hoogte-verstelbaar-lendensteun/10/8712962711161/?aff_id=908
+tco decided: Left 8 listed products unread; reason: 5 buyable candidates found
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Topstar P91 AL.G3 - Bureaustoel - Zwart - Professioneel - Verstelbare armleuningen" by its product page: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bureaustoel Stella - Fluweel - Creme/Goud - Gestoffeerd - Dubbele Wielen" by its product page: short (velvet upholstery), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes" by its product page: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun" by its product page: medium (mesh back and seat with nylon base), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun" by its product page: medium (fabric upholstery with plastic base), the model's judgement, not a sourced figure
+tco decided: Chose "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun" as the cheapest; reason: €58.49 with its stated shipping
+tco decided: Chose "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun" as the durable pick; reason: ordered by the model's judgement: medium (mesh back and seat with nylon base), not a sourced figure
+tco decided: Chose "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes" as the durable pick within budget; reason: ordered by the model's judgement: unknown, not a sourced figure
+tco excluded: Left out "Topstar P91 AL.G3 - Bureaustoel - Zwart - Professioneel - Verstelbare armleuningen"; reason: it is over €200 and not judged long by the model
+tco excluded: Left out "Bureaustoel Stella - Fluweel - Creme/Goud - Gestoffeerd - Dubbele Wielen"; reason: each slot went to a cheaper candidate or to one the model judged to last longer
+tco found: Searched "Bureaustoel durability lifespan warranty": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the evidence for "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun": 3 results cited of 9 shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: No sourced lifespan, warranty or recurring cost for "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun"; reason: its product page names no brand, so no result can be checked to name it
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out a warranty for "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun"; reason: the product has no brand to check the result against
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Estimated the lifespan of "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun" at 3 years; reason: rests on: lifespan
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun": lifespan of this specific product; reason: no result gave a specific lifespan for the pink ergonomic chair with lumbar support
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun": warranty for this specific product; reason: no result gave a warranty specific to this pink ergonomic chair
+tco decided: Did not look up owner and tester reports for "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun"; reason: its product page names no brand, so no report can be checked to name it
+tco found: Searched "SIHOO M59AS durability lifespan warranty": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the evidence for "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun": 2 results cited of 9 shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Lifespan of "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun": 3 years; reason: stated about the product by owner; source: https://techbits.cc/sihoo-m59as-office-chair-review
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun": repairability information; reason: not stated in any result
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun": wear material details; reason: not stated in any result
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun": care instructions; reason: not stated in any result
+tco found: Searched "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun long term review durability": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the owner and tester reports for "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun": 0 findings kept of 0 given, 8 results shown
+tco found: Searched "Vertbaudet Bureaustoel durability lifespan warranty": 0 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the evidence for "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes": 0 results cited of 1 shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Estimated the lifespan of "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes" at 5 years; reason: no durability evidence was found
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes": expected lifespan information; reason: not mentioned in the search results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes": expected warranty details; reason: not mentioned in the search results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes": expected repairability information; reason: not mentioned in the search results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes": expected wear material details; reason: not mentioned in the search results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes": expected care instructions; reason: not mentioned in the search results
+tco found: Searched "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes long term review durability": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the owner and tester reports for "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes": 0 findings kept of 0 given, 8 results shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: No owner or tester report of "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes": information about wear, failure, repairs, lifespan, or warranty claims for the Vertbaudet pink office chair with wheels; reason: none of the provided search results contain any durability-related statements from testers or owners
+lca [large, nvidia/Nemotron-3-Ultra-550b-a55b] decided: LCA tier 3 estimated "Bureaustoel - Ergonomische Stoel - Roze - In Hoogte Verstelbaar - Lendensteun": 7 materials and manufacturing and assembly
+lca [large, nvidia/Nemotron-3-Ultra-550b-a55b] decided: LCA tier 3 estimated "SIHOO M59AS - Ergonomische Bureaustoel - Zwart - 3D Verstelbare Armleuningen - Dubbele Rugleuning met Lendensteun": 7 materials and manufacturing and assembly
+lca [large, nvidia/Nemotron-3-Ultra-550b-a55b] decided: LCA tier 3 estimated "Bureaustoel - Rozen - Met Wieltjes - Hoogte Verstelbaar - 5 Wieltjes": 7 materials and manufacturing and assembly
+second_hand decided: Stub: used listings are not searched yet

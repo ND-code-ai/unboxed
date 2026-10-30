@@ -1,0 +1,35 @@
+name: Build the API image
+
+# Started by hand: Docker is not installed on the development machine. Then restart the endpoint,
+# which pulls the new image under the same tag (docs/building_the_project.md, "Deployment"). No
+# Nebius credential is in GitHub.
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: The image's tag; another one only for a throwaway endpoint
+        required: true
+        default: latest
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Sign in to GHCR
+        run: echo "$GITHUB_TOKEN" | docker login ghcr.io --username "$GITHUB_ACTOR" --password-stdin
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build for linux/amd64 and push
+        run: |
+          image="ghcr.io/${GITHUB_REPOSITORY,,}:$TAG"
+          docker build --platform linux/amd64 --tag "$image" .
+          docker push "$image"
+        env:
+          TAG: ${{ inputs.tag }}

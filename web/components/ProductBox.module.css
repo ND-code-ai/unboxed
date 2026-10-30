@@ -1,0 +1,422 @@
+/* The box's geometry and motion (docs/design/chat_page_brief.md, "The memorable moment"). The
+ * drawing's units are those of its viewBox, 928 by 600 from x 48, from docs/design/references/box-open.png;
+ * each flap turns on its hinge, so the same rules run sealing and opening both ways. */
+
+.box {
+  /* How far below the labels' top the first label sits: just below the request on the face,
+   * measured (ProductBox's useSinkBelowRequest); this until it is. */
+  --sink: 12cqi;
+  container-type: inline-size;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 928 / 600;
+}
+
+.layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+/* One ink edge on every part of the box, as on its face. */
+.inside,
+.flap,
+.face,
+.tape {
+  stroke: var(--color-ink);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.inside {
+  fill: var(--color-inside);
+}
+
+.face {
+  fill: var(--color-paper);
+}
+
+/* A flap turns on its hinge: drawn open on one side of it and shut on the other, each side
+ * scales to nothing at the hinge as the flap passes upright, so the turn reads through the edge
+ * and both ends keep their true shape. The short flaps only fold in: the long ones cover them. */
+.flap {
+  transform-box: view-box;
+  transition-property: transform;
+}
+
+.side {
+  fill: var(--color-flap-side);
+}
+
+.left {
+  transform-origin: 228.5px 196px;
+  transform: rotate(45.3deg) scaleX(1) rotate(-45.3deg);
+}
+
+.right {
+  transform-origin: 795.5px 196px;
+  transform: rotate(-45.3deg) scaleX(1) rotate(45.3deg);
+}
+
+.backOpen,
+.backShut {
+  transform-origin: 512px 150px;
+}
+
+.lipOpen,
+.lipShut {
+  transform-origin: 512px 242px;
+}
+
+.backOpen,
+.backShut {
+  fill: var(--color-flap-back);
+}
+
+.lipOpen {
+  fill: var(--color-lip);
+}
+
+.lipShut {
+  fill: var(--color-flap-side);
+}
+
+/* A part scaled flat is also hidden, as each transition ends. Flattened, its edge has no width to
+ * draw, and with a non-scaling stroke a browser can throw that edge far from the part: a stray line
+ * across the panel. */
+.backShut,
+.lipShut {
+  transform: scaleY(0);
+  visibility: hidden;
+}
+
+.tape {
+  fill: var(--color-field);
+  transform-box: view-box;
+  transform-origin: 512px 150px;
+  transform: scaleY(0);
+  visibility: hidden;
+  transition:
+    transform 150ms ease-in,
+    visibility 0s 150ms;
+}
+
+/* Opening, about half a second: the tape lifts, the long flaps turn out, then the short ones. */
+.backShut,
+.lipShut {
+  transition:
+    transform 140ms 100ms ease-in,
+    visibility 0s 240ms;
+}
+
+.backOpen,
+.lipOpen {
+  transition:
+    transform 160ms 240ms var(--ease-out-expo),
+    visibility 0s 240ms;
+}
+
+.side {
+  transition:
+    transform 200ms 380ms var(--ease-out-expo),
+    visibility 0s 380ms;
+}
+
+/* Sealing, the reverse: the short flaps fold in, the long ones over them, the tape runs across. */
+.box[data-state="sealed"] .side {
+  visibility: hidden;
+  transition:
+    transform 180ms ease-in,
+    visibility 0s 180ms;
+}
+
+.box[data-state="sealed"] .left {
+  transform: rotate(45.3deg) scaleX(0) rotate(-45.3deg);
+}
+
+.box[data-state="sealed"] .right {
+  transform: rotate(-45.3deg) scaleX(0) rotate(45.3deg);
+}
+
+.box[data-state="sealed"] .backOpen,
+.box[data-state="sealed"] .lipOpen {
+  transform: scaleY(0);
+  visibility: hidden;
+  transition:
+    transform 140ms 160ms ease-in,
+    visibility 0s 300ms;
+}
+
+.box[data-state="sealed"] .backShut,
+.box[data-state="sealed"] .lipShut {
+  transform: scaleY(1);
+  visibility: visible;
+  transition:
+    transform 160ms 300ms var(--ease-out-expo),
+    visibility 0s 300ms;
+}
+
+.box[data-state="sealed"] .tape {
+  transform: scaleY(1);
+  visibility: visible;
+  transition:
+    transform 180ms 460ms var(--ease-out-expo),
+    visibility 0s 460ms;
+}
+
+/* The labels, on the face below the lip (316 to 512 in the drawing). */
+.labels {
+  position: absolute;
+  left: 17.9%;
+  top: 52.7%;
+  width: 64.2%;
+  height: 32.7%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 1.1cqi 1.2cqi;
+  font-size: max(8px, 2.1cqi);
+}
+
+.lookingFor {
+  flex-basis: 100%;
+  margin-top: var(--sink);
+  font-size: 1.15em;
+}
+
+.lookingFor > span {
+  max-width: 100%;
+}
+
+/* The first label is written on by hand. While the request is read it waits blank, a marker
+ * hovering over it; then the marker writes the Looking-for words, the ink appearing just behind
+ * its tip, and lifts away. */
+.hand {
+  --write: calc(var(--chars, 0) * 45ms);
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  font-family: var(--font-hand);
+  font-weight: 400;
+  /* In capitals, as a box is written on by hand. */
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* About as wide as a written label ("FRYING PAN · €50" is about 9.5em), so little moves when the
+ * words arrive. */
+.blank .hand {
+  width: 9.5em;
+  height: 1.25em;
+}
+
+.ink {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  clip-path: inset(0 100% 0 0);
+  animation: ink var(--write) linear forwards;
+}
+
+@keyframes ink {
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* The marker rides the right edge of a track as wide as the words, moving at the ink's pace. */
+.track {
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  animation: track var(--write) linear forwards;
+}
+
+@keyframes track {
+  to {
+    transform: translateX(0);
+  }
+}
+
+.marker {
+  position: absolute;
+  bottom: 0.05em;
+  width: 1.55em;
+  height: 5em;
+  translate: -50% 0;
+  rotate: 28deg;
+  transform-origin: 50% 100%;
+}
+
+.writing {
+  left: 100%;
+  animation: lift 450ms var(--ease-out-expo) var(--write) forwards;
+}
+
+@keyframes lift {
+  to {
+    transform: translate(0.8em, -2.2em);
+    opacity: 0;
+  }
+}
+
+.hovering {
+  left: 0;
+  animation:
+    arrive 500ms var(--ease-out-expo) 850ms both,
+    bob 1300ms ease-in-out 1350ms infinite alternate;
+}
+
+@keyframes arrive {
+  from {
+    transform: translate(1.5em, -3em);
+    opacity: 0;
+  }
+}
+
+@keyframes bob {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(0.25em, -0.6em) rotate(-5deg);
+  }
+}
+
+/* The copy of the first label above the lip shows nothing but the marker. */
+.overLip {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.overLip .marker {
+  visibility: visible;
+}
+
+/* A label drops in from above the box, behind its front lip, when its answer is given. */
+.drop {
+  animation: drop 520ms var(--ease-out-expo) both;
+}
+
+@keyframes drop {
+  from {
+    transform: translateY(-48cqi);
+  }
+}
+
+/* The blank first label slides in from the face's top edge, from under the lip, over the
+ * request faded on the face, and settles below it with its turn; the marker comes to its start. */
+.drop.blank {
+  animation-name: slide-in;
+  animation-duration: 650ms;
+  animation-delay: 300ms;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(calc(-8.5cqi - var(--sink)));
+    rotate: 0deg;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  70% {
+    rotate: 0deg;
+  }
+}
+
+/* Sealed, the labels close up towards the top of the face to make room for the scan window. */
+.labels {
+  transform-origin: top left;
+  transition: transform 220ms var(--ease-out-expo);
+}
+
+.box[data-state="sealed"] .labels {
+  transform: translateY(calc(var(--sink) * -0.72)) scale(0.72);
+}
+
+/* They close up over the request, so it fades from the face while the box is sealed, and comes
+ * back as it opens. */
+.box [data-request] {
+  transition: opacity 220ms ease;
+}
+
+.box[data-state="sealed"] [data-request] {
+  opacity: 0;
+}
+
+/* The scan window, cut into the face once the box is sealed (470 to 586 in the drawing): each
+ * agent still at work has its line there, in its words, as the thread has them; the route line
+ * under the box shows where the run is. */
+.window {
+  position: absolute;
+  left: 17.9%;
+  top: 78.3%;
+  width: 64.2%;
+  height: 19.3%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5cqi;
+  padding: 1cqi 2cqi;
+  overflow: hidden;
+  background: var(--color-inside);
+  color: var(--color-lip);
+  font-size: max(8px, 1.55cqi);
+  font-weight: 600;
+  line-height: 1.25;
+  transform: scaleY(0);
+  transition: transform 220ms var(--ease-out-expo);
+}
+
+.box[data-state="sealed"] .window {
+  transform: scaleY(1);
+  transition-delay: 420ms;
+}
+
+.line {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-bottom: max(1px, 0.15cqi) solid var(--color-lip);
+}
+
+.running {
+  padding: 0 0.5cqi;
+  background: var(--color-lip);
+  color: var(--color-inside);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flap,
+  .tape,
+  .window {
+    transition: none !important;
+  }
+
+  .labels,
+  .box [data-request] {
+    transition: none;
+  }
+
+  .drop,
+  .drop.blank,
+  .ink {
+    animation: none;
+  }
+
+  .ink {
+    clip-path: none;
+  }
+
+  .marker {
+    display: none;
+  }
+}

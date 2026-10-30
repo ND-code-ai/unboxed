@@ -1,0 +1,40 @@
+/* "See the comparison", pulled out of the opened box (docs/design/chat_page_brief.md, "Opened"):
+ * standing in the opening, its foot just above the opening's front edge, 242 down the drawing, in
+ * the box's own units (the nearest container is the box). It rises once, as the flaps clear, about
+ * half a second after the box starts to open (ProductBox.module.css). The only shadow in the world:
+ * hard, ink, no blur, halved on hover and press as the button moves into it. */
+
+.compare {
+  --lift: 4px;
+  --pushed: calc(4px - var(--lift));
+  position: absolute;
+  top: 26.05cqi;
+  left: 50cqi;
+  translate: calc(-50% + var(--pushed)) calc(-100% - 0.75rem + var(--pushed));
+  white-space: nowrap;
+  box-shadow: var(--lift) var(--lift) 0 var(--color-ink);
+  transition:
+    background-color 150ms,
+    box-shadow 150ms,
+    translate 150ms;
+  animation: rise 300ms var(--ease-out-expo) 560ms backwards;
+}
+
+.compare:hover,
+.compare:active {
+  --lift: 2px;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    translate: -50% calc(-100% + 0.25rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .compare {
+    transition: none;
+    animation: none;
+  }
+}

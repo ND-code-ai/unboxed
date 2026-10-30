@@ -1,0 +1,19 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "zzqx frying pan nonsense",
+    "purpose": "category",
+    "parameters": {
+      "search_depth": "basic",
+      "max_results": 8
+    }
+  },
+  "retrieved_at": "2026-10-13T09:00:00Z",
+  "response": {
+    "query": "zzqx frying pan nonsense",
+    "results": [],
+    "usage": {
+      "credits": 1
+    }
+  }
+}

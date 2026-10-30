@@ -1,0 +1,175 @@
+/* The world of the chat page: Total Design, coral (docs/design/chat_page_brief.md, "The world,
+ * as locked"; DESIGN.md). */
+
+@import "tailwindcss";
+
+@theme {
+  --color-field: #ef6a4c;
+  --color-panel: #fbf6f3;
+  --color-paper: #ffffff;
+  --color-ink: #17100e;
+  --color-muted: #6b4a42;
+  /* The face's placeholder only, a step lighter than typed words, so an empty face reads as empty. */
+  --color-faint: #cdb8b1;
+  --color-flap-back: #f7c3b5;
+  --color-flap-side: #fad9cf;
+  --color-lip: #fdede8;
+  --color-inside: #5a1e14;
+
+  --font-sans: var(--font-archivo), system-ui, sans-serif;
+  /* The box's first label only, written on by a marker. */
+  --font-hand: var(--font-marker), var(--font-archivo), cursive;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* shadcn/ui's names, pointed at the world's tokens. */
+@theme inline {
+  --color-background: var(--color-panel);
+  --color-foreground: var(--color-ink);
+  --color-primary: var(--color-ink);
+  --color-primary-foreground: var(--color-paper);
+  --color-border: var(--color-ink);
+  --color-input: var(--color-ink);
+  --color-ring: var(--color-ink);
+  --color-muted-foreground: var(--color-muted);
+  --color-accent: var(--color-lip);
+  --color-accent-foreground: var(--color-ink);
+}
+
+@layer base {
+  html {
+    scrollbar-color: var(--color-ink) var(--color-panel);
+  }
+
+  body {
+    background: var(--color-panel);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    caret-color: var(--color-ink);
+    accent-color: var(--color-ink);
+  }
+
+  ::selection {
+    background: var(--color-ink);
+    color: var(--color-paper);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-ink);
+    outline-offset: 3px;
+  }
+
+  a {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+}
+
+/* The expanded cut of Archivo: the wordmark, the labels, the opening question. */
+@utility display-wide {
+  font-stretch: 125%;
+  font-variation-settings: "wdth" 125;
+}
+
+/* The overline: the small heading in capitals over a round of the thread, a group of a sheet and
+ * the check list. */
+@utility heading-overline {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* A small note the app sets beside a control: the ask for a budget, a station's note and hint. */
+@utility paper-note {
+  border: 2px solid var(--color-ink);
+  background: var(--color-paper);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.375;
+
+  @media (prefers-reduced-motion: no-preference) {
+    animation: note-in 150ms ease-out;
+  }
+}
+
+/* The line that joins a new label in the thread to the same label on the box: it draws, holds,
+ * and goes (components/LeaderLine.tsx). */
+@layer components {
+  .leader-line {
+    fill: none;
+    stroke: var(--color-ink);
+    stroke-width: 2;
+    stroke-dasharray: 1;
+    animation: leader 1500ms linear forwards;
+  }
+}
+
+/* The deck's card slides in from the side it was stepped or swiped to (components/OptionDeck.tsx);
+ * with reduced motion it swaps. */
+@layer components {
+  .deck-from-next,
+  .deck-from-previous {
+    animation: deck-in 280ms var(--ease-out-expo);
+  }
+
+  .deck-from-next {
+    --deck-from: 1.5rem;
+  }
+
+  .deck-from-previous {
+    --deck-from: -1.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .deck-from-next,
+    .deck-from-previous {
+      animation: none;
+    }
+  }
+}
+
+@keyframes note-in {
+  from {
+    opacity: 0;
+    translate: 0 -4px;
+  }
+}
+
+@keyframes deck-in {
+  from {
+    opacity: 0;
+    translate: var(--deck-from) 0;
+  }
+}
+
+@keyframes leader {
+  0% {
+    stroke-dashoffset: 1;
+    animation-timing-function: var(--ease-out-expo);
+  }
+  35% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0;
+  }
+}

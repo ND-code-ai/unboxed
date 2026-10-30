@@ -1,0 +1,25 @@
+{
+  "service": "firecrawl",
+  "request": {
+    "url": "https://example.org/shop/broken",
+    "parameters": {
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-13T09:00:00Z",
+  "response": {
+    "success": true,
+    "data": {
+      "markdown": "Internal error",
+      "rawHtml": "<html><body>Internal error</body></html>",
+      "metadata": {
+        "statusCode": 500,
+        "sourceURL": "https://example.org/shop/broken",
+        "creditsUsed": 1
+      }
+    }
+  }
+}

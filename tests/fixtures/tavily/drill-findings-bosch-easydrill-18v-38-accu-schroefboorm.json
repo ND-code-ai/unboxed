@@ -1,0 +1,61 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion long term review durability",
+    "purpose": "findings",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "exclude_domains": [
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "amazon.com",
+        "amazon.nl",
+        "amazon.de",
+        "bol.com",
+        "coolblue.nl",
+        "mediamarkt.nl",
+        "blokker.nl",
+        "action.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-23T20:27:59.487647Z",
+  "response": {
+    "query": "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion long term review durability",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.amazon.ae/BLACK-DECKER-Batteries-Screwdriving-Fastening/dp/B07PYS3X1S",
+        "title": "BLACK+DECKER 18V 1.5Ah Li-Ion Cordless Electric ...",
+        "content": "can hold charge for up to 18 months … 2 Years Warranty 4.4 out of 5 stars. Bosch EasyDrill 18V-38 battery screwdriver (1 x 2.5 Ah battery, 4.7 out of 5 stars",
+        "score": 0.6877354,
+        "raw_content": null,
+        "id": "894c92-00"
+      }
+    ],
+    "response_time": 2.64,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "6a7766b3-edd3-4385-9f16-3c8e5e2ed2ff"
+  }
+}

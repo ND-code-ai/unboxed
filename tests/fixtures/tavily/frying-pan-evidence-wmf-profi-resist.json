@@ -1,0 +1,128 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "WMF Profi Resist durability lifespan warranty",
+    "purpose": "evidence",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "ebay.be",
+        "ebay.fr",
+        "ebay.it",
+        "ebay.es",
+        "ebay.at",
+        "ebay.ie",
+        "ebay.pl",
+        "ebay.ch",
+        "ebay.co.uk",
+        "ebay.ca",
+        "ebay.com.au"
+      ],
+      "include_raw_content": "text"
+    }
+  },
+  "retrieved_at": "2026-10-24T11:22:28.389395Z",
+  "response": {
+    "query": "WMF Profi Resist durability lifespan warranty",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://claudiaandjulia.com/en/products/wmf-profi-resist-non-stick-stainless-steel-frying-pan",
+        "title": "WMF Profi Resist non-stick Stainless steel frying pan",
+        "content": "The Profi Resist pan is very sturdy and durable … comes with a 5-year warranty. for greater durability and resistance. tainless steel, offering a very durable",
+        "score": 0.8319231,
+        "raw_content": null,
+        "id": "25cd00-00"
+      },
+      {
+        "url": "https://www.coolblue.de/en/product/307486/wmf-profi-resist-frying-pan-28cm.html",
+        "title": "WMF Profi Resist Frying pan 28cm",
+        "content": "5 year(s) warranty on your product Exchange. The ceramic non-stick coating with honeycomb structure is durable and lasts longer.",
+        "score": 0.8296166,
+        "raw_content": null,
+        "id": "1823d5-01"
+      },
+      {
+        "url": "https://m.joybuy.nl/blog/best-stainless-steel-frying-pan-guide/QWqx91RI",
+        "title": "Best Stainless Steel Frying Pans: 3 Top Picks - Joybuy",
+        "content": "WMF Profi Resist. WMF Profi Resist Frying Pan. WMF frying pan … registered by WMF and known for its durability. Warranty: The manufacturer offers a 5-year",
+        "score": 0.79041743,
+        "raw_content": null,
+        "id": "385a05-02"
+      },
+      {
+        "url": "https://www.cookinglife.eu/products/wmf-profi-resist-frying-pan-set",
+        "title": "WMF Frying Pan Set - Profi Resist 2-piece - ø 24 & 28 cm",
+        "content": "Brand, WMF ; Collection, Profi Resist ; Type, Frying pan set ; Country of origin, China ; Guarantee, 5 years.",
+        "score": 0.7557276,
+        "raw_content": null,
+        "id": "e0c920-03"
+      },
+      {
+        "url": "https://www.sikayetvar.com/en/wmf-us",
+        "title": "WMF Read Customer Complaints and Reviews - Xolvie",
+        "content": "Profi Resist Pan Burns. Showed Fading And Wear. Warranty Promise on Cookware Set. After 6 Months of Use … 6 months of usage, the surface started showing signs",
+        "score": 0.60245985,
+        "raw_content": null,
+        "id": "8d6a3d-04"
+      },
+      {
+        "url": "https://www.wmf.com/de/en/disclaimer/general-terms-and-conditions.html",
+        "title": "General Terms and Conditions - Disclaimer",
+        "content": "8.2 All warranty claims will lapse two years after delivery of the goods.\n9.  Liability\n9.1 WMF will be liable for damages only as specified under a) through d) below:(a) in the event of death, bodily harm and/or harm to the health as well as in the event of damage caused by intent or gross negligence; [...] Baking accessories arrow-right \nAll baking accessories   Casserole dishes   Baking sheets   Baking pans   Baking tools   Whisks   Cake servers\nWMF Exclusive\nGift Sets\nCollections arrow-right\nBoston\nFunction 4\nFusiontec arrow-right \nFusiontec Tim Raue   Fusiontec Mineral Pro   Fusiontec Essential Pro   Fusiontec Function Pro\nGourmet Plus\nKITCHENminis\nKult X\nLono\nLumero\nPalma\nPerfect\nPerfection\nProfi Plus\nProfi Resist\nOther collections arrow-right [...] (b) in the event of damage resulting from non-compliance with guarantees made in writing for the Customer’s asset interests covered by the guarantee that was known to WMF at the time it was made;  \n(c) in the event of product liability as set out in the Product Liability Law of Germany;",
+        "score": 0.507544,
+        "raw_content": "Skip to Content \n30 DAYS RIGHT OF RETURN  /  FREE SHIPPING FROM 49€  /  170 YEARS OF PASSION FOR TASTE\narrow-left  Back  \n\nMenu Close\nMenu Close\nProducts arrow-right\nCutlery arrow-right \nAll Cutlery   Cutlery sets   Forks   Spoons   Kids Cutlery   Table knives   Serving cutlery\nPots arrow-right \nAll pots   Pot sets   Low casseroles   Stew- & roasting pots   Steamers   Fondues   Induction pots   Saucepans   High casseroles   Pressure cooker   Soup & Stockpots   Pot accessories\nPans arrow-right \nAll pans   Pan sets   Frying pans   Grill pans   Induction pans   Pan lids   Pans with Lids   Stewing pans   Serving pans   Woks   Accessories for pans\nCoffee machines arrow-right \nAll coffee machines   Filter coffee machines   Automatic coffee machine   Espresso machines   Coffee grinders   Milk frothers   Coffee beans   Coffee glasses   Coffee pots   Coffee accessories   Coffee trends\nKitchen knives arrow-right \nAll kitchen knives   Knife sets   Bread knives   Chopping knives   Cheese knives   Chefs knives   Knife blocks   Knife sharpeners   Santoku knives   Paring knives   Steak knives   Other Kitchen Knives\nKitchen gadgets arrow-right \nAll kitchen gadgets   Juicers   Spice grinder   Cooking Spoons   Kitchen utensil sets   Kitchen utensils   Pizza cutters   Juice- & citrus presses   Salt & pepper grinders   Salt and pepper shakers   Scissors   Cutting boards   Care & Cleaning Products\nBBQ & accessories arrow-right \nAll BBQ products   Electric bbq   Fondues   Grill tongs   BBQ accessories   Kitchen thermometers   Raclette Grills   BBQ recipes\nKitchen appliances arrow-right \nAll kitchen appliances   Egg cooker   Food processor   Kitchen scales   Kitchen timer   Blenders   Sandwich makers   Toasters   Waffle irons   Kettles   Soda Maker   Other kitchen appliances\nKitchen storage arrow-right \nAll kitchen storage   Butter dishes   Herb garden   Food storage containers   Sugar bowls   Sugar shakers\nTableware arrow-right \nAll tableware products   Bar accessories   Egg Cups   Tableware sets   Children's dishes   Baskets   Mixing bowls   Cups   Plates   Travel mugs   Vacuum flasks   Bottles\nGlasses & carafes arrow-right \nAll glasses & carafes   Coffee glasses   Carafes & decanters   Highball glasses   Champagne glasses   Water glasses   Wine glasses   Whiskey glasses\nBaking accessories arrow-right \nAll baking accessories   Casserole dishes   Baking sheets   Baking pans   Baking tools   Whisks   Cake servers\nWMF Exclusive\nGift Sets\nCollections arrow-right\nBoston\nFunction 4\nFusiontec arrow-right \nFusiontec Tim Raue   Fusiontec Mineral Pro   Fusiontec Essential Pro   Fusiontec Function Pro\nGourmet Plus\nKITCHENminis\nKult X\nLono\nLumero\nPalma\nPerfect\nPerfection\nProfi Plus\nProfi Resist\nOther collections arrow-right \nAstoria   Cromargan® high-quality stainless steel   Devil   Flavour   Iconic   Master   Nuova   Stelio   Ultimate   Ultimate Black\nOffers arrow-right\nAll offers\nMasterpieces arrow-right\nWMF Espresso Pro\nElement One Soda Maker\nPerfection coffee machine\nCookware made to last\nFusiontec cookware\nUltimate black knives\nCromargan protect cutlery\nDamasteel knives\nCromargan cookware\nInspirations arrow-right\nNovelties\nPots arrow-right \nCast Iron\nCoffee arrow-right \nWorld of Coffee   Gifts for Coffee Lovers\nGift Finder arrow-right \nAll Gift Ideas   Gifts for hosts   Gifts for home chefs   Gift Ideas for Coffee Lovers\nRecipes arrow-right \nAll recipes   Desserts   Drinks   Healthy Recipes   BBQ Recipes   Coffee Recipes   Recipes for Kids   Salads & Side Dishes   Quick & Easy Recipes   Soups   Vegan Recipes   Appetizers\nService arrow-right\nFAQ\nDownloads\nReturns\nWarranty\nBuy Spare Parts\nOnline Appointment\nContact\nRepairability\nCertificate of Conformity\nTransparency\nMY WMF Club arrow-right\nMY WMF Loyalty Club\nFAQ MY WMF Club\n\nWishlist \nWishlist Wishlist\nClose \nMy Wishlist\nYour wishlist is currently only saved in this browser. Sign in or create an account to keep it and use it on all your devices.\n\nMSRP\nView Wishlist   Go back to shopping\nStore Locator Store Locator \nProfil Profil\nCart \nCart Cart\nCart\nCart\n0\nYou have no items in your shopping cart.\nOut of Stock\n\nQty\nMSRP\nSummary\nShipping  (free)   Calculated during checkout\nGrand Total\nTo Cart\nloader\nLoading...\nAdded to the shopping cart\n\nQty:\nMSRP\n/\nView Shopping Cart\nAdded to wishlist\n\nYour wishlist is currently only saved in this browser. Sign in or create an account to keep it and use it on all your devices.\nView Wishlist   Go back to shopping\nProducts   Inspiration\nCategories\nArticle\n\n(Best Price in 30 Days)\nbutton-arrow-right\nArticle\nOur Highlights\nOur Highlights\n \nSuccess   Error   i\nGeneral Terms and Conditions\n1.  Scope\n1.1 These General Terms and Conditions apply to all business relationships between Groupe SEB WMF Retail GmbH, 73312 Geislingen/Steige, Germany (“WMF”) and the customer (the “Customer”) initiated and handled via WMF’s online shop at  The version of these General Terms and Conditions valid at the time the order is placed will apply.\n1.2 If agreements have been entered into separately between WMF and the Customer, these General Terms and Conditions will prevail. Unless expressly agreed to in writing by WMF, WMF hereby refuses to accept any contradicting or other general terms and conditions put forward by the Customer.\n1.3 The goods in the online shop are offered to end consumers exclusively. Therefore, WMF expressly reserves the right to offer and deliver goods to the Customer in regular household quantities only. For the purpose of these General Terms and Conditions (i) “Consumer” means any natural person entering into a purchase agreement for purposes that do not predominantly concern his/her business or self-employed activities, and (ii) “Entrepreneur” means any natural or legal person or legal partnership entering into the contract in the pursuit of his/her/its business or self-employed activities.\n1.4 The goods in the online shop currently are offered exclusively to Customers whose habitual residence is located in one of WMF’s delivery r",
+        "id": "9dd5d7-05"
+      },
+      {
+        "url": "https://www.wmf.com/de/en/service/warranty.html",
+        "title": "Warranty - Service",
+        "content": "Baking accessories arrow-right \nAll baking accessories   Casserole dishes   Baking sheets   Baking pans   Baking tools   Whisks   Cake servers\nWMF Exclusive\nGift Sets\nCollections arrow-right\nBoston\nFunction 4\nFusiontec arrow-right \nFusiontec Tim Raue   Fusiontec Mineral Pro   Fusiontec Essential Pro   Fusiontec Function Pro\nGourmet Plus\nKITCHENminis\nKult X\nLono\nLumero\nPalma\nPerfect\nPerfection\nProfi Plus\nProfi Resist\nOther collections arrow-right [...] In this case, please contact our Customer Service team directly by phone or e-mail.\nContact\nGarantiebedingungenLänderliste\nDokumente\nCOOKWARE AND KITCHEN UTENSILS\nWe have different warranty periods for our WMF, Silit and KAISER cookware and kitchen utensils. The warranties only apply to normal, intended use in a private household. To view the warranty conditions for your product, select one of the product categories listed below. (See Downloads section)\n Tab 1Tab 1 [...] Repairability\nCertificate of Conformity\nTransparency\nMY WMF Club arrow-right\nMY WMF Loyalty Club\nFAQ MY WMF Club",
+        "score": 0.49465415,
+        "raw_content": "Skip to Content \n30 DAYS RIGHT OF RETURN  /  FREE SHIPPING FROM 49€  /  170 YEARS OF PASSION FOR TASTE\narrow-left  Back  \n\nMenu Close\nMenu Close\nProducts arrow-right\nCutlery arrow-right \nAll Cutlery   Cutlery sets   Forks   Spoons   Kids Cutlery   Table knives   Serving cutlery\nPots arrow-right \nAll pots   Pot sets   Low casseroles   Stew- & roasting pots   Steamers   Fondues   Induction pots   Saucepans   High casseroles   Pressure cooker   Soup & Stockpots   Pot accessories\nPans arrow-right \nAll pans   Pan sets   Frying pans   Grill pans   Induction pans   Pan lids   Pans with Lids   Stewing pans   Serving pans   Woks   Accessories for pans\nCoffee machines arrow-right \nAll coffee machines   Filter coffee machines   Automatic coffee machine   Espresso machines   Coffee grinders   Milk frothers   Coffee beans   Coffee glasses   Coffee pots   Coffee accessories   Coffee trends\nKitchen knives arrow-right \nAll kitchen knives   Knife sets   Bread knives   Chopping knives   Cheese knives   Chefs knives   Knife blocks   Knife sharpeners   Santoku knives   Paring knives   Steak knives   Other Kitchen Knives\nKitchen gadgets arrow-right \nAll kitchen gadgets   Juicers   Spice grinder   Cooking Spoons   Kitchen utensil sets   Kitchen utensils   Pizza cutters   Juice- & citrus presses   Salt & pepper grinders   Salt and pepper shakers   Scissors   Cutting boards   Care & Cleaning Products\nBBQ & accessories arrow-right \nAll BBQ products   Electric bbq   Fondues   Grill tongs   BBQ accessories   Kitchen thermometers   Raclette Grills   BBQ recipes\nKitchen appliances arrow-right \nAll kitchen appliances   Egg cooker   Food processor   Kitchen scales   Kitchen timer   Blenders   Sandwich makers   Toasters   Waffle irons   Kettles   Soda Maker   Other kitchen appliances\nKitchen storage arrow-right \nAll kitchen storage   Butter dishes   Herb garden   Food storage containers   Sugar bowls   Sugar shakers\nTableware arrow-right \nAll tableware products   Bar accessories   Egg Cups   Tableware sets   Children's dishes   Baskets   Mixing bowls   Cups   Plates   Travel mugs   Vacuum flasks   Bottles\nGlasses & carafes arrow-right \nAll glasses & carafes   Coffee glasses   Carafes & decanters   Highball glasses   Champagne glasses   Water glasses   Wine glasses   Whiskey glasses\nBaking accessories arrow-right \nAll baking accessories   Casserole dishes   Baking sheets   Baking pans   Baking tools   Whisks   Cake servers\nWMF Exclusive\nGift Sets\nCollections arrow-right\nBoston\nFunction 4\nFusiontec arrow-right \nFusiontec Tim Raue   Fusiontec Mineral Pro   Fusiontec Essential Pro   Fusiontec Function Pro\nGourmet Plus\nKITCHENminis\nKult X\nLono\nLumero\nPalma\nPerfect\nPerfection\nProfi Plus\nProfi Resist\nOther collections arrow-right \nAstoria   Cromargan® high-quality stainless steel   Devil   Flavour   Iconic   Master   Nuova   Stelio   Ultimate   Ultimate Black\nOffers arrow-right\nAll offers\nMasterpieces arrow-right\nWMF Espresso Pro\nElement One Soda Maker\nPerfection coffee machine\nCookware made to last\nFusiontec cookware\nUltimate black knives\nCromargan protect cutlery\nDamasteel knives\nCromargan cookware\nInspirations arrow-right\nNovelties\nPots arrow-right \nCast Iron\nCoffee arrow-right \nWorld of Coffee   Gifts for Coffee Lovers\nGift Finder arrow-right \nAll Gift Ideas   Gifts for hosts   Gifts for home chefs   Gift Ideas for Coffee Lovers\nRecipes arrow-right \nAll recipes   Desserts   Drinks   Healthy Recipes   BBQ Recipes   Coffee Recipes   Recipes for Kids   Salads & Side Dishes   Quick & Easy Recipes   Soups   Vegan Recipes   Appetizers\nService arrow-right\nFAQ\nDownloads\nReturns\nWarranty\nBuy Spare Parts\nOnline Appointment\nContact\nRepairability\nCertificate of Conformity\nTransparency\nMY WMF Club arrow-right\nMY WMF Loyalty Club\nFAQ MY WMF Club\n\nWishlist \nWishlist Wishlist\nClose \nMy Wishlist\nYour wishlist is currently only saved in this browser. Sign in or create an account to keep it and use it on all your devices.\n\nMSRP\nView Wishlist   Go back to shopping\nStore Locator Store Locator \nProfil Profil\nCart \nCart Cart\nCart\nCart\n0\nYou have no items in your shopping cart.\nOut of Stock\n\nQty\nMSRP\nSummary\nShipping  (free)   Calculated during checkout\nGrand Total\nTo Cart\nloader\nLoading...\nAdded to the shopping cart\n\nQty:\nMSRP\n/\nView Shopping Cart\nAdded to wishlist\n\nYour wishlist is currently only saved in this browser. Sign in or create an account to keep it and use it on all your devices.\nView Wishlist   Go back to shopping\nProducts   Inspiration\nCategories\nArticle\n\n(Best Price in 30 Days)\nbutton-arrow-right\nArticle\nOur Highlights\nOur Highlights\n \nSuccess   Error   i\nWARRANTY\nSMALL ELECTRICAL APPLIANCES\nThe warranty period for our small electrical appliances is two years and only applies to domestic and private use. For all other areas of use, the one-year warranty for commercial purposes applies.\n Tab 1Tab 1\nHow can I arrange for my small electrical appliance to be repaired during the warranty period?\nIf you bought your small electrical appliance from a WMF dealer:\n1. You can either take it to the point of sale where you bought it or, if you bought it online, send it to the dealer.\n2. You can also contact our Customer Service team directly by phone or e-mail. We will be happy to help you arrange the repair.\nWMF store locator\nContact\nHow can I arrange for my small electrical appliance to be repaired if it is no longer covered by the warranty?\nIn this case, please contact our Customer Service team directly by phone or e-mail.\nContact\nGarantiebedingungenLänderliste\nDokumente\nCOOKWARE AND KITCHEN UTENSILS\nWe have different warranty periods for our WMF, Silit and KAISER cookware and kitchen utensils. The warranties only apply to normal, intended use in a private household. To view the warranty conditions for your product, select one of the product categories listed below. (See Downloads section)\n Tab 1Tab 1\nHow can I arrange for my cookware and kitchen utensils to be repaired during the warranty period?\nIf you bought your cookware or kitchen uten",
+        "id": "7f451c-06"
+      },
+      {
+        "url": "https://www.reddit.com/r/cookware/comments/z2drot/my_experience_with_hexclad_warning_to_anyone",
+        "title": "My Experience With HexClad (Warning To anyone looking ...",
+        "content": "depending on what you bought it, it may have a lifetime warranty. “Lifetime warranty” doesn't cover burnt pans.",
+        "score": 0.06886879,
+        "raw_content": null,
+        "id": "1cb897-07"
+      }
+    ],
+    "response_time": 2.07,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "150e9057-f274-4464-a09d-9c3df9c17ab5"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "Inventum HW817D Waterkoker durability lifespan warranty",
+    "purpose": "evidence",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "ebay.be",
+        "ebay.fr",
+        "ebay.it",
+        "ebay.es",
+        "ebay.at",
+        "ebay.ie",
+        "ebay.pl",
+        "ebay.ch",
+        "ebay.co.uk",
+        "ebay.ca",
+        "ebay.com.au"
+      ],
+      "include_raw_content": "text"
+    }
+  },
+  "retrieved_at": "2026-10-24T11:22:33.300324Z",
+  "response": {
+    "query": "Inventum HW817D Waterkoker durability lifespan warranty",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [],
+    "response_time": 0.88,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "7804f2d2-2935-46fa-8cda-37e000b49df3"
+  }
+}

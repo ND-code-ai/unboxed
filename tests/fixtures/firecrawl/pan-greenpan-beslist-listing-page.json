@@ -1,0 +1,25 @@
+{
+  "service": "firecrawl",
+  "request": {
+    "url": "https://www.beslist.nl/products/huis_tuin/huis_tuin_505129_505236/c/diameter_pan~7948043~~merk~1341799~~optie_pan~6425208",
+    "parameters": {
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-17T15:45:57.898063Z",
+  "response": {
+    "success": true,
+    "data": {
+      "markdown": "# GreenPan koekenpannen 32 cm Keramisch",
+      "rawHtml": "<html><head><script type=\"application/ld+json\">{\"@context\": \"http://schema.org\", \"@type\": \"ItemList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"item\": {\"@type\": \"Product\", \"name\": \"Koekenpan - Zwart - Aluminium\", \"offers\": {\"@type\": \"AggregateOffer\", \"offerCount\": 8, \"lowPrice\": 85.99, \"highPrice\": 121.95, \"priceCurrency\": \"EUR\"}}}]}</script></head></html>",
+      "metadata": {
+        "statusCode": 200,
+        "sourceURL": "https://www.beslist.nl/products/huis_tuin/huis_tuin_505129_505236/c/diameter_pan~7948043~~merk~1341799~~optie_pan~6425208",
+        "creditsUsed": 1
+      }
+    }
+  }
+}

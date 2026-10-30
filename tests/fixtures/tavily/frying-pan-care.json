@@ -1,0 +1,75 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "frying pan care maintenance and replacement parts",
+    "purpose": "category_care",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "reddit.com",
+        "quora.com",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "amazon.com",
+        "amazon.nl",
+        "amazon.de",
+        "bol.com",
+        "coolblue.nl",
+        "mediamarkt.nl",
+        "blokker.nl",
+        "action.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-14T07:51:46.042609Z",
+  "response": {
+    "query": "frying pan care maintenance and replacement parts",
+    "results": [
+      {
+        "url": "https://extension.umaine.edu/food-health/2024/03/28/cast-iron",
+        "title": "Cast Iron Basics: How to Clean, Season, and Maintain Your Cast Iron Pan - Cooperative Extension: Food & Health - University of Maine Cooperative Extension",
+        "content": "Once your cast iron pan is seasoned properly, your pan is naturally non-stick.",
+        "score": 0.31355688
+      },
+      {
+        "url": "https://www.all-clad.com/customer-service",
+        "title": "All-Clad Warranty & Repairs | Product Support & FAQ",
+        "content": "Also do not use metal tools/utensils, abrasive cleaners, or metallic scrubbing pads/brushes as this can scratch the non-stick coating.",
+        "score": 0.31232855
+      },
+      {
+        "url": "https://fieldcompany.com/pages/cast-iron-cleaning-care-field-method",
+        "title": "Cast Iron Cleaning & Care: The Field Method – Field Company",
+        "content": "Apply a small dab of seasoning oil.",
+        "score": 0.2871432
+      }
+    ],
+    "usage": {
+      "credits": 1
+    }
+  }
+}

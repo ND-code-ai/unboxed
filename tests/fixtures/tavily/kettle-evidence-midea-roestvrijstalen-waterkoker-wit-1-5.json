@@ -1,0 +1,96 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "Midea Roestvrijstalen waterkoker durability lifespan warranty",
+    "purpose": "evidence",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "ebay.be",
+        "ebay.fr",
+        "ebay.it",
+        "ebay.es",
+        "ebay.at",
+        "ebay.ie",
+        "ebay.pl",
+        "ebay.ch",
+        "ebay.co.uk",
+        "ebay.ca",
+        "ebay.com.au"
+      ],
+      "include_raw_content": "text"
+    }
+  },
+  "retrieved_at": "2026-10-24T11:06:55.278090Z",
+  "response": {
+    "query": "Midea Roestvrijstalen waterkoker durability lifespan warranty",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.joybuy.nl/blog/best-kettle-guide-2026/tPXYj9Ia",
+        "title": "Buying a Kettle: Avoid Pitfalls and Choose the Right One",
+        "content": "Stainless steel kettle: Stainless steel (opt for 304-grade) is durable, easy to clean, and doesn't impart any flavour. A double-wall stainless steel body also",
+        "score": 0.1391274,
+        "raw_content": null,
+        "id": "92d271-00"
+      },
+      {
+        "url": "https://www.reddit.com/r/PlasticFreeLiving/comments/1qsyhb0/update_i_finally_found_the_definitive_plasticfree",
+        "title": "I finally found the definitive \"Plastic-Free\" Electric Kettle list (after emailing 20+ brands for Lab Reports) : r/PlasticFreeLiving",
+        "content": "CoffeeTeaJournal\n•9mo ago\nWow, that means a lot! Just happy to help others avoid the rabbit hole I fell into.\nMore replies\n\nNearby_Elk_99\n•9mo ago• Edited 8mo ago\nthank you legend.\nedit deleting this as people keep replying [...] _Grading Criteria: Models are categorized strictly by the internal materials present in the boiling water and steam path, and the availability of third-party documentation._\nCategory Tags: [Standard] = High volume/Fast boil | [Gooseneck] = Precision pour-over\nTier 1: Zero Silicone/Plastic (In Water Path) + Third-Party Lab Tested [...] Tier 2: Zero Silicone/Plastic (In Water Path) – No Lab Data Provided\nSecura SWK-1701 [Standard]: Unibody steel interior. No base seams. Notes: Structurally all-steel. No third-party lab reports available, but physical unibody design excludes internal seals.\nCuisinart Soho 1L [Standard]: Steel-only path. Notes: The Soho 1L model features a fully stainless steel interior. (The premium CPK-17 model contains plastic).",
+        "score": 0.06657539,
+        "raw_content": "Skip to main contentUPDATE: I finally found the definitive \"Plastic-Free\" Electric Kettle list (after emailing 20+ brands for Lab Reports) : r/PlasticFreeLiving\nOpen menu Open navigationGo to Reddit Home\nr/PlasticFreeLiving\nSign UpSign up for RedditLog InLog in to Reddit\nExpand user menu Open settings menu\nImage 1 Go to PlasticFreeLiving\nr/PlasticFreeLiving•9mo ago\nu/CoffeeTeaJournal\nUPDATE: I finally found the definitive \"Plastic-Free\" Electric Kettle list (after emailing 20+ brands for Lab Reports)\nResearch\nEDIT (July 2026): Appreciate all the feedback, questions, and brand suggestions in the comments. I spent some time digging into 20+ additional models to make this list as thorough as possible. I left the original post completely intact below, but I’ve added a comprehensive \"Master Tier List Table\" and updated verdicts at the very bottom. Thank you for helping expand this resource.\nLike many of you, I’ve been struggling with the \"Hot Water Blind Spot.\" We filter our water to death, avoid plastic bottles, and then boil that pure water in a kettle with hidden silicone seals or plastic lids.\nI got tired of the \"BPA-Free\" marketing nonsense, so I spent the last month emailing manufacturers directly. My request was simple: \"Don't tell me it's safe. Send me the Migration Test Report (LFGB) proving no microplastics or heavy metals leach at 100°C.\" Here is the Tier List based on who actually shared data (and who ghosted me).\nTIER 1: The \"Verified\" Safe (Receipts Attached)\n   Ottoni Fabbrica (Alice): Made in Italy. They shared a specific \"Zero Nickel Migration\" certificate. 100% Stainless Steel 18/10 inside. No plastic windows.\n   Saki (Baristan/Luna): I was skeptical because of the \"tech\" look, but they are the only brand that publishes a Light Labs report. It verifies they pass the stricter German LFGB standards for microplastics and sensory (taste/odor) changes. The seal is on the rim (steam path), not the brew path.\nTIER 2: The \"Visual\" Pass (Budget Friendly)\n   Secura (SWK-1701): The \"Unibody\" tank design means no seams, no glue, no windows. It’s boring, it has no temperature control, but physically, there is no way for water to touch plastic. Best budget pick.\n   Cosori (Gooseneck Only): Their glass kettles have glued seams (avoid!), but the Gooseneck model is all steel inside. No report provided, but visually clean.\nTIER 3: The \"Heartbreakers\" (Hidden Plastic/Silicone)\n   Fellow Stagg EKG: Beautiful, but has a silicone ring sitting inside the bottom of the kettle around the sensor. They refuse to share migration data.\n   Zwilling Enfinigy: \"Cool Touch\" exterior is great, but the inner lid is plastic. Steam hits it, condenses, and drips back into your water. Hard pass.\nTIER 4: The \"Run Away\" List\n   Ascot: Found reports of \"paint\" peeling inside the spout.\n   KitchenAid: Older models had internal plastic level gauges.\nMy Verdict:\nIf you want pure analog steel: Ottoni.\nIf you need temp control for coffee/tea (and want the lab proof): Saki.\nIf you are on a budget: Secura.\nHope this saves you guys the headache I went through.\nEDIT (July 2026): Thanks for all the feedback and brand suggestions on the original post above. I spent some time checking 20+ additional models to make this list as thorough as possible. Here is the expanded 2026 structural audit.\nIf you are hunting for a truly non-toxic electric kettle or a zero-plastic water boiler, the \"BPA-Free\" sticker is mostly greenwashing. Most \"all-steel\" models still hide plastic or silicone under the lid or around the base sensors. I graded everything here strictly by the physical build, looking at what the boiling water and rising steam _actually_ contact.\nA quick correction on the data: In my first post, I mistakenly called Saki's documentation a \"microplastics or LFGB sensory test.\" That was the wrong terminology. It is actually a third-party chemical migration panel. The data shows non-detect levels for heavy metals, PFAS (forever chemicals), phthalates, and BPA/BPS/BPF. It's still a solid result for the list, but I want to keep this resource 100% accurate so nobody is misled by my earlier phrasing.\nThe \"No-Plastic\" Kettle Master Tier List\n_Grading Criteria: Models are categorized strictly by the internal materials present in the boiling water and steam path, and the availability of third-party documentation._\nCategory Tags: [Standard] = High volume/Fast boil | [Gooseneck] = Precision pour-over\nTier 1: Zero Silicone/Plastic (In Water Path) + Third-Party Lab Tested\nOttoni Fabbrica [Standard]: 100% 18/10 Stainless Steel interior. Notes: IMQ-certified. Manufacturer provided zero-nickel migration proof. Analog design (no temperature control).\nSaki (Baristan / Luna) [Temp Control]: Stainless steel interior. Notes: Published lab report showing Non-Detect levels for Heavy Metals, PFAS, phthalates, and BPA/BPS. (There is a silicone seal, but it is located on the exterior/upper lid rim, completely isolated from the boiling water path).\nTier 2: Zero Silicone/Plastic (In Water Path) – No Lab Data Provided\nSecura SWK-1701 [Standard]: Unibody steel interior. No base seams. Notes: Structurally all-steel. No third-party lab reports available, but physical unibody design excludes internal seals.\nCuisinart Soho 1L [Standard]: Steel-only path. Notes: The Soho 1L model features a fully stainless steel interior. (The premium CPK-17 model contains plastic).\nCosori [Gooseneck]: Steel interior. Notes: The gooseneck version has a stainless steel interior. (Glass models from this brand use silicone/glue seams).\nChantal Mia [Gooseneck]: All-steel interior (~1L capacity). Notes: Purely analog design with a stainless steel build. No lab data available.\nXiaomi Mi Smart Pro [Standard]: All-steel path. Notes: The Mi Smart Pro version is all-steel. (The Smart 2 Pro iteration uses a plastic inner lid and silicone sensor seal at the base).\nTier 3: Confirmed Silicone, Plastic, or PTFE in the Boiling Chamber\nFellow Stagg EKG [Gooseneck]: 304 Stainless Steel interior. Sil",
+        "id": "39d099-01"
+      },
+      {
+        "url": "https://www.amazon.com.au/Ecoviva-Countertop-Reverse-Osmosis-Purification/dp/B0FR46KMM8",
+        "title": "Mate 3 Reverse Osmosis Water Filter Countertop, 3:1 Pure ...",
+        "content": "5-Year Professional After-Sales Support & Local US Service Centers: Ecoviva Water provides a 5-year warranty period for Mate 3 countertop water filter system,",
+        "score": 0.044039294,
+        "raw_content": null,
+        "id": "d81cb1-02"
+      },
+      {
+        "url": "https://www.beslist.be/products/huishoudelijke_apparatuur/r/bestron_hakmolen_kitchen_heroes_akc200_400_w_500_ml",
+        "title": "Bestron hakmolen kitchen heroes akc200 400 w 500 ml",
+        "content": "Vergelijk een ruim assortiment bestron hakmolen kitchen heroes akc200 400 w 500 ml - van huishoudelijke apparatuur met de beste aanbiedingen ❎ Bestel",
+        "score": 0.027861731,
+        "raw_content": null,
+        "id": "2c83cf-03"
+      }
+    ],
+    "response_time": 1.59,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "e4bf20ca-bf4d-492c-979e-1d03d93a7191"
+  }
+}

@@ -1,0 +1,112 @@
+{
+ "service": "tavily",
+ "request": {
+  "search_query": "electric toothbrush brush head replacement cost and battery replacement price",
+  "purpose": "category",
+  "parameters": {
+   "search_depth": "basic",
+   "auto_parameters": false,
+   "max_results": 8,
+   "chunks_per_source": 3,
+   "topic": "general",
+   "include_answer": false,
+   "include_usage": true,
+   "exclude_domains": [
+    "facebook.com",
+    "instagram.com",
+    "tiktok.com",
+    "x.com",
+    "twitter.com",
+    "linkedin.com",
+    "youtube.com",
+    "vimeo.com",
+    "dailymotion.com",
+    "pinterest.com",
+    "pinterest.nl",
+    "pinterest.co.uk",
+    "reddit.com",
+    "quora.com",
+    "ebay.com",
+    "ebay.nl",
+    "ebay.de",
+    "marktplaats.nl",
+    "vinted.nl",
+    "aliexpress.com",
+    "temu.com",
+    "amazon.com",
+    "amazon.nl",
+    "amazon.de",
+    "bol.com",
+    "coolblue.nl",
+    "mediamarkt.nl",
+    "blokker.nl",
+    "action.com"
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-18T19:35:44.157254Z",
+ "response": {
+  "query": "electric toothbrush brush head replacement cost and battery replacement price",
+  "results": [
+   {
+    "url": "https://www.walmart.com/browse/personal-care/electric-toothbrushes/oral-b/1005862_1007221_2709578_5756015/YnJhbmQ6T3JhbC1C",
+    "title": "Oral-B Electric Toothbrush Price & Cost Guide",
+    "content": "Oral-B Toothbrush Heads, Deep Clean Battery Powered Toothbrush Replacement Brush Heads, 2.",
+    "score": 0.8969848,
+    "id": "6249af-00"
+   },
+   {
+    "url": "https://usmile.us/blogs/oral-care/blogs-guides-best-cheap-electric-toothbrush",
+    "title": "Best Cheap Electric Toothbrush 2026 — 5 Budget Picks Tested – usmile",
+    "content": "A $40 brush that requires a $15 replacement head every 3 months costs $100 in Year 1.",
+    "score": 0.8559598,
+    "id": "de2e9e-01"
+   },
+   {
+    "url": "https://www.shelftrend.com/home-garden/electric-toothbrushes-market-analysis-seller-profit-guide",
+    "title": "Oral-B Built an Empire on a Brush That Costs $6 to Make. Here Is How DTC Brands Can Stand Out And Steal Buyers. — ShelfTrend",
+    "content": "| Marketplace | Opportunity Score | Product Segment | Est.",
+    "score": 0.79254496,
+    "id": "7b920a-02"
+   },
+   {
+    "url": "https://www.electricteeth.com/best-oral-b-brush-head",
+    "title": "Best Oral-B toothbrush heads 2026 - Electric Teeth",
+    "content": "Thanks Jon. I'm actually having a tough time deciding whether to get the iO Series 7c or the Genius from Costco.",
+    "score": 0.54971373,
+    "id": "2459e6-03"
+   },
+   {
+    "url": "https://y-brush.co/blogs/electric-toothbrush/electric-toothbrush-cost",
+    "title": "Electric Toothbrush Cost: The Yearly Bill Beyond the Handle",
+    "content": "Estimate annual head costs by multiplying each replacement head's price by the number you expect to buy, then add subscription fees and",
+    "score": 0.40373197,
+    "id": "6634d1-04"
+   },
+   {
+    "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-electric-toothbrush",
+    "title": "Best Electric Toothbrushes 2026 - Forbes Vetted",
+    "content": "Best Battery-Powered Electric Toothbrush: Battery life: 3 months (single AAA battery required) Conveniently receiving replacement brush heads",
+    "score": 0.3864398,
+    "id": "51b65c-05"
+   },
+   {
+    "url": "https://oralb.com/en-us/popular-questions-about-oral-b-warranty-and-service",
+    "title": "Popular questions about Oral-B warranty and service",
+    "content": "No, you cannot replace the battery in your Oral-B electric toothbrush.",
+    "score": 0.32187602,
+    "id": "cd28cf-06"
+   },
+   {
+    "url": "https://www.usa.philips.com/c-m-pe/toothbrush-heads",
+    "title": "Toothbrush replacement heads | Philips sonicare",
+    "content": "## Fits all Philips Sonicare toothbrush handles3 All Philips Sonicare brush head is compatible with all Philips Sonicare electric toothbrush3.",
+    "score": 0.24779212,
+    "id": "53f05a-07"
+   }
+  ],
+  "usage": {
+   "credits": 1
+  }
+ }
+}

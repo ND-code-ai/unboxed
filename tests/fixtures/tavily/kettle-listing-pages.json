@@ -1,0 +1,101 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "waterkoker kopen",
+    "purpose": "listing_pages",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "include_domains": [
+        "beslist.nl",
+        "kieskeurig.nl",
+        "tweakers.net",
+        "klarna.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-22T18:28:08.061555Z",
+  "response": {
+    "query": "waterkoker kopen",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.beslist.nl/products/huishoudelijke_apparatuur/huishoudelijke_apparatuur_19968034_19970345/r/daalderop%20waterkoker",
+        "title": "Daalderop waterkoker - Waterkoker kopen? | Korting tot 50%",
+        "content": "Zwilling - Enfinigy - Waterkoker - Zwart - 1 Liter - 1850 Watt.",
+        "score": 0.7944651,
+        "raw_content": null,
+        "id": "59657b-00"
+      },
+      {
+        "url": "https://www.beslist.nl/products/huishoudelijke_apparatuur/huishoudelijke_apparatuur_19968034_19970345/r/one_cup",
+        "title": "One cup - Waterkoker kopen? | Korting tot 50%",
+        "content": "One cup - Waterkokers ; De'Longhi - Icona Vintage - Waterkoker - Groen - 1,7 Liter.",
+        "score": 0.7237202,
+        "raw_content": null,
+        "id": "f607aa-01"
+      },
+      {
+        "url": "https://www.beslist.nl/products/huishoudelijke_apparatuur/huishoudelijke_apparatuur_19968034_19970345",
+        "title": "Waterkokers kopen? ✔️ Tot 63% korting!",
+        "content": "Zoek je Waterkokers?",
+        "score": 0.71829855,
+        "raw_content": null,
+        "id": "3f7c08-02"
+      },
+      {
+        "url": "https://www.beslist.nl/products/huishoudelijke_apparatuur/huishoudelijke_apparatuur_19968034_19970345/r/snelkoker",
+        "title": "Snelkoker - Waterkoker kopen? | Korting tot 61%",
+        "content": "Arendo waterkoker STEEL WOOD, 1,7 liter, roestvrij staal met houten handvat.",
+        "score": 0.6954834,
+        "raw_content": null,
+        "id": "9c5feb-03"
+      },
+      {
+        "url": "https://www.beslist.nl/products/huishoudelijke_apparatuur/huishoudelijke_apparatuur_19968034_19970345/r/grote",
+        "title": "Grote - Waterkoker kopen? | Korting tot 63%",
+        "content": "Deze elektrische waterkoker heeft een inhoud van 1 liter en is ontworpen voor dagelijks gebruik in de huishouding.",
+        "score": 0.6757865,
+        "raw_content": null,
+        "id": "4971a4-04"
+      },
+      {
+        "url": "https://www.kieskeurig.nl/waterkoker/informatie",
+        "title": "Alles over waterkokers",
+        "content": "Alles over waterkokers: koopgidsen, tips, FAQ en de beste modellen.",
+        "score": 0.67269784,
+        "raw_content": null,
+        "id": "7ab562-05"
+      },
+      {
+        "url": "https://www.kieskeurig.nl/waterkoker",
+        "title": "Waterkoker kiezen? Vergelijk Tefal, Philips en Bosch",
+        "content": "Vergelijk waterkokers van o.a.",
+        "score": 0.63939893,
+        "raw_content": null,
+        "id": "f36bb7-06"
+      },
+      {
+        "url": "https://www.kieskeurig.nl/waterkoker/beste",
+        "title": "De beste Waterkokers volgens consumenten",
+        "content": "Bekijk welke waterkokers het best scoren bij kopers en vergelijk direct functies zoals inhoud (0,5–1,7 l), vermogen (1500–3000 W) en warmhoudfunctie.",
+        "score": 0.5300668,
+        "raw_content": null,
+        "id": "3002e0-07"
+      }
+    ],
+    "response_time": 1.47,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "397c803f-a8ce-44af-bd4c-1ac99f35ca79"
+  }
+}

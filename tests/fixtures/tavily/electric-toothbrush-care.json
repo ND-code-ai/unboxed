@@ -1,0 +1,113 @@
+{
+ "service": "tavily",
+ "request": {
+  "search_query": "electric toothbrush care maintenance and replacement parts",
+  "purpose": "category_care",
+  "parameters": {
+   "search_depth": "basic",
+   "auto_parameters": false,
+   "max_results": 8,
+   "chunks_per_source": 3,
+   "topic": "general",
+   "include_answer": false,
+   "include_usage": true,
+   "country": "netherlands",
+   "exclude_domains": [
+    "facebook.com",
+    "instagram.com",
+    "tiktok.com",
+    "x.com",
+    "twitter.com",
+    "linkedin.com",
+    "youtube.com",
+    "vimeo.com",
+    "dailymotion.com",
+    "pinterest.com",
+    "pinterest.nl",
+    "pinterest.co.uk",
+    "reddit.com",
+    "quora.com",
+    "ebay.com",
+    "ebay.nl",
+    "ebay.de",
+    "marktplaats.nl",
+    "vinted.nl",
+    "aliexpress.com",
+    "temu.com",
+    "amazon.com",
+    "amazon.nl",
+    "amazon.de",
+    "bol.com",
+    "coolblue.nl",
+    "mediamarkt.nl",
+    "blokker.nl",
+    "action.com"
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-18T19:35:35.513920Z",
+ "response": {
+  "query": "electric toothbrush care maintenance and replacement parts",
+  "results": [
+   {
+    "url": "https://thesustainabletomorrow.com/blogs/sustainably-blog/electric-toothbrush",
+    "title": "How to Properly Maintain and Care for Your Electric Toothbrush – Sustainable Tomorrow",
+    "content": "Proper care extends the life and efficiency of your electric toothbrush.",
+    "score": 0.87113565,
+    "id": "89b9b0-00"
+   },
+   {
+    "url": "https://ranvoo.com/blogs/electric-toothbrush-guide/how-to-keep-your-electric-toothbrush-clean-a-hygiene-guide",
+    "title": "How to Keep Your Electric Toothbrush Clean",
+    "content": "A modern bathroom counter with an electric toothbrush standing upright in a ventilated holder, head detached beside it, a clean white towel, and a window with natural light in the background, bright a",
+    "score": 0.7625837,
+    "id": "19e7c6-01"
+   },
+   {
+    "url": "https://www.aquasonic.com/blogs/news/electric-toothbrush-replacement-heads",
+    "title": "Electric Toothbrush Replacement Heads: Types, Lifespan & How to Choose – AquaSonic",
+    "content": "Replacing your electric toothbrush head every three to four months keeps your brush performing the way it should.",
+    "score": 0.71829855,
+    "id": "016c43-02"
+   },
+   {
+    "url": "https://www.ifixit.com/Device/Electric_Toothbrush",
+    "title": "Electric Toothbrush Repair Help: Learn How to Fix It Yourself.",
+    "content": "## Parts Batteries (20) Case Components (1) ## Background and Identification The electric toothbrush is a toothbrush that cleans your teeth with an automatic motion, either rotation oscillation or back-and-forth oscillation.",
+    "score": 0.70336664,
+    "id": "66d5e9-03"
+   },
+   {
+    "url": "https://www.repaircafe.org/en/repairing-electric-toothbrushes",
+    "title": "Repairing Electric Toothbrushes - Repaircafe",
+    "content": "Clean it after every use: rinse the brush head and metal shaft to prevent toothpaste buildup Always use original chargers and brush heads Store in a dry place Keep it safe from falls ## Repairing your",
+    "score": 0.6824261,
+    "id": "a0afa0-04"
+   },
+   {
+    "url": "https://toothbrushbattery.com/guides",
+    "title": "Battery Replacement Guides - ToothbrushBattery.com",
+    "content": "Recent Comments Ionic Admin on Care Tips for your Electric Toothbrush Ionic Admin on Braun Oral-B Triumph Professional Care v2 Battery Replacement Niels Hougaard on Care Tips for your Electric Toothbr",
+    "score": 0.61307496,
+    "id": "60adb9-05"
+   },
+   {
+    "url": "https://usmile.us/blogs/oral-care/how-to-clean-electric-toothbrush-head",
+    "title": "How to Clean an Electric Toothbrush Head (The Easy Way) – usmile",
+    "content": "Kids Brush Heads usmile Replacement Guidance Tip Nozzle—C-shaped nozzle guides water Guidance Tip Nozzles usmile Replacement Standard Nozzle—Delivers focused stream Standard Nozzles usmile Waterproof ",
+    "score": 0.61057013,
+    "id": "62ce5a-06"
+   },
+   {
+    "url": "https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes",
+    "title": "Toothbrushes | American Dental Association",
+    "content": "Toothbrushes should be replaced approximately every three to four months or more often if the bristles become matted or frayed.",
+    "score": 0.4040141,
+    "id": "8aded9-07"
+   }
+  ],
+  "usage": {
+   "credits": 1
+  }
+ }
+}

@@ -1,0 +1,101 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "koekenpan kopen",
+    "purpose": "listing_pages",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "include_domains": [
+        "beslist.nl",
+        "kieskeurig.nl",
+        "tweakers.net",
+        "klarna.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-22T18:28:09.407704Z",
+  "response": {
+    "query": "koekenpan kopen",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.beslist.nl/products/huis_tuin/huis_tuin_505129_505236",
+        "title": "Koekenpan kopen? ✔️ Vergelijk & bespaar!",
+        "content": "Mini koekenpan is een compacte en veelzijdige pan met een diameter van 18 cm, ideaal voor het bereiden van kleinere porties.",
+        "score": 0.77096564,
+        "raw_content": null,
+        "id": "ee1038-00"
+      },
+      {
+        "url": "https://www.beslist.nl/products/huis_tuin/huis_tuin_505129_505236/c/materiaal~4048051",
+        "title": "Gietijzeren Koekenpan kopen? ✔️ Tot 48% korting!",
+        "content": "Een kleinere pan van bijvoorbeeld.",
+        "score": 0.73755574,
+        "raw_content": null,
+        "id": "e88aab-01"
+      },
+      {
+        "url": "https://www.beslist.nl/products/huis_tuin/huis_tuin_505129_505236/r/professionele",
+        "title": "Professionele - Koekenpan kopen? | Korting tot 50%",
+        "content": "Herman den Blijker - Hybride koekenpan Ø 20 cm - 100% PFAS-vrij - Krasvrije keramische antiaanbaklaag - Geschikt voor inductie, oven en alle warmtebronnen.",
+        "score": 0.6708892,
+        "raw_content": null,
+        "id": "5b9403-02"
+      },
+      {
+        "url": "https://www.beslist.nl/products/huis_tuin/huis_tuin_505129_505236/c/liters~7199279~~optie_pan~6425210~~opties_pan~23554522",
+        "title": "Elektrisch - Voor camping - 5 liter Koekenpannen",
+        "content": "Petromax - fp30-t - Koekenpan - Zwart - Gietijzer - 28 cm.",
+        "score": 0.56920683,
+        "raw_content": null,
+        "id": "fd05a6-03"
+      },
+      {
+        "url": "https://www.beslist.nl/products/huis_tuin/huis_tuin_505129_505236/c/kleur~400986~~merk~83884~~optie_pan~6425211~~opties_pan~19275889~~set~23551106",
+        "title": "Tefal - Gas - Anti-aanbaklaag - 2 delige - Zwarte Koekenpannen",
+        "content": "Koekenpan - Zwart - Aluminium.",
+        "score": 0.568057,
+        "raw_content": null,
+        "id": "a67e9f-04"
+      },
+      {
+        "url": "https://www.beslist.nl/products/huis_tuin/huis_tuin_505129_505236/c/diameter_pan~7948035~~formaat_pan~19275884~~materiaal~1329293~~opties_pan~23550759~~set~23551106",
+        "title": "24 cm - RVS - Zonder teflon - 2 delige - Kleine Koekenpannen",
+        "content": "Beka - Maestro - Braadpan - Ø 24 cm - Inox - RVS - PFAS-vrij - Geschikt voor Inductie en Vaatwas.",
+        "score": 0.47592255,
+        "raw_content": null,
+        "id": "65b2fd-05"
+      },
+      {
+        "url": "https://gathering.tweakers.net/forum/list_messages/1818117",
+        "title": "Welke koekenpan(nen)? - Bouwen en klussen - GoT",
+        "content": "Moet het bonnetje even zoeken maar heb gewoon 2 nieuwe 28cm koekepannen van Tefal gehaald; adviesprijs iets van 27 Euro ofzo.",
+        "score": 0.34760407,
+        "raw_content": null,
+        "id": "5d7dc6-06"
+      },
+      {
+        "url": "https://www.kieskeurig.nl/pan/beste",
+        "title": "De beste pannen volgens consumenten in Oktober 2026",
+        "content": "Bekijk welke pannen nu het best scoren volgens consumenten.",
+        "score": 0.27922666,
+        "raw_content": null,
+        "id": "4d93f3-07"
+      }
+    ],
+    "response_time": 2.82,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "50d48ac8-d9fe-40d2-9e14-d76f6fa74cbe"
+  }
+}

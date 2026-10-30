@@ -1,0 +1,31 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "api-stubs",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": [
+        "-NoProfile",
+        "-Command",
+        "$env:SHOPPER_AGENTS = 'stubs'; $env:SHOPPER_SOURCES = 'fixtures'; uv run uvicorn shopper.api.main:app_from_env --factory --workers 1 --no-access-log"
+      ],
+      "port": 8000
+    },
+    {
+      "name": "api-recorded",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": [
+        "-NoProfile",
+        "-Command",
+        "$env:SHOPPER_AGENTS = $null; $env:SHOPPER_SOURCES = 'fixtures'; uv run uvicorn shopper.api.main:app_from_env --factory --workers 1 --no-access-log"
+      ],
+      "port": 8000
+    },
+    {
+      "name": "web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "web"],
+      "port": 3000
+    }
+  ]
+}

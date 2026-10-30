@@ -1,0 +1,112 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "waterkoker kopen",
+    "purpose": "price",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "reddit.com",
+        "quora.com",
+        "bol.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-22T18:28:07.830300Z",
+  "response": {
+    "query": "waterkoker kopen",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.2dekansje.com/wonen-koken/koken-tafelen/waterkokers",
+        "title": "Waterkokers kopen | 2dekansje.com",
+        "content": "Tweedekans waterkokers: Door een tweedekans waterkoker kopen, draag je bij aan een duurzamere wereld.",
+        "score": 0.87113565,
+        "raw_content": null,
+        "id": "30b85a-00"
+      },
+      {
+        "url": "https://www.mediamarkt.nl/nl/category/waterkokers-105.html",
+        "title": "Waterkoker kopen? Binnen 30 min afhalen of morgen ...",
+        "content": "Waterkoker kopen?",
+        "score": 0.8361405,
+        "raw_content": null,
+        "id": "e14a08-01"
+      },
+      {
+        "url": "https://www.expert.nl/wonen/koffie-en-thee/waterkokers",
+        "title": "Waterkoker Kopen? Nu Besteld, Snel in Huis",
+        "content": "Bij Expert vind je waterkokers van alle bekende merken, zoals o.a.",
+        "score": 0.78963995,
+        "raw_content": null,
+        "id": "85a964-02"
+      },
+      {
+        "url": "https://www.lidl.nl/h/waterkokers/h10004493",
+        "title": "Waterkokers kopen? | LIDL",
+        "content": "Wens je een waterkoker met een liter inhoud of toch een waterkoker met de inhoud van een glas?",
+        "score": 0.75723875,
+        "raw_content": null,
+        "id": "558ba6-03"
+      },
+      {
+        "url": "https://www.krefel.be/nl/c/waterkokers",
+        "title": "Waterkoker kopen? Bestel nu, morgen in huis",
+        "content": "Vind je nieuwe waterkoker bij Krëfel ✓ Gratis levering vanaf €20 ✓ Laagste prijsgarantie ✓ Haal na 1u af in winkel.",
+        "score": 0.7559439,
+        "raw_content": null,
+        "id": "e89a32-04"
+      },
+      {
+        "url": "https://www.coolblue.nl/waterkokers",
+        "title": "Waterkoker kopen? | Coolblue - Voor 23.59u, morgen in huis",
+        "content": "Waterkokers bij Coolblue: van de kleur van alle andere keukenapparaten in jouw keuken.",
+        "score": 0.7135319,
+        "raw_content": null,
+        "id": "a277f8-05"
+      },
+      {
+        "url": "https://www.praxis.nl/keukens-keukenapparatuur/kleine-keukenapparatuur/waterkokers-elektrische-theepotten/ki047",
+        "title": "Waterkokers & elektrische theepotten",
+        "content": "Op zoek naar een nieuwe waterkoker of elektrische theepot?",
+        "score": 0.60274047,
+        "raw_content": null,
+        "id": "830d7c-06"
+      },
+      {
+        "url": "https://pannenexpert.nl/beste-waterkoker",
+        "title": "Waterkoker Kopen? Top 5 Beste Waterkokers Van 2026!",
+        "content": "De 5 beste waterkokers van 2026 per stuk toegelicht · 1.",
+        "score": 0.518815,
+        "raw_content": null,
+        "id": "af33fc-07"
+      }
+    ],
+    "response_time": 1.24,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "50a51658-6232-467b-aee5-5fcb3d4bc161"
+  }
+}

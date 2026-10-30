@@ -1,0 +1,7 @@
+Query: I want a gym membership in Utrecht, budget 40 euro a month
+Run: 24 October 2026, task 1.10, terminal app, live services and models, tracing on
+Typed: --skip-all
+Time (Measure-Command): 12 s
+Credits: Tavily 0, Firecrawl 0
+================================================================================
+This app covers durable products such as cookware, appliances and tools. It can't help with "gym membership".

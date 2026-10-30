@@ -1,0 +1,109 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V long term review durability",
+    "purpose": "findings",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "exclude_domains": [
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "amazon.com",
+        "amazon.nl",
+        "amazon.de",
+        "bol.com",
+        "coolblue.nl",
+        "mediamarkt.nl",
+        "blokker.nl",
+        "action.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-24T11:22:46.301393Z",
+  "response": {
+    "query": "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V long term review durability",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.argos.co.uk/browse/garden-and-diy/diy-power-tools/drills/c:29675",
+        "title": "Drills",
+        "content": "Einhell Power X-Change 2.5Ah Cordless Combi Drill - 18V. Rating 4.8 out of 5 ... For a longer run time, choose a battery with a higher amp-hour (Ah)",
+        "score": 0.6501347,
+        "raw_content": null,
+        "id": "fd2289-00"
+      },
+      {
+        "url": "https://hikoki-powertools.eu/uk/en/machines-accessories?tx_hikoki_product%5Baction%5D=details&tx_hikoki_product%5Bcontroller%5D=Product&tx_hikoki_product%5Bproduct_id%5D=31446&cHash=7b38d4730158b5815033982ced28ebdf",
+        "title": "Accu klop-boor-schroefmachine DV18DEW2Z - HiKOKI Europe",
+        "content": "Hoog koppel en een hoge werksnelheid om snel zware toepassingen uit te voeren · Zeer kort voor een optimale wendbaarheid en een eenvoudige bediening · Stopt de",
+        "score": 0.5786631,
+        "raw_content": null,
+        "id": "481fd5-01"
+      },
+      {
+        "url": "https://distrinode.nl/makita-hp2051j-klopboormachine-720w-2-versnellingen",
+        "title": "Makita HP2051J klopboormachine 720W 2-versnellingen",
+        "content": "Durable construction ensures long service life. Suitable for Drilling into wood, metal, concrete, and masonry Hammer drilling. Power Level: 109 dB(A) V accu-",
+        "score": 0.3624957,
+        "raw_content": null,
+        "id": "107e8c-02"
+      },
+      {
+        "url": "https://www.reddit.com/r/Klussers/comments/1ku6l11/klussers_wat_is_jullie_ervaring_met_parkside",
+        "title": "Klussers, wat is jullie ervaring met Parkside gereedschap?",
+        "content": "Is dat betrouwbaar spul voor de huis-, tuin- en keukenklusser, of is goedkoop uiteindelijk toch gewoon duurkoop?\n\nHet gaat me niet alleen om de boormachine",
+        "score": 0.08550305,
+        "raw_content": null,
+        "id": "eecb7b-03"
+      },
+      {
+        "url": "https://www.ebay.co.uk/itm/136966449502",
+        "title": "Makita HP003 40V Max XGT Brushless Combi Hammer ...",
+        "content": "Durable Construction: Designed for professional use, compatible with Makita's 40 V Max batteries (sold separately) for long run-time and robust performance.",
+        "score": 0.05732958,
+        "raw_content": null,
+        "id": "2837d7-04"
+      },
+      {
+        "url": "http://cyrankaoswiecim.pl/Einhell-Gipsplaatschroevendraaier-TC-DY-710-E-710-W-1051522",
+        "title": "Einhell Gipsplaatschroevendraaier TC-DY 710 E",
+        "content": "Met een vermogen van 710 watt en een onbelast toerental van 4000 toeren per minuut gaat-ie flink tekeer. Hij weegt maar 1,5 kg, dus je krijgt geen zware armen",
+        "score": 0.037796497,
+        "raw_content": null,
+        "id": "55274c-05"
+      },
+      {
+        "url": "https://www.tiktok.com/@huismijt/video/7280173340482882849",
+        "title": "Hoe zet je een boor vast in een boormachine (quick tip)",
+        "content": "Met deze kleine truc kun je snel en veilig een boor of bitje vastzetten in een boormachine. Handig voor klussen en dagelijks gebruik van je",
+        "score": 0.031146845,
+        "raw_content": null,
+        "id": "4b8ca1-06"
+      }
+    ],
+    "response_time": 2.35,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "1847c1cb-449c-4519-ab63-c4494d9a4781"
+  }
+}

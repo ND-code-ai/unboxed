@@ -1,0 +1,75 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "kettle care maintenance and replacement parts",
+    "purpose": "category_care",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "reddit.com",
+        "quora.com",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "amazon.com",
+        "amazon.nl",
+        "amazon.de",
+        "bol.com",
+        "coolblue.nl",
+        "mediamarkt.nl",
+        "blokker.nl",
+        "action.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-14T07:57:40.171967Z",
+  "response": {
+    "query": "kettle care maintenance and replacement parts",
+    "results": [
+      {
+        "url": "https://fellowproducts.com/blogs/learn/is-descaling-necessary-how-often-to-descale-a-kettle",
+        "title": "Is Descaling Necessary? How Often to Descale a Kettle",
+        "content": "Using your electric kettle as directed can also extend its life. Avoid overfilling the pot, and don't turn it on if it's empty.",
+        "score": 0.39333898
+      },
+      {
+        "url": "https://www.abt.com/learn/how-to-clean-an-electric-kettle",
+        "title": "How to Clean an Electric Kettle: A Maintenance Guide",
+        "content": "Regardless of how often you use your electric kettle, always be sure to both empty and rinse it thoroughly after use.",
+        "score": 0.46964246
+      },
+      {
+        "url": "https://neweybloomer.com/pages/kettle-care",
+        "title": "Kettle Care and Use",
+        "content": "Use a soft cotton cloth and brass or silver polish.",
+        "score": 0.7244226
+      }
+    ],
+    "usage": {
+      "credits": 1
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "koekenpan kopen",
+    "purpose": "price",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "reddit.com",
+        "quora.com",
+        "bol.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-22T18:28:09.275978Z",
+  "response": {
+    "query": "koekenpan kopen",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://qualitychefs.nl/pannen/koekenpannen",
+        "title": "Beste koekenpan kopen? PFAS vrije koekenpannen",
+        "content": "De beste koekenpan kopen lijkt eenvoudig, maar er zijn duidelijke verschillen in kwaliteit en gebruik.",
+        "score": 0.83710164,
+        "raw_content": null,
+        "id": "3d93b8-00"
+      },
+      {
+        "url": "https://www.marianskookwereld.nl/koekenpan",
+        "title": "Koekenpan kopen? | Marian’s Kookwereld",
+        "content": "In onze winkel en webshop vind je een uitgebreide collectie koekenpannen van verschillende materialen en voor diverse toepassingen.",
+        "score": 0.8145405,
+        "raw_content": null,
+        "id": "fed5b7-01"
+      },
+      {
+        "url": "https://www.mediamarkt.nl/nl/category/koekenpannen-2202.html",
+        "title": "Koekenpan kopen? Binnen 30 min afhalen of morgen ...",
+        "content": "Koekenpan kopen?",
+        "score": 0.80771893,
+        "raw_content": null,
+        "id": "cbb9ee-02"
+      },
+      {
+        "url": "https://www.kookwinkel.nl/pannen/koekenpannen",
+        "title": "Koekenpan kopen? Bekijk ons aanbod",
+        "content": "Een goede koekenpan gebruik je bijna elke dag.",
+        "score": 0.7927375,
+        "raw_content": null,
+        "id": "1910d7-03"
+      },
+      {
+        "url": "https://sophior.nl/blogs/pannen/welke-koekenpan-past-bij-jou",
+        "title": "Koekenpan kopen? De eerlijke keuzegids | SOPHIOR",
+        "content": "Je staat in de winkel of scrollt door een webshop en telt tientallen koekenpannen.",
+        "score": 0.7869018,
+        "raw_content": null,
+        "id": "55f7e0-04"
+      },
+      {
+        "url": "https://www.expert.nl/koken/eten-bereiden/pannen/_pannen-type-pan-Koekenpan",
+        "title": "Koekenpan kopen? Bekijk alle pannen",
+        "content": "De koekenpannen bij Expert zijn geschikt voor alle warmtebronnen, van inductie tot gas en keramisch koken.",
+        "score": 0.7738498,
+        "raw_content": null,
+        "id": "590d99-05"
+      },
+      {
+        "url": "https://braadbaas.nl/collections/koekenpannen",
+        "title": "Koekenpannen kopen?",
+        "content": "Bij Braadbaas vind je uitsluitend koekenpannen die écht presteren: zorgvuldig geselecteerd op bakprestaties, duurzaamheid en materiaal.",
+        "score": 0.75723875,
+        "raw_content": null,
+        "id": "3fed80-06"
+      },
+      {
+        "url": "https://cookandpan.com/collections/koekenpan",
+        "title": "Koekenpan kopen: 20 tot 32 cm, keramisch, RVS of gietijzer",
+        "content": "Koekenpan in 20, 24, 28 of 32 cm.",
+        "score": 0.7402687,
+        "raw_content": null,
+        "id": "714f69-07"
+      }
+    ],
+    "response_time": 2.68,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "186da62f-99f3-464b-b637-6f23efb8ed69"
+  }
+}

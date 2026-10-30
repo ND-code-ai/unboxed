@@ -1,0 +1,117 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "Inventum HW817D Waterkoker - 1.7L - RVS/Zwart - 2200W - Met Warmhoudfunctie long term review durability",
+    "purpose": "findings",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "exclude_domains": [
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "amazon.com",
+        "amazon.nl",
+        "amazon.de",
+        "bol.com",
+        "coolblue.nl",
+        "mediamarkt.nl",
+        "blokker.nl",
+        "action.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-23T20:27:43.107442Z",
+  "response": {
+    "query": "Inventum HW817D Waterkoker - 1.7L - RVS/Zwart - 2200W - Met Warmhoudfunctie long term review durability",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.kieskeurig.nl/waterkoker/beste",
+        "title": "De beste waterkokers volgens consumenten op Kieskeurig.nl",
+        "content": "8.4(11)\n\n  + Inhoud•Inhoud: Mini: tot 1 liter\n  + Vermogen•Vermogen: 2250 tot 2500 watt\n\n  v.a. € 34,99\n\n  Morgen in huis\n\n  4 prijzenGa naar goedkoopste\n\n  Beste deals\n\n  bol. logo\n\n  + bol.\n\n    € 34,99\n  + MediaMarkt.nl\n\n    € 37,98+ 2 andere aanbiedersGa naar goedkoopste\n\n  Bekijk product\n -28%\n\n  -28%\n\n  Inventum HW817D Waterkoker - 1.7L - RVS/Zwart - 2200W - Met Warmhoudfunctie\n\n  ## Inventum HW817D Waterkoker - 1.7L - RVS/Zwart - 2200W - Met Warmhoudfunctie\n\n  8.5(40) [...] 8.6(13)\n\n  + Inhoud•Inhoud: Gemiddeld: 1.5 tot 1.7 liter\n  + Vermogen•Vermogen: 2000 tot 2250 watt\n\n  € 16,00\n\n  1 tot 2 dagen\n\n  Bekijk meer informatie\n\n  Beste deals\n\n  Philips DA logo\n\n  + Philips DA\n\n    € 16,00Bekijk meer informatie\n\n  Bekijk product\n Inventum HW217B Waterkoker - 1.7L - 2200W - Zwart\n\n  ## Inventum HW217B Waterkoker - 1.7L - 2200W - Zwart\n\n  8.7(11)\n\n  + Inhoud•Inhoud: Gemiddeld: 1.5 tot 1.7 liter\n  + Vermogen•Vermogen: 2000 tot 2250 watt\n\n  v.a. € 24,90 [...] + Bobplaza.com\n\n    € 144,95\n  + Kaufland\n\n    € 154,93+ 1 andere aanbiedersGa naar goedkoopste\n\n  Bekijk product\n Inventum HW617B Waterkoker - 1.7L - 2200W - Zwart/RVS\n\n  ## Inventum HW617B Waterkoker - 1.7L - 2200W - Zwart/RVS\n\n  9.2(50)\n\n  + Inhoud•Inhoud: Gemiddeld: 1.5 tot 1.7 liter\n  + Vermogen•Vermogen: 2000 tot 2250 watt\n\n  v.a. € 45,95\n\n  Morgen in huis\n\n  5 prijzenGa naar goedkoopste\n\n  Beste deals\n\n  bol. logo\n\n  + bol.\n\n    € 45,95\n  + Kleinkantoor.nl",
+        "score": 0.82694983,
+        "raw_content": null,
+        "id": "e13d09-00"
+      },
+      {
+        "url": "http://kieskeurig.nl",
+        "title": "Kieskeurig.nl | Wat je ook kiest: Blijf Kieskeurig",
+        "content": "Title: Kieskeurig.nl | Wat je ook kiest: Blijf Kieskeurig\n# Kieskeurig | Wat je ook kiest: Blijf Kieskeurig. Philips 5000 series Novaplus Airfryer 5000-serie met stoom 7,2 l. AEG LR87BADEN - 10 kg Front Load Washing Machine - 1550 RPM - White. ## AEG LR8KOBLENZ / 10 kg. Miele Guard L1 Cat & Dog - Stofzuiger met zak - Obsidiaanzwart. ## Eufy C28. ## AEG GI72BREMEN. ## Miele TEH795WP. ## AEG TR8ESSEN / 8. AEG Series 7000 LR74BREMEN 8kg Front Load Washing Machine - White. ## AEG TR7386T4B. LG MJ3965ACS - Combination Microwave - 39L - Stainless Steel. Philips Daily Collection HD9350/90 Waterkoker - 1.7L - RVS. Samsung Neo QLED QN83F / Smart TV screen / 55 inch / 2025. Miele TEC655WP EcoSpeed Warmtepomp Droger - 8 kg - Wit. ## Miele TEC655WP EcoSpeed Warmtepomp Droger - 8 kg - Wit. Inventum HW817D Waterkoker - 1.7L - RVS/Zwart - 2200W - Met Warmhoudfunctie. ## Inventum HW817D Waterkoker - 1.7L - RVS/Zwart - 2200W - Met Warmhoudfunctie. Sonos Beam (Gen 2) Zwart.",
+        "score": 0.8066246,
+        "raw_content": null,
+        "id": "e86746-01"
+      },
+      {
+        "url": "https://beslist.nl/products/huishoudelijke_apparatuur/huishoudelijke_apparatuur_19968034_19970345/c/merk~13511919~~opties_waterk~19973772",
+        "title": "Kitchen Brothers waterkokers Warmhoudfunctie kopen? | Vergelijk de beste aanbiedingen | beslist.nl",
+        "content": "Title: Kitchen Brothers waterkokers Warmhoudfunctie kopen? | Vergelijk de beste aanbiedingen | beslist.nl\n## KitchenBrothers - Waterkoker - Zwart - 1.7L - Met Temperatuurregeling - 2200W. KitchenBrothers - Waterkoker - Beige - 1.7L - Met Temperatuurregeling - 2200W. ## KitchenBrothers - Waterkoker - Beige - 1.7L - Met Temperatuurregeling - 2200W. KitchenBrothers - KB1004071 - Waterkoker - Zwart - 1,5L - 2200W. ## KitchenBrothers - KB1004071 - Waterkoker - Zwart - 1,5L - 2200W. KitchenBrothers - Waterkoker - Beige - 1.7L - Met Temperatuurregeling - 2200W. ## KitchenBrothers - Waterkoker - Beige - 1.7L - Met Temperatuurregeling - 2200W. KitchenBrothers - Waterkoker - Pastelgroen - 1.7L - Met Temperatuurregeling - 2200W. ## KitchenBrothers - Waterkoker - Pastelgroen - 1.7L - Met Temperatuurregeling - 2200W. KitchenBrothers - Waterkoker - Pastelgroen - 1.7L - Met Temperatuurregeling - 2200W. ## KitchenBrothers - Waterkoker - Pastelgroen - 1.7L - Met Temperatuurregeling - 2200W. KitchenBrothers - Heetwaterdispenser - RVS/Zwart - Instant Waterkoker - 2L - 3000W - 9 standen van 180 t/m 300 ml. ## KitchenBrothers - Heetwaterdispenser - RVS/Zwart - Instant Waterkoker - 2L - 3000W - 9 standen van 180 t/m 300 ml. KitchenBrothers - Heetwaterdispenser - Zwart - 2.7L - Instant Waterkoker - 7 standen van 100 t/m 400 ml - Heetwatertap - 40-100°C. Severin - Waterkoker - RVS - Zilver/Zwart - 0,5L - 1100W. ## Severin - Waterkoker - RVS - Zilver/Zwart - 0,5L - 1100W. Olvy - Waterkoker - Zwart - 1,7L - 2200W - Temperatuurregeling - Warmhoudfunctie - Dubbelwandig Roestvrij Staal. ## Olvy - Waterkoker - Zwart - 1,7L - 2200W - Temperatuurregeling - Warmhoudfunctie - Dubbelwandig Roestvrij Staal. Vivid Green - Waterkoker - RVS - Zwart - 1,7L - Temperatuurregeling - Warmhoudfunctie. ## Vivid Green - Waterkoker - RVS - Zwart - 1,7L - Temperatuurregeling - Warmhoudfunctie. MPM Stille Dubbelwandige RVS Waterkoker van 1,7 Liter met 1800W - Coolwall Zwart. ## MPM Stille Dubbelwandige RVS Waterkoker van 1,7 Liter met 1800W - Coolwall Zwart. KitchenAid Waterkoker met temperatuurregeling tussen 50°C en 100°C - 1,7 l - Snel en stil - Roestvrij staal - Mat zwart. ## KitchenAid Waterkoker met temperatuurregeling tussen 50°C en 100°C - 1,7 l - Snel en stil - Roestvrij staal - Mat zwart.",
+        "score": 0.74004334,
+        "raw_content": null,
+        "id": "a1b90b-02"
+      },
+      {
+        "url": "https://www.supersales.nl/wonen/waterkokers?merk=aigostar",
+        "title": "Aigostar Waterkoker Aanbiedingen • Tot 26% korting",
+        "content": "Title: Aigostar Waterkoker Aanbiedingen • Tot 26% korting\nAigostar Waterkoker - 1.7L- Retro - Instelbare Temperatuur - RVS - Elektrische - Zwart. Aigostar waterkoker glas en kunststof 2200 W 1,0 L zwart VDE / Elfin. Aigostar Cooltravel - Reiswaterkoker - 600ML - Inclusief 2 Kopjes en Lepel - Mini Waterkoker -Kleine waterkoker - mini waterkoker - Zwart. Aigostar Waterkoker - Dubbelwandig - 1,7 Liter - BPA-vrij - Waterniveau indicator - Elektrische - 2200W - Zwart. Aigostar Waterkoker Dubbelwandig - met Temperatuurregeling - 1.7L - Instelbare Waterkoker - Warmhoudfunctie - BPA-vrij - 2200W - RVS - Zwart. ### Aigostar Waterkoker 1.7L met Temperatuurregeling en Warmhoudfunctie. Aigostar Heetwaterdispenser - Inhoud 3 liter - Instant Waterkoker - 45°C tot 100°C - Touch Display - BPA vrij - Heetwatertap - 2600 watt - Zwart/RVS. Aigostar Waterkoker - 1.7L - Met Temperatuurregeling - PFAS- & BPA-vrij - Warmhoudfunctie - Display - Dubbelwandig - 2200W - Zwart. Aigostar Waterkoker met LED - Glass - 1,7L - Retro - 2200W - Zwart - Adam 30GOM. Aigostar Cris - Waterkoker met Temperatuurregeling en Warmhoudfunctie - Glas - 1,7L - 2200W - LED Verlichting - Inclusief Theefilter. Aigostar Waterkoker glas 1 Liter - watekokers klein met LED - 360° draaibaar - Zwart - Elfin 30IAX. Aigostar Lori Elektrische waterkoker met. Princess Waterkoker Wave 236048 - Retro - 1.7 liter - BPA-vrij - Waterniveau indicator - 2200W - Beige. Tefal Digit KI831E10 - Waterkoker - 1,7L - Zwart. Tefal Safe'Tea KO2608 - Waterkoker - 1,7 L - Dubbelwandig - Veilig en Energiezuinig. ### Tefal KI240D Express Control Waterkoker RVS met Warmhoudfunctie. Tefal Tefal Element BJ760D 1,7 L waterkoker met temperatuurregeling. ### Princess Waterkoker 1.7L - 2200W - Zwart - 360° draaibaar. ### Alpina Waterkoker 1,7L Wit 2200W. Princess Waterkoker Pure 236061 - 1.7 liter - 3000W - 360° draaibaar - Zwart - RVS. ### Princess Waterkoker Pure 1,7L - 3000W RVS Zwart. Philips Waterkoker - Inhoud 1.7 L met Veerdeksel en. Tefal LOFT KO250831 Elektrische waterkoker, 1,7 l - Zwart. ### Tefal Loft Elektrische Waterkoker - Zwart - 1.7L - 2400W. Princess Waterkoker Wave 236058 - Retro - 1.7 liter - BPA-vrij - Waterniveau indicator - 2200W - Zwart. Tefal waterkoker 1,7 liter zwart subito.",
+        "score": 0.70214266,
+        "raw_content": null,
+        "id": "e76c06-03"
+      },
+      {
+        "url": "https://waterkokerexpert.com/product-categorie/waterkoker-met-temperatuurregeling",
+        "title": "Waterkoker met temperatuurregeling – Waterkokerexpert.com – De beste waterkoker vergelijker!",
+        "content": "Title: Waterkoker met temperatuurregeling – Waterkokerexpert.com – De beste waterkoker vergelijker!\n* **#1 WEBSITE VOOR HET VERGELIJKEN VAN WATERKOKERS!**. # Waterkoker met temperatuurregeling. Een waterkoker met temperatuurregeling is een must-have in elke iedere keuken. Of je nu een échte theedrinker bent, een koffieliefhebber, of een flesje babyvoeding op de juiste temperatuur nodig hebt, de waterkoker met instelbare temperatuur bied je de precisie die je nodig hebt. Dankzij de temperatuurinstellingen kun je iedere drankje bereiden op de perfecte temperatuur. Dagelijks halen wij de allernieuwste modellen en de laagste prijzen op, van diverse online aanbieders. Vergelijk makkelijk de prijs door op één van de onderstaande producten te klikken. Waterkoker - Waterkoker met temperatuursregeling - Waterkoker zwart - RVS - 1.7L - 2200W. Waterkoker – Waterkoker met temperatuursregeling – Waterkoker zwart – RVS – 1.7L – 2200W. SMEG KLF04PGEU - Waterkoker - Watergroen - 1,7L - 7 Temperaturen. SMEG KLF04PGEU – Waterkoker – Watergroen – 1,7L – 7 Temperaturen. Teesa TSA1530 - Draadloze waterkoker met temperatuurregeling, 1,7 liter, roestvrijstaal, glas. Waterkoker - Waterkoker met temperatuursregeling - Goud - RVS - 1.7L - 2200W. Waterkoker – Waterkoker met temperatuursregeling – Goud – RVS – 1.7L – 2200W. MPM - Stijlvolle RVS Waterkoker - 1,7L - Zwart. MPM – Stijlvolle RVS Waterkoker – 1,7L – Zwart. Teesa TSA1513 - Elektrische waterkoker met temperatuurindicatie, 1,7 liter, roestvrijstaal. MPM - Stille Waterkoker met temperatuurregeling - Digitale Temperatuurweergave - 1,7 Liter - Dubbelwandig - 2200W - Zwart. MPM – Stille Waterkoker met temperatuurregeling – Digitale Temperatuurweergave – 1,7 Liter – Dubbelwandig – 2200W – Zwart. Aigostar Elektrische Waterkoker met temperatuursregeling - Retro - Instelbare Temperatuur - RVS - 1.7L - Zwart - Loki. Aigostar Elektrische Waterkoker met temperatuursregeling – Retro – Instelbare Temperatuur – RVS – 1.7L – Zwart – Loki. MPM - Stille Waterkoker met Instelbare Temperatuur - Digitale Temperatuurweergave - 1,7 Liter - Dubbelwandig - Wit. MPM – Stille Waterkoker met Instelbare Temperatuur – Digitale Temperatuurweergave – 1,7 Liter – Dubbelwandig – Wit. Tristar Waterkoker WK-3403 - 1.7 liter - 2200W - Digitale Waterkoker met warmhoudfunctie - Instelbare temperatuur - RVS. Tristar Waterkoker WK-3403 – 1.7 liter – 2200W – Digitale Waterkoker met warmhoudfunctie – Instelbare temperatuur – RVS ### Inhoud van de waterkoker met temperatuurregeling. ### Prijs van de waterkoker met instelbare temperatuur.",
+        "score": 0.69795954,
+        "raw_content": null,
+        "id": "fc157e-04"
+      },
+      {
+        "url": "https://www.supersales.nl/wonen/waterkokers?kleur=zwart&merk=aigostar",
+        "title": "Zwarte Aigostar Waterkoker Aanbiedingen • Tot 17% korting",
+        "content": "Title: Zwarte Aigostar Waterkoker Aanbiedingen • Tot 17% korting\n#### Bekijk producten van Aigostar in:. Aigostar Cooltravel - Reiswaterkoker - 600ML - Inclusief 2 Kopjes en Lepel - Mini Waterkoker -Kleine waterkoker - mini waterkoker - Zwart. Aigostar Waterkoker - Dubbelwandig - 1,7 Liter - BPA-vrij - Waterniveau indicator - Elektrische - 2200W - Zwart. Aigostar Waterkoker Dubbelwandig - met Temperatuurregeling - 1.7L - Instelbare Waterkoker - Warmhoudfunctie - BPA-vrij - 2200W - RVS - Zwart. ### Aigostar Waterkoker 1.7L met Temperatuurregeling en Warmhoudfunctie. Aigostar Heetwaterdispenser - Inhoud 3 liter - Instant Waterkoker - 45°C tot 100°C - Touch Display - BPA vrij - Heetwatertap - 2600 watt - Zwart/RVS. Aigostar Waterkoker - 1.7L - Met Temperatuurregeling - PFAS- & BPA-vrij - Warmhoudfunctie - Display - Dubbelwandig - 2200W - Zwart. Aigostar Waterkoker met LED - Glass - 1,7L - Retro - 2200W - Zwart - Adam 30GOM. Aigostar Waterkoker glas 1 Liter - watekokers klein met LED - 360° draaibaar - Zwart - Elfin 30IAX. Aigostar Chubby - Elektrische Waterkoker van. Aigostar Aubery - Elektrische waterkokers van roestvrij. Tefal Tefal Thermo Protect Control KO6518 1,5L waterkoker. Tefal Collection KI6668 - Waterkoker - 1,7L - Stijlvol Retro Design - 1-kopsindicator - Automatische Uitschakeling - 2400W - Zwart. Tefal Digit KI831E10 - Waterkoker - 1,7L - Zwart. Tefal Glass KI6058 - Waterkoker - 1,7L - Glazen Design - Met LED-verlichting - Uitneembaar Antikalkfilter - 2200W - Zwart. Tefal Selection KI871D - Waterkoker - 1.7L - Temperatuurregeling - Dubbelwandig - RVS - 1500W. ### Tefal Selection KI871D RVS Waterkoker 1.7L. Tefal Subito KO5S2D - Mini Waterkoker - 1L - Compact - RVS - 2400W. ### Tefal Subito Mini KO5S2D 1L RVS Waterkoker. Tefal LOFT KO250831 Elektrische waterkoker, 1,7 l - Zwart. ### Tefal Loft Elektrische Waterkoker - Zwart - 1.7L - 2400W. ### Princess Waterkoker 1.7L - 2200W - Zwart - 360° draaibaar. Tefal KI170D - Waterkoker Express - 1.7L - RVS. Tefal Element BJ760D - Waterkoker - 1.7 liter - Glas - RVS - 5 temperaturen - Warmhoudfunctie. ### Tefal KI240D Express Control Waterkoker RVS met Warmhoudfunctie. Tefal Express KO2998 - Waterkoker - 1.5L - Compact - RVS - Zwart. Tefal waterkoker 1,7 liter zwart subito. ### Over Supersales.",
+        "score": 0.6954834,
+        "raw_content": null,
+        "id": "6a2801-05"
+      },
+      {
+        "url": "https://www.supersales.nl/wonen/waterkoker-met-temperatuurregeling?kleur=zwart&merk=moa",
+        "title": "Zwarte Moa Waterkoker met temperatuurregeling Aanbiedingen • Tot 10% korting",
+        "content": "Title: Zwarte Moa Waterkoker met temperatuurregeling Aanbiedingen • Tot 10% korting\n* Terug naar waterkoker met temperatuurregeling. # Zwarte Moa Waterkoker met temperatuurregeling. Toon {{ stats.totalproducts\\_string }} producten. #### Bekijk producten van Moa in:. wis alle filters Zoekopdracht bewaren. Zoekopdracht bewaren Filters wijzigen  Wis alle filters. Moa Kitchenbrothers Aigostar Tefal Cecotec Klausberg Emerio Concept Ecosa Huslog Tresko Toon alle merken. MOA Heetwaterdispenser 2,7L met Temperatuurregeling - Instant Waterkoker - BPA en PFAS Vrij - 45-100°C - Heetwatertap - Melkfunctie - BPA-vrij - RVS -... MOA Heetwaterdispenser 2L met Temperatuurregeling - Instant Waterkoker - BPA en PFAS Vrij - 20-100°C - Heetwatertap - Melkfunctie - BPA-vrij - Zwart. MOA Waterkoker met Temperatuurregeling - 1,7 Liter - Dubbelwandig - PFAS- & BPA-vrij - Warmhoudfunctie - Elektrische Waterkoker - 2200W - Zwart. #### Niet gevonden wat je zocht? Sla nu je zoekopdracht op en we sturen je een e-mail zodra er nieuwe aanbiedingen beschikbaar zijn die aan je zoekcriteria voldoen! Ontdek meer waterkoker met temperatuurregeling. Bekijk de populairste waterkoker met temperatuurregeling van vergelijkbare merken. KitchenBrothers Waterkoker - 1.7L - Met Temperatuurregeling - PFAS- & BPA-vrij - Warmhoudfunctie - Display - Dubbelwandig - 2200W - Zwart. ### Kitchenbrothers Waterkoker 1.7L met Temperatuurregeling en Warmhoudfunctie. Philips Avance HD9359/90 - Waterkoker met temperatuurregeling   -24%. Aigostar Waterkoker - 1.7L - Met Temperatuurregeling - PFAS- & BPA-vrij - Warmhoudfunctie - Display - Dubbelwandig - 2200W - Zwart. ### Aigostar Waterkoker 1,7L Met Temperatuurregeling Zwart. Philips Hd9396/90 Waterkoker Zwart. ### Philips HD9396/90 Dubbelwandige Waterkoker Zwart. Aigostar Waterkoker - 1.7L- Retro - Instelbare Temperatuur - RVS - Elektrische - Zwart. KitchenBrothers Waterkoker - Met Temperatuurregeling - Elektrisch - PFAS- & BPA-vrij - Met Kalkfilter - 1,7L - Zwart/RVS. ### Kitchenbrothers Elektrische Waterkoker met Temperatuurregeling en LED. ### Kitchenbrothers Waterkoker 1,7L met Temperatuurregeling. Aigostar Waterkoker Dubbelwandig - met Temperatuurregeling - 1.7L - Instelbare Waterkoker - Warmhoudfunctie - BPA-vrij - 2200W - RVS - Zwart. ### Aigostar Waterkoker 1.7L met Temperatuurregeling en Warmhoudfunctie. Adler glazen elektrische waterkoker met temperatuurregeling. 1,7 L  bespaar €4. ### Adlereurope Adler glazen elektrische waterkoker met temperatuurregeling. Privacy instellingen  We gebruiken standaard alleen functionele cookies. Met jouw toestemming gebruiken wij en onze partners ook analytische cookies en cookies voor gepersonaliseerde advertenties. Lees meer op onze cookiepagina.",
+        "score": 0.6353361,
+        "raw_content": null,
+        "id": "b90ccf-06"
+      },
+      {
+        "url": "https://www.allaz.nl/shop/elektronica/keukenapparatuur/waterkokers/bourgini-retro-waterkoker-1-7l-2200w-zwart-rvs",
+        "title": "Bourgini Retro Waterkoker 1.7L 2200W Zwart/RVS - Allaz",
+        "content": "Luxe roestvrijstalen afwerking\n Snoerloos (snoeropberging in de voet)\n 360 graden draaibaar\n Eenvoudig en veilig in gebruik\n Vermogen: 2200 Watt\n Inhoud: 1,7 liter\n Kleur: zwart/rvs [...] Paw Patrol\n\n### Paw Patrol Ryder met ATV\n\n0\n\n€ 25,95\n\nPaw Patrol Action Pups Skye met Hoverboard \n\nIn winkelwagen\n\nSnel Kijken\n\n Paw Patrol\n\n### Paw Patrol Action Pups Skye met Hoverboard\n\n0\n\n€ 19,95\n\nBarbie Career Baby Dokter Speelset \n\nIn winkelwagen\n\nSnel Kijken\n\n Barbie\n\n### Barbie Career Baby Dokter Speelset\n\n0\n\n€ 33,95\n\nPaw Patrol Pup met Voertuig Assorti \n\nIn winkelwagen\n\nSnel Kijken\n\n Paw Patrol\n\n### Paw Patrol Pup met Voertuig Assorti\n\n0\n\n€ 25,95 [...] 0\n\n€ 25,95\n\nRolly Toys 122103 RollyFarm John Deere Trailer \n\nIn winkelwagen\n\nSnel Kijken\n\n Rolly Toys\n\n### Rolly Toys 122103 RollyFarm John Deere Trailer\n\n0\n\n€ 57,45\n\nOball Original Klassiek Easy Grip Roze/Paars/Groen \n\nIn winkelwagen\n\nSnel Kijken\n\n Oball\n\n### Oball Original Klassiek Easy Grip Roze/Paars/Groen\n\n0\n\n€ 19,45\n\nVTech Baby Premium Collectie Tijger Rammelaar + Licht en Geluid \n\nIn winkelwagen\n\nSnel Kijken\n\n VTech\n\n### VTech Baby Premium Collectie Tijger Rammelaar + Licht en Geluid\n\n0",
+        "score": 0.604703,
+        "raw_content": null,
+        "id": "de88f0-07"
+      }
+    ],
+    "response_time": 5.16,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "585b867c-c980-471f-9b36-22e9e9c6b677"
+  }
+}

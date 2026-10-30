@@ -1,0 +1,25 @@
+{
+  "service": "firecrawl",
+  "request": {
+    "url": "https://vanpommeren.nl/products/hario-v60-drip-kettle-buono-opschenkkan-1-2-l",
+    "parameters": {
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-17T15:45:14.682469Z",
+  "response": {
+    "success": true,
+    "data": {
+      "markdown": "# Hario V60 Drip Kettle Buono - Opschenkkan 1.2 L\n\nOp voorraad (winkel en online)\n\nIs dit de laatste uit onze voorraad? Dan kan het een showmodel zijn.",
+      "rawHtml": "<html><head><script type=\"application/ld+json\">{\"@context\": \"http://schema.org/\", \"@type\": \"ProductGroup\", \"brand\": {\"@type\": \"Brand\", \"name\": \"Hario\"}, \"category\": \"Espressomachines en -potjes\", \"hasVariant\": [{\"@type\": \"Product\", \"gtin\": \"4977642021006\", \"name\": \"Hario V60 Drip Kettle Buono - Opschenkkan 1.2 L - RVS\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"http://schema.org/InStock\", \"price\": \"55.00\", \"priceCurrency\": \"EUR\"}, \"sku\": \"VKB-120HS\"}, {\"@type\": \"Product\", \"gtin\": \"4977642021563\", \"name\": \"Hario V60 Drip Kettle Buono - Opschenkkan 1.2 L - Matte Black\", \"offers\": {\"@type\": \"Offer\", \"availability\": \"http://schema.org/InStock\", \"price\": \"65.00\", \"priceCurrency\": \"EUR\"}, \"sku\": \"VKB-120-MB\"}], \"name\": \"Hario V60 Drip Kettle Buono - Opschenkkan 1.2 L\", \"productGroupID\": \"10363753922891\"}</script></head></html>",
+      "metadata": {
+        "statusCode": 200,
+        "sourceURL": "https://vanpommeren.nl/products/hario-v60-drip-kettle-buono-opschenkkan-1-2-l",
+        "creditsUsed": 1
+      }
+    }
+  }
+}

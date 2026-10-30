@@ -1,0 +1,112 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "accuboormachine kopen",
+    "purpose": "price",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "reddit.com",
+        "quora.com",
+        "bol.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-22T18:28:08.012798Z",
+  "response": {
+    "query": "accuboormachine kopen",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.gamma.nl/assortiment/l/gereedschap/accu-gereedschap/accuboormachines",
+        "title": "Accuboormachine kopen? - Gamma",
+        "content": "Online bestel je een accuboormachine van 12V of krachtiger Een accuboor koop je via de GAMMA-website.",
+        "score": 0.8674071,
+        "raw_content": null,
+        "id": "981c9e-00"
+      },
+      {
+        "url": "https://www.praxis.nl/gereedschap-werkplaats/elektrisch-gereedschap/boormachines/accuboormachines/to0032",
+        "title": "Accuboormachine kopen? Bekijk alle aanbiedingen!",
+        "content": "Een accuboormachine kopen?",
+        "score": 0.8302782,
+        "raw_content": null,
+        "id": "a0c53b-01"
+      },
+      {
+        "url": "https://www.houtplatform.nl/blog/gereedschap/kies-de-accuboormachine-die-bij-jou-past",
+        "title": "Klaar om te klussen? Kies de accuboormachine die bij jou past!",
+        "content": "Voor houtbewerkers is dit ideaal: van het monteren van meubels tot het bouwen van een houten tuinhuis, een goede accuboormachine maakt het werk sneller en preciezer.",
+        "score": 0.82694983,
+        "raw_content": null,
+        "id": "cf6d34-02"
+      },
+      {
+        "url": "https://www.debeterewereld.nl/duurzaam-klussen/accuboormachine",
+        "title": "Beste accuboormachine 2026: 48 machines onderzocht en vergeleken",
+        "content": "Bekijken",
+        "score": 0.79901963,
+        "raw_content": null,
+        "id": "898b28-03"
+      },
+      {
+        "url": "https://www.hornbach.nl/c/machines-gereedschap-werkplaats/elektrisch-gereedschap/boormachines/accuboormachines/S5548",
+        "title": "Accuboormachines",
+        "content": "Bekijk ons assortiment Accuboormachines in onze Onlineshop .",
+        "score": 0.7265231,
+        "raw_content": null,
+        "id": "089a69-04"
+      },
+      {
+        "url": "https://www.toolmax.nl/accu-gereedschap/accuboormachine.html",
+        "title": "Accuboormachine kopen? 700+ professionele ...",
+        "content": "Wij hebben een hoop boormachines in ons assortiment.",
+        "score": 0.7147281,
+        "raw_content": null,
+        "id": "95b79f-05"
+      },
+      {
+        "url": "https://www.consumentenbond.nl/accuboormachine/kopen",
+        "title": "Accuboormachine kopen: waar let je op?",
+        "content": "Voor normaal thuisgebruik raden we een capaciteit van 1,5 tot 2,5 Ah aan.",
+        "score": 0.67706895,
+        "raw_content": null,
+        "id": "7b775c-06"
+      },
+      {
+        "url": "https://www.brico.be/nl/gereedschap-werkplaats/elektrisch-gereedschap/boormachines-schroefmachines/accuboormachines/to0032",
+        "title": "Accuboormachines",
+        "content": "We hebben machines van heel veel merken, van bijvoorbeeld Makita, Bosch, DeWALT of Fein tot Xceed, Rockwell of Worx.",
+        "score": 0.59457535,
+        "raw_content": null,
+        "id": "d9fd63-07"
+      }
+    ],
+    "response_time": 1.42,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "d53d842d-6698-4d55-a35a-da8b3795bc6e"
+  }
+}

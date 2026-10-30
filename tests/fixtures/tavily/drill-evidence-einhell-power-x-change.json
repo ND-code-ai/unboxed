@@ -1,0 +1,128 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "Einhell Power X-Change durability lifespan warranty",
+    "purpose": "evidence",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "ebay.be",
+        "ebay.fr",
+        "ebay.it",
+        "ebay.es",
+        "ebay.at",
+        "ebay.ie",
+        "ebay.pl",
+        "ebay.ch",
+        "ebay.co.uk",
+        "ebay.ca",
+        "ebay.com.au"
+      ],
+      "include_raw_content": "text"
+    }
+  },
+  "retrieved_at": "2026-10-24T11:22:42.778858Z",
+  "response": {
+    "query": "Einhell Power X-Change durability lifespan warranty",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://eu.manuals.plus/asin/B0BRNX9Z72",
+        "title": "Einhell Power X-Change 2 x 4.0 Ah 18V Bateriak eta Bi ...",
+        "content": "Einhell offers a 2-year warranty on Power X-Change products, ensuring safety and durability for your DIY projects. For warranty claims, technical support, or",
+        "score": 0.8812988,
+        "raw_content": null,
+        "id": "657bb5-00"
+      },
+      {
+        "url": "https://www.misterworker.com/en/blog/1-battery-for-more-than-300-tools-the-power-x-change-revolution-from-einhell-n379",
+        "title": "Einhell batteries: the Power X-Change revolution",
+        "content": "Einhell power tools come with an extended warranty—from 2 to 3 years—upon registration. For brushless motors, the warranty is extended even",
+        "score": 0.8252664,
+        "raw_content": null,
+        "id": "761e12-01"
+      },
+      {
+        "url": "https://www.buyaparcel.com/einhell-professional-18v-36v-pxc-starter-kit-2-x-4-0ah-plus-battery-charger",
+        "title": "Einhell Professional 18v / 36v PXC Starter Kit - 2 x 4.0Ah ...",
+        "content": "... warranty for our Power X-Change batteries to 2 years. Simply register your Power X-Change battery within the first 30 days after the purchase date to",
+        "score": 0.7944651,
+        "raw_content": null,
+        "id": "b1db69-02"
+      },
+      {
+        "url": "https://www.einhell.gt/en/battery-system",
+        "title": "Power X-Change: The innovative battery system - Einhell.gt",
+        "content": "Einhell gives the user two options: Either 300% longer lifespan or 60% more runtime. suffer damage even after 30 minutes in 1 m of water. Once it is dry, it",
+        "score": 0.6816637,
+        "raw_content": null,
+        "id": "963808-03"
+      },
+      {
+        "url": "https://its.co.uk/einhell/einhell-power-tools?p=3",
+        "title": "Einhell Power Tools | Versatile Site Solutions - Page 3",
+        "content": "Yes, Einhell power tools typically come with a warranty, offering durability and performance for a. Yes, Einhell power tools typically come with a warranty,",
+        "score": 0.5993685,
+        "raw_content": null,
+        "id": "bc9678-04"
+      },
+      {
+        "url": "https://www.tooled-up.com/brand/einhell/einhell/power-tool-kits/2000798",
+        "title": "Einhell Power Tool Kits",
+        "content": "Einhell provides a manufacturer's warranty on their power tool kits, typically covering manufacturing defects for a specified period from purchase.",
+        "score": 0.58465123,
+        "raw_content": null,
+        "id": "24cbf2-05"
+      },
+      {
+        "url": "https://www.einhell.co/en/professional",
+        "title": "Einhell PROFESSIONAL for True Pros",
+        "content": "3-Year Warranty Even for Commercial Use. With the Einhell PROFESSIONAL Series, there's no need to compromise: more quality, durability, and performance.",
+        "score": 0.48294178,
+        "raw_content": null,
+        "id": "bc5cc6-06"
+      },
+      {
+        "url": "https://www.homedepot.com/c/huskywarranty",
+        "title": "Husky Warranty",
+        "content": "Lifetime Warranty If your Husky product ever fails, bring it back and we will replace it for free. call 1-888-HD-HUSKY. call 1-888-HD-HUSKY for details.",
+        "score": 0.045087047,
+        "raw_content": null,
+        "id": "b8049a-07"
+      }
+    ],
+    "response_time": 3.09,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "2ad47981-948e-4699-8c65-2b7c86c2e70f"
+  }
+}

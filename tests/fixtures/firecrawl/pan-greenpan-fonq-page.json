@@ -1,0 +1,25 @@
+{
+  "service": "firecrawl",
+  "request": {
+    "url": "https://www.fonq.nl/greenpan-stanley-tucci-pannenset-black-20-26-cm-2-delig",
+    "parameters": {
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-17T15:46:02.602703Z",
+  "response": {
+    "success": true,
+    "data": {
+      "markdown": "# GreenPan Stanley Tucci Pannenset Black 20 / 26 cm (2-Delig)\n\n- [Voorraadpot](https://www.fonq.nl/collections/voorraadpot)\n\nUitverkocht\n\nUitverkocht\n\nMail mij als dit product weer beschikbaar is",
+      "rawHtml": "<html><head><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"sku\": \"4894871039469\", \"gtin13\": \"4894871039469\", \"name\": \"GreenPan Stanley Tucci Pannenset Black 20 / 26 cm (2-Delig)\", \"brand\": {\"@type\": \"Brand\", \"name\": \"GreenPan\"}, \"offers\": {\"@type\": \"Offer\", \"sku\": \"4894871039469\", \"gtin13\": \"4894871039469\", \"price\": 158.95, \"priceCurrency\": \"EUR\", \"itemCondition\": \"https://schema.org/NewCondition\", \"availability\": \"https://schema.org/OutOfStock\"}, \"reviews\": []}</script></head></html>",
+      "metadata": {
+        "statusCode": 200,
+        "sourceURL": "https://www.fonq.nl/greenpan-stanley-tucci-pannenset-black-20-26-cm-2-delig",
+        "creditsUsed": 1
+      }
+    }
+  }
+}

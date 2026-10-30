@@ -1,0 +1,191 @@
+Query: a cordless drill for occasional DIY at home, max 120 euro
+Run: 24 October 2026, task 1.10, terminal app, live services and models, tracing on
+Typed: --skip-all
+Time (Measure-Command): 123 s
+Credits: Tavily 0, Firecrawl 0 (cached from this task's first runs: 125 s, Tavily 6, Firecrawl 0)
+================================================================================
+Looking for: cordless drill · Budget: €120
+Researching cordless drill...
+From your request: Voltage and amp hours: Light household tasks ("occasional DIY")
+From your request: A few times a year, 4 uses a year ("occasional DIY")
+
+Lifespan sourced for 0 of 3 options. CO2e to make: AI synthetic estimate for 3.
+
+From your request: Voltage and amp hours: Light household tasks ("occasional DIY")
+From your request: A few times a year, 4 uses a year ("occasional DIY")
+
+Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion
+Price: €45.99, free shipping, price seen at Joybuy.nl via beslist.nl on 24 October 2026
+Link: https://www.beslist.nl/p/bosch-easydrill-18v-38-accu-schroefboormachine-18-v-2-5-ah-li-ion/35000/4053423483987/?aff_id=908
+Voltage and amp hours: could not be confirmed
+Lifespan: 4 years (rough estimate)
+  No durability evidence found
+Cost per year: €11.50
+Cost per use: €2.87
+Purchases over 10 years: 3
+Cost over 10 years: €137.97
+CO2e: 80 to 170 kg CO2e to make, over 10 years (AI synthetic estimate)
+  Built from (estimated): glass-fiber reinforced polyamide, typical, 0.35 kg; thermoplastic elastomer, typical, 0.1 kg; alloy steel, typical, 0.15 kg; carbon steel, typical, 0.2 kg; copper, typical, 0.12 kg; electrical steel, typical, 0.2 kg; neodymium-iron-boron magnet, 0.05 kg; aluminum, typical, 0.05 kg; carbon steel, typical, 0.2 kg; steel, typical, 0.05 kg; lithium-ion battery cell, 0.23 kg; printed circuit board, 0.02 kg; polycarbonate, typical, 0.05 kg; printed circuit board, 0.015 kg; steel, typical, 0.05 kg
+
+Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader
+Price: €97.10, free shipping, price seen at Galaxus.nl via beslist.nl on 24 October 2026
+Link: https://www.beslist.nl/p/bosch-professional-accu-boormachine-gsr-120-li-12-v-inclusief-batterij-en-lader/35000/3165140955683/?aff_id=908
+Voltage and amp hours: could not be confirmed
+Lifespan: 3 years (rough estimate)
+  No durability evidence found
+Cost per year: €32.37
+Cost per use: €8.09
+Purchases over 10 years: 4
+Cost over 10 years: €388.40
+CO2e: 81 to 170 kg CO2e to make, over 10 years (AI synthetic estimate)
+  Built from (estimated): glass-fiber reinforced polyamide, typical, 0.3 kg; thermoplastic elastomer, typical, 0.08 kg; alloy steel, typical, 0.12 kg; carbon steel, typical, 0.15 kg; copper, typical, 0.1 kg; electrical steel, typical, 0.15 kg; neodymium-iron-boron magnet, 0.04 kg; aluminum, typical, 0.04 kg; carbon steel, typical, 0.15 kg; steel, typical, 0.04 kg; lithium-ion battery cell, 0.14 kg; printed circuit board, 0.015 kg; polycarbonate, typical, 0.04 kg; printed circuit board, 0.015 kg; steel, typical, 0.04 kg; polycarbonate, typical, 0.1 kg; printed circuit board, 0.03 kg; copper, typical, 0.08 kg; electrical steel, typical, 0.07 kg; steel, typical, 0.05 kg
+
+Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V
+Price: €60.28, free shipping, price seen at Galaxus.nl via beslist.nl on 24 October 2026
+Link: https://www.beslist.nl/p/power-x-change-klopboor-schroefmachine-rood-accu-18v/35000/4006825679533/?aff_id=908
+Voltage and amp hours: DIY projects (eu.manuals.plus) (the manufacturer states)
+Lifespan: 2 years (rough estimate)
+  No durability evidence found
+Cost per year: €30.14
+Cost per use: €7.54
+Purchases over 10 years: 5
+Cost over 10 years: €301.40
+CO2e: 130 to 280 kg CO2e to make, over 10 years (AI synthetic estimate)
+  Built from (estimated): glass-fiber reinforced polyamide, typical, 0.4 kg; thermoplastic elastomer, typical, 0.12 kg; alloy steel, typical, 0.15 kg; carbon steel, typical, 0.15 kg; copper, typical, 0.12 kg; electrical steel, typical, 0.2 kg; neodymium-iron-boron magnet, 0.05 kg; aluminum, typical, 0.05 kg; carbon steel, typical, 0.3 kg; steel, typical, 0.06 kg; lithium-ion battery cell, 0.23 kg; printed circuit board, 0.02 kg; polycarbonate, typical, 0.05 kg; printed circuit board, 0.015 kg; steel, typical, 0.06 kg
+
+Over 10 years: Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader costs €250.43 more than Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion. A lifespan behind this is a rough estimate.
+Over 10 years: Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V costs €163.43 more than Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion. A lifespan behind this is a rough estimate.
+
+Check before you buy
+Not yet known
+- Chuck size compatibility: The chuck size dictates which drill bits can be used without adapters.
+- Torque and clutch settings: Adjustable clutch settings let the user match resistance to the task to avoid overdriving or stripping.
+- Weight and balance: A manageable weight and good balance reduce fatigue during extended use.
+- Maintenance requirements: Regular cleaning, oiling, and proper storage are needed to reach the drill's expected lifespan.
+- Motor type: A brushless motor delivers better performance, longer runtime, and increased service life compared to brushed motors.
+Could not be confirmed
+- Voltage and amp hours: Higher voltage and amp hours determine the drill's power and runtime for demanding tasks. (Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion, Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader)
+- Confirm the current price: Prices change after the day each was seen.
+
+Trail
+supervisor [small, nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B] decided: Understood as: cordless drill; scope tuned; budget €120
+brief found: Category research for cordless drill from the cache, researched on 2026-10-24
+brief found: Searched "cordless drill buying guide what to look for": 8 results
+brief found: Searched "cordless drill care maintenance and replacement parts": 8 results
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Read 15 search results: 5 cited, 6 factors kept
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Follow-up search: "cordless drill battery price replacement interval"; reason: the read reported gaps
+brief found: Searched "cordless drill battery price replacement interval": 8 results
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Read 23 search results: 7 cited, 6 factors kept
+brief [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out a factor; reason: its explanation holds "should" or "must"
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Voltage and amp hours" (requirement), stated by a tester; source: https://www.bobvila.com/articles/best-cordless-drills-buyers-guides
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Chuck size compatibility" (compatibility), stated by a seller; source: https://www.spesyn.com/blogs/spesyn-machine/best-cordless-drill-for-home-use-a-practical-buying-guide
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Torque and clutch settings" (requirement), stated by a tester; source: https://www.bobvila.com/articles/best-cordless-drills-buyers-guides
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Weight and balance" (requirement), stated by a tester; source: https://www.thisoldhouse.com/tools/choosing-a-cordless-drill
+brief [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out a factor; reason: its explanation holds "should" or "must"
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Maintenance requirements" (care), stated by an owner; source: https://www.workprotool.com/news/how-to-fix-common-issues-with-cordless-drills-83312638.html
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Factor "Motor type" (requirement), stated by a tester; source: https://www.protoolreviews.com/best-cordless-drill-reviews
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered by the search results: Battery charging time; reason: Results discuss runtime and capacity but not how long a full charge takes.
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered by the search results: Warranty length on the drill itself; reason: Many sources mention battery warranties but not the drill's own warranty period.
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered by the search results: Availability of spare parts such as chucks or gears; reason: No information on how easy it is to obtain replacement components beyond batteries.
+brief [medium, nvidia/nemotron-3-super-120b-a12b] excluded: No question about the factor "Weight and balance"; reason: a choice is longer than 40 characters
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Offered for how often the product is used: a few times a week, about once a week, about once a month, a few times a year; reason: picked by the model for the category
+brief [medium, nvidia/nemotron-3-super-120b-a12b] found: Local category term: accuboormachine
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Stated in the request: "occasional DIY" as Voltage and amp hours: Light household tasks; reason: the request states it, so it is not asked
+brief [medium, nvidia/nemotron-3-super-120b-a12b] decided: Stated in the request: "occasional DIY" as Usage frequency: A few times a year; reason: the request states it, so it is not asked
+tco found: Searched "accuboormachine kopen": 8 results, from the cache
+tco found: Read the listing page: 10 products; source: https://www.beslist.nl/products/klussen/klussen_486173_4468902
+tco found: Read the listing page: 24 products; source: https://www.kieskeurig.nl/boormachine
+tco decided: Kept "Festool TXS 18 C 3,0-Plus Accu Schroefboormachine 18V 3.0Ah in Systainer - 576895" once; reason: "Festool TXS 18-Basic Accu Schroefboormachine | 18V | Body in Systainer - 576894" on another site names the same product
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bosch - Advanced Drill 18V-80 - Schroefboormachine - Zwart - Borstelloze Motor" by its name: long (brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bosch PBD 40 Kolomboormachine - 710W - Keyless Chuck" by its name: medium (brushed motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Makita DF330DWE - Accu Boor-/schroefmachine Set - 10.8V - Inclusief 2x 1.3Ah Accu in Koffer" by its name: medium (brushed motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Makita DHP 490 Z Accu Klopboormachine 18V - Solo (Without Battery/Charger)" by its name: medium (brushed motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion" by its name: short (plastic gearbox), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Makita DHP458Z - 18V Accu Klopboor-/schroefmachine (Body)" by its name: long (brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Makita DFR550ZJ - Schroefautomaat - 18V LXT - Auto-Feed Systeem - In Mbox" by its name: long (brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Makita DHP482RFJ klopboor-/schroefmachine set 18V 2x 3,0Ah" by its name: long (brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V" by its name: medium (brushed motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Makita DDF492Z 18V Boorschroefmachine - Zonder Accu" by its name: medium (brushed motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Makita DF001DW Schroefmachine - Lithium-Ion accu - met toebehoren" by its name: medium (brushed motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Aerotec Pneumatische boormachine 6.3 bar" by its name: long (pneumatic motor with replaceable seals), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Compacte 4-in-1 multifunctionele schroevendraaier 12V POWXBOX001 – incl. batterij 12V en 2.0Ah lader" by its name: short (plastic gearbox), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Metabo BS 18 LT BL - Accu Boor-/Schroefmachine - Body - 18V - Li-Ion - 3 jaar garantie" by its name: long (brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Festool TXS 18 C 3,0-Plus Accu Schroefboormachine 18V 3.0Ah in Systainer - 576895" by its name: long (brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Festool CXS 12 2,5-Set Accu Schroefboormachine 12V 2.5Ah | 576865" by its name: long (brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader" by its name: medium (brushed motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Einhell Professional Accu Klopboor-/ Schroefmachine TP-CD 18/50-C Li-i BL Kit - Power X-Change - 18 V/Li-ion - Compact model - 50 Nm - Koolborstelloze motor - Incl. 2x 3,0 Ah SEALED accu, oplader &amp; koffer" by its name: long (brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bosch UniversalImpact 18V-60 - Accuklopboorschroevendraaier" by its name: short (plastic gearbox), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Roughneck grondboor scherp gefreesd 1460mm" by its name: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Metabo SBE 650 Klopboormachine - Kartonnen tandwielhouder - 1 stuk" by its name: short (cardboard gear holder), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Rotec HSS Kernboor SILVER-LINE, weldon 19, ø24x55" by its name: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "BLACK+DECKER KR911K-QS Klopboormachine - 910W - 2 snelheden - incl. koffer" by its name: short (plastic gearbox), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bosch GSB 24-2 Professional Klopboormachine - 1100W" by its name: long (metal gearbox), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "MAKITA DHP484RTJ Accu Klopboormachine - 18V - 5.0Ah - Incl. 2x Accu&apos;s &amp; Lader" by its name: long (brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Makita Accessoires Makita Zijhandgreep Klopboor-/schroefmachine DHP486 - 127701-6" by its name: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "DeWalt DCD708D2T - Accu Boormachine - 18V - 2x 2.0Ah Accu&apos;s - TSTAK Koffer" by its name: medium (brushed motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Drill Doctor DD750XIBM Borenslijpmachine 2.5-19.0 mm, Variabele hoekinstellling 115-140 graden. Splitpoint." by its name: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Metabo BE 850-2 Boormachine - 850W - 40mm - 2600g" by its name: long (metal gearbox), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "BLACK+DECKER BDCDD18N-XJ Accuboormachine 18V - Zonder Accu &amp; Lader" by its name: short (plastic gearbox), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Rotec Type 229 Glasboor, Ø 4,0 x 65" by its name: unknown, the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "DeWalt DCD796P2 Accu Klopboormachine - 18V - Incl. 2x 5.0Ah Accu&apos;s &amp; Koffer" by its name: long (brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Makita DDF482RFJ - Accuboormachine - 18V - 2x3.0Ah accu" by its name: long (brushless motor), the model's judgement, not a sourced figure
+tco decided: To read: 17 listed products within €120, and "Bosch - Advanced Drill 18V-80 - Schroefboormachine - Zwart - Borstelloze Motor" over it, judged long; reason: 33 products listed; the rest are over the budget
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out "Bosch - Advanced Drill 18V-80 - Schroefboormachine - Zwart - Borstelloze Motor"; reason: neither its name nor what the page sells holds the local term "accuboormachine"
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out "Makita DF330DWE - Accu Boor-/schroefmachine Set - 10.8V - Inclusief 2x 1.3Ah Accu in Koffer"; reason: the page sells a set or bundle, not the item itself
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Makita DHP 490 Z Accu Klopboormachine 18V - Solo (Without Battery/Charger)" at kieskeurig.nl: €86.99 plus €0 shipping, sold by bol., in stock, sold without a part it needs to work; source: https://www.kieskeurig.nl/boormachine/product/52123672-makita-dhp490z-accu-klopboormachine-koolborstelloos-18v-body-zonder-accuaposs-lader-dhp490z
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion" at beslist.nl: €45.99 plus €0 shipping, sold by Joybuy.nl, in stock; source: https://www.beslist.nl/p/bosch-easydrill-18v-38-accu-schroefboormachine-18-v-2-5-ah-li-ion/35000/4053423483987/?aff_id=908
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Makita DHP458Z - 18V Accu Klopboor-/schroefmachine (Body)" at kieskeurig.nl: €101.18 plus €0 shipping, sold by Amazon, in stock, sold without a part it needs to work; source: https://www.kieskeurig.nl/boormachine/product/3232968-makita-dhp458z
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V" at beslist.nl: €60.28 plus €0 shipping, sold by Galaxus.nl, in stock; source: https://www.beslist.nl/p/power-x-change-klopboor-schroefmachine-rood-accu-18v/35000/4006825679533/?aff_id=908
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out "Makita DF001DW Schroefmachine - Lithium-Ion accu - met toebehoren"; reason: neither its name nor what the page sells holds the local term "accuboormachine"
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out "Aerotec Pneumatische boormachine 6.3 bar"; reason: neither its name nor what the page sells holds the local term "accuboormachine"
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out "Compacte 4-in-1 multifunctionele schroevendraaier 12V POWXBOX001 – incl. batterij 12V en 2.0Ah lader"; reason: neither its name nor what the page sells holds the local term "accuboormachine"
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader" at beslist.nl: €97.10 plus €0 shipping, sold by Galaxus.nl, in stock; source: https://www.beslist.nl/p/bosch-professional-accu-boormachine-gsr-120-li-12-v-inclusief-batterij-en-lader/35000/3165140955683/?aff_id=908
+tco decided: Left 8 listed products unread; reason: 12 pages were read, the listing pages among them
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Makita DHP 490 Z Accu Klopboormachine 18V - Solo (Without Battery/Charger)" by its product page: long (metal gearbox, brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion" by its product page: short (plastic housing, brushed motor with non-replaceable carbon brushes), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Makita DHP458Z - 18V Accu Klopboor-/schroefmachine (Body)" by its product page: long (metal gearbox, brushless motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V" by its product page: short (plastic housing, brushed motor), the model's judgement, not a sourced figure
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Judged "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader" by its product page: long (metal gearbox, brushless motor), the model's judgement, not a sourced figure
+tco decided: Chose "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion" as the cheapest; reason: €45.99 with its stated shipping
+tco decided: Chose "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader" as the durable pick; reason: ordered by the model's judgement: long (metal gearbox, brushless motor), not a sourced figure
+tco decided: Chose "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V" as the durable pick within budget; reason: €60.28 with its stated shipping
+tco excluded: Left out "Makita DHP 490 Z Accu Klopboormachine 18V - Solo (Without Battery/Charger)"; reason: it is sold without a part it needs to work, and buyable candidates filled the slots
+tco excluded: Left out "Makita DHP458Z - 18V Accu Klopboor-/schroefmachine (Body)"; reason: it is sold without a part it needs to work, and buyable candidates filled the slots
+tco found: Searched "Bosch EasyDrill 18V-38 durability lifespan warranty": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the evidence for "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion": 1 result cited of 9 shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out a warranty for "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion"; reason: it cites no search result that was shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Estimated the lifespan of "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion" at 4 years; reason: no durability evidence was found
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Fit of "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion" with your answers: Voltage and amp hours: unverified
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion": lifespan statement; reason: no result states how long the product typically lasts
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion": repairability information; reason: no result states whether the product can be repaired or spare parts availability
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion": wear material information; reason: no result states any specific wear‑related material or part
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion": care instructions; reason: no result states any special care or maintenance requirements
+tco found: Searched "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion long term review durability": 1 result, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the owner and tester reports for "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion": 0 findings kept of 0 given, 1 result shown
+tco found: Searched "Bosch Professional Accu-boormachine GSR durability lifespan warranty": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the evidence for "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader": 0 results cited of 9 shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Estimated the lifespan of "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader" at 3 years; reason: no durability evidence was found
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Fit of "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader" with your answers: Voltage and amp hours: unverified
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader": warranty length; reason: not stated in any of the provided results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader": numeric lifespan; reason: not stated in any of the provided results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader": repairability information; reason: not stated in any of the provided results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader": wear material details; reason: not stated in any of the provided results
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader": care instructions; reason: not stated in any of the provided results
+tco found: Searched "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader long term review durability": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the owner and tester reports for "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader": 0 findings kept of 0 given, 8 results shown
+tco found: Searched "Einhell Power X-Change durability lifespan warranty": 8 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the evidence for "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V": 1 result cited of 9 shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] excluded: Left out a warranty for "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V"; reason: it is no longer than the EU legal guarantee, which says nothing about this product
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Estimated the lifespan of "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V" at 2 years; reason: none of the evidence it rests on passed the checks
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Fit of "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V" with your answers: Voltage and amp hours: meets (eu.manuals.plus)
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V": specific lifespan in years; reason: not stated in any result
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V": repairability details; reason: not stated in any result
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V": wear material information; reason: not stated in any result
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: Not covered for "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V": care instructions; reason: not stated in any result
+tco found: Searched "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V long term review durability": 7 results, from the cache
+tco [medium, nvidia/nemotron-3-super-120b-a12b] found: Read the owner and tester reports for "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V": 0 findings kept of 0 given, 7 results shown
+tco [medium, nvidia/nemotron-3-super-120b-a12b] decided: No owner or tester report of "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V": information on how long the battery lasts before needing replacement or any wear‑and‑tear issues such as motor overheating, gear stripping, or chuck loosening; reason: none of the provided search results discuss durability or long‑term reliability of the Einhell Power X-Change cordless drill
+lca [large, nvidia/Nemotron-3-Ultra-550b-a55b] decided: LCA tier 3 estimated "Bosch - EasyDrill 18V-38 - Accu-schroefboormachine - 18 V - 2.5 Ah Li-ion": 15 materials and manufacturing and assembly
+lca [large, nvidia/Nemotron-3-Ultra-550b-a55b] decided: LCA tier 3 estimated "Bosch Professional Accu-boormachine GSR 120-LI - 12 V - Inclusief batterij en lader": 20 materials and manufacturing and assembly
+lca [large, nvidia/Nemotron-3-Ultra-550b-a55b] decided: LCA tier 3 estimated "Power X-Change - Klopboor-/schroefmachine - Rood - Accu - 18V": 15 materials and manufacturing and assembly
+second_hand decided: Stub: used listings are not searched yet

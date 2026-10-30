@@ -1,0 +1,74 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "frying pan buying guide what to look for",
+    "purpose": "category",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "reddit.com",
+        "quora.com",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "amazon.com",
+        "amazon.nl",
+        "amazon.de",
+        "bol.com",
+        "coolblue.nl",
+        "mediamarkt.nl",
+        "blokker.nl",
+        "action.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-14T07:51:46.295071Z",
+  "response": {
+    "query": "frying pan buying guide what to look for",
+    "results": [
+      {
+        "url": "https://www.tasteofhome.com/article/frying-pan-guide",
+        "title": "The Ultimate Frying Pan Guide (Best Pans to Buy for 2024)",
+        "content": "There are several things to consider before buying a new frying pan: size, weight, material and whether it contains a nonstick finish.",
+        "score": 0.8737439
+      },
+      {
+        "url": "https://www.consumerreports.org/home-garden/cookware/buying-guide",
+        "title": "Best Cookware Buying Guide - Consumer Reports",
+        "content": "For example, if you sear meat often, you’ll want a cast-iron skillet that facilitates even browning. Nonstick frying pans work well for scrambled eggs, pancakes, and delicate foods such as fish.",
+        "score": 0.7187726
+      },
+      {
+        "url": "https://www.all-clad.com/blog/post/The-Ultimate-Frying-Pan-Buying-Guide-How-to-choose-the-right-fry-pan-size-for-you",
+        "title": "Frying Pan Sizes Choosing the Right Pan",
+        "content": "Eggs: A small frying pan of around 8 inches is usually sufficient for cooking eggs.",
+        "score": 0.6747586
+      }
+    ],
+    "usage": {
+      "credits": 1
+    }
+  }
+}

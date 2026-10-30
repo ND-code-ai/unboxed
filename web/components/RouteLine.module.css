@@ -1,0 +1,133 @@
+/* The route line: the rule under the box, drawn as the agents' stations. Nothing moves along it;
+ * the current station's ring breathes slowly, the page's one looping "still working" signal. */
+
+.route {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* The line itself, through the dots' centres. */
+.route::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 7px;
+  border-top: 2px solid var(--color-ink);
+}
+
+.station {
+  min-width: 0;
+  color: var(--color-ink);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* A station still ahead is quieter: lighter, not paler, so it keeps its contrast on the field. */
+.station[data-state="ahead"] {
+  font-weight: 500;
+}
+
+/* A station's dot and name, under the line: a plain span, or on the results page the button
+ * that opens its part of the trail. */
+.stop {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 26px 0.5rem 0 0;
+  text-align: left;
+}
+
+.dot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--color-ink);
+  border-radius: 50%;
+  background: var(--color-field);
+}
+
+.station[data-state="done"] .dot {
+  background: var(--color-ink);
+}
+
+/* The tick, in the field's colour on the ink dot. */
+.station[data-state="done"] .dot::after {
+  content: "";
+  position: absolute;
+  left: 3.5px;
+  top: 0.5px;
+  width: 4px;
+  height: 7px;
+  border: solid var(--color-field);
+  border-width: 0 2px 2px 0;
+  rotate: 45deg;
+}
+
+.station[data-state="current"] .dot {
+  background: var(--color-paper);
+}
+
+/* The ring around the current station: it breathes out and fades, about 2 s a cycle. */
+.station[data-state="current"] .dot::after {
+  content: "";
+  position: absolute;
+  inset: -7px;
+  border: 2px solid var(--color-ink);
+  border-radius: 50%;
+  animation: breathe 2000ms ease-in-out infinite;
+}
+
+@keyframes breathe {
+  50% {
+    opacity: 0.2;
+    scale: 1.45;
+  }
+}
+
+.name {
+  display: block;
+}
+
+/* On the results page each station opens its agent's part of the trail: its name underlined as
+ * a link is, and inverted while its part is open. */
+button.stop .name {
+  display: inline;
+  padding: 0 0.25em;
+  margin-left: -0.25em;
+  box-decoration-break: clone;
+  text-decoration: underline 1px;
+  text-underline-offset: 3px;
+  transition:
+    background-color 150ms,
+    color 150ms;
+}
+
+button.stop:hover .name {
+  text-decoration-thickness: 2px;
+}
+
+button.stop[aria-expanded="true"] .name {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+
+@media (min-width: 64rem) {
+  .station {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .station[data-state="current"] .dot::after {
+    animation: none;
+  }
+}

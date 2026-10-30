@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interview panel reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap">
+<style>
+  :root {
+    --coral: #EF6A4C; --ink: #17100E; --paper: #FFFFFF; --calm: #FBF6F3; --muted: #6B4A42;
+    --flap-back: #F7C3B5; --flap-side: #FAD9CF; --lip: #FDEDE8; --inside: #5A1E14;
+    --face: #FFFFFF; --tan: #DCA892;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px 16px 48px; background: #2a2523; color: #f4eeec; font-family: "Archivo", system-ui, sans-serif; }
+  h1 { font-size: 18px; font-weight: 600; margin: 0 0 16px; }
+  .row { display: flex; flex-wrap: wrap; gap: 24px; margin-bottom: 32px; }
+  figure { margin: 0; }
+  figcaption { font-size: 14px; margin-bottom: 8px; }
+  .clip { overflow: hidden; border: 1px solid #555; }
+  .clip.desk { width: 648px; height: 405px; }
+  .clip.phone { width: 234px; height: 506px; }
+  .frame { transform-origin: 0 0; }
+  .desk .frame { width: 1440px; height: 900px; transform: scale(.45); }
+  .phone .frame { width: 390px; height: 844px; transform: scale(.6); }
+  
+
+  /* the page itself */
+  .page { position: relative; width: 100%; height: 100%; background: var(--coral); color: var(--ink); overflow: hidden; }
+  .ticks { position: absolute; left: 64px; right: 64px; top: 0; height: 16px; display: grid; grid-template-columns: repeat(12, 1fr); }
+  .ticks i { border-left: 1px solid rgba(23,16,14,.4); }
+  .ticks i:last-child { border-right: 1px solid rgba(23,16,14,.4); }
+  .mark { position: absolute; left: 64px; top: 36px; font-weight: 800; font-stretch: 125%; font-size: 26px; letter-spacing: -0.01em; }
+  .stage { position: absolute; left: 32px; top: 170px; width: 840px; }
+  .stage svg { width: 100%; display: block; }
+  .rule { position: absolute; left: 64px; width: 772px; top: 628px; border-top: 2px solid var(--ink); }
+  .count { position: absolute; left: 64px; top: 644px; font-weight: 700; font-size: 20px; }
+  .thread { position: absolute; left: 900px; right: 0; top: 0; bottom: 0; background: var(--calm); padding: 96px 64px 0 48px; font-size: 17px; line-height: 1.5; }
+  .you { border-left: 3px solid var(--ink); padding: 4px 0 4px 14px; margin-bottom: 20px; }
+  .looking { margin-bottom: 24px; }
+  .looking b { font-weight: 700; }
+  .edit { margin-left: 10px; border: 2px solid var(--ink); padding: 2px 10px; font-weight: 600; font-size: 15px; }
+  .q { font-weight: 700; font-size: 19px; margin: 0 0 4px; }
+  .why { color: var(--muted); margin: 0 0 4px; }
+  .src { color: var(--muted); font-size: 15px; margin: 0 0 10px; text-decoration: underline; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .chips span { border: 2px solid var(--ink); padding: 8px 16px; font-weight: 600; }
+  .chips .on { background: var(--ink); color: var(--calm); }
+
+  /* phone */
+  .phone .ticks { left: 16px; right: 16px; grid-template-columns: repeat(4, 1fr); }
+  .phone .mark { left: 16px; top: 28px; font-size: 20px; }
+  .phone .stage { left: 0; top: 70px; width: 390px; }
+  .phone .rule { left: 16px; width: 358px; top: 282px; }
+  .phone .count { left: 16px; top: 292px; font-size: 16px; }
+  .phone .thread { left: 0; top: 336px; padding: 20px 16px; font-size: 16px; }
+
+  /* shared */
+  .thread { padding-top: 88px; }
+  .phone .thread { padding-top: 20px; }
+  .v { display: none; }
+  .va .v-a, .vb .v-b, .vc .v-c { display: block; }
+  .mut { color: var(--muted); }
+
+  /* A: index sheet */
+  .idx { display: grid; grid-template-columns: 56px 1fr; column-gap: 12px; row-gap: 0; }
+  .idx .n { font-weight: 800; font-size: 34px; line-height: 1; letter-spacing: -0.02em; padding-top: 2px; }
+  .idx .n small { display: block; font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: .04em; margin-top: 4px; }
+  .idx .q { font-size: 21px; margin-bottom: 2px; }
+  .idx .why { margin-bottom: 2px; }
+  .idx .src { margin-bottom: 10px; font-size: 14px; }
+  .idx .chips { margin-bottom: 28px; }
+  .idx .done .q { font-size: 17px; color: var(--muted); font-weight: 600; }
+  .idx .done .n { color: var(--muted); }
+  .idx .ans { display: inline-block; border: 2px solid var(--ink); background: #fff; padding: 4px 10px; font-weight: 700; font-size: 15px; margin-bottom: 24px; }
+  .phone .idx { grid-template-columns: 44px 1fr; }
+  .phone .idx .n { font-size: 26px; }
+
+  /* B: job ticket */
+  .tk { border-top: 2px solid var(--ink); }
+  .tk .r { display: grid; grid-template-columns: 1fr; border-bottom: 1px solid var(--ink); padding: 14px 0 16px; }
+  .tk .q { font-size: 19px; margin: 0 0 2px; }
+  .tk .why { margin: 0 0 10px; font-size: 15px; }
+  .tk .opts { display: flex; flex-wrap: wrap; gap: 10px 18px; }
+  .tk .opt { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; }
+  .tk .bx { width: 18px; height: 18px; border: 2px solid var(--ink); display: inline-block; background: #fff; }
+  .tk .on .bx { background: var(--ink); }
+  .tk .fn { font-size: 12px; vertical-align: super; color: var(--muted); }
+  .tk .foot { font-size: 13px; color: var(--muted); padding-top: 10px; }
+  .tk .head { display: flex; justify-content: space-between; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 8px 0; border-bottom: 2px solid var(--ink); }
+
+  /* C: labels as you go */
+  .lb .lab { display: inline-block; border: 2px solid var(--ink); background: #fff; padding: 6px 12px; font-weight: 700; margin: 0 8px 8px 0; transform: rotate(-1.5deg); }
+  .lb .lab.skip { border-style: dashed; color: var(--muted); font-weight: 600; transform: rotate(1deg); }
+  .lb .lab .k { display: block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; font-weight: 600; color: var(--muted); }
+  .lb .now { border: 2px solid var(--ink); background: #fff; padding: 16px 18px 6px; margin-top: 12px; }
+  .lb .now .q { font-size: 21px; }
+  .lb .now .chips span { background: var(--calm); }
+  .lb .now .chips .on { background: var(--ink); color: #fff; }
+  .lb .next { font-size: 14px; color: var(--muted); margin-top: 12px; }
+
+  .w1 { --calm: #FBF6F3; } .w2 { --calm: #FBF6F3; } .w3 { --calm: #F3F0EE; }
+  .lb .now { background: #fff; }
+  .w1 .lb .now { background: #FFFFFF; border-width: 2px; }
+  .lb .lab { background: var(--calm); }
+  .w1 .lb .lab, .w1 .idx .ans { background: #fff; }
+</style>
+</head>
+<body>
+  <h1>Interview panel, reference: panel C ("labels as you go") on warm off-white #FBF6F3</h1>
+  <p style="font-size:14px;max-width:900px">Chosen 27 October 2026. Field #EF6A4C, panel #FBF6F3, box face and labels #FFFFFF with a 2 px #17100E border, ink #17100E, muted #6B4A42. Answered questions become labels (small-caps key, bold value; dashed when skipped) that also appear on the box; the current question sits in a white card with its reason and source; a line below says what is left. Numerals "2 of 5" beside the question are the preferred progress cue.</p>
+  <div class="row">
+    <figure><figcaption>Desktop 1440</figcaption><div class="clip desk vc w2"><div class="frame" data-view="desk"></div></div></figure>
+    <figure><figcaption>Phone 390</figcaption><div class="clip phone vc w2"><div class="frame" data-view="phone"></div></div></figure>
+  </div>
+  <template id="page">
+    <div class="page">
+      <div class="ticks"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="mark">true cost copilot</div>
+      <div class="stage">
+        <svg viewBox="0 0 1024 550" aria-hidden="true">
+          <polygon points="300,72 722,72 750,160 275,160" fill="var(--flap-back)"/>
+          <polygon points="275,160 162,120 48,190 182,252" fill="var(--flap-side)"/>
+          <polygon points="750,160 860,120 975,190 842,252" fill="var(--flap-side)"/>
+          <polygon points="275,160 750,160 842,252 182,252" fill="var(--inside)"/>
+          <rect x="182" y="300" width="660" height="198" fill="var(--face)"/>
+          <polygon points="182,252 842,252 898,308 125,308" fill="var(--lip)"/>
+          <g font-family="Archivo, sans-serif" font-weight="800" fill="#17100E" style="font-stretch:125%">
+            <rect x="220" y="334" width="560" height="62" fill="#FFFFFF" stroke="#17100E" stroke-width="3"/>
+            <text x="240" y="376" font-size="28">frying pan · budget €50</text>
+            <rect x="220" y="414" width="250" height="50" fill="#FFFFFF" stroke="#17100E" stroke-width="3"/>
+            <text x="240" y="448" font-size="23" font-weight="700">hob: induction</text>
+          </g>
+        </svg>
+      </div>
+      <div class="rule"></div>
+      <div class="count">1 of 5 labelled</div>
+      <div class="thread">
+        <div class="you">A frying pan, budget €50</div>
+        <div class="looking">Looking for: frying pan · Budget: €50 <span class="edit">Edit</span></div>
+
+        <div class="v v-a">
+          <div class="idx">
+            <div class="n done">1<small>DONE</small></div>
+            <div class="done"><p class="q">Which hob do you cook on?</p><span class="ans">Induction</span></div>
+            <div class="n">2<small>OF 5</small></div>
+            <div>
+              <p class="q">How often do you cook with it?</p>
+              <p class="why">Daily use wears a coating faster, so it changes the cost per year.</p>
+              <p class="src">Source: wear-material</p>
+              <div class="chips"><span>Every day</span><span>A few times a week</span><span>Not sure</span></div>
+            </div>
+            <div class="n mut">3<small>NEXT</small></div>
+            <div><p class="q mut" style="font-weight:600;font-size:17px">Does it go in the dishwasher?</p></div>
+          </div>
+        </div>
+
+        <div class="v v-b">
+          <div class="tk">
+            <div class="head"><span>Questions · frying pan</span><span>1 / 5</span></div>
+            <div class="r">
+              <p class="q">Which hob do you cook on?<span class="fn">1</span></p>
+              <div class="opts"><span class="opt"><i class="bx"></i>Gas</span><span class="opt on"><i class="bx"></i>Induction</span><span class="opt"><i class="bx"></i>Ceramic</span><span class="opt"><i class="bx"></i>Not sure</span></div>
+            </div>
+            <div class="r">
+              <p class="q">How often do you cook with it?<span class="fn">2</span></p>
+              <p class="why">Daily use wears a coating faster, so it changes the cost per year.</p>
+              <div class="opts"><span class="opt"><i class="bx"></i>Every day</span><span class="opt"><i class="bx"></i>A few times a week</span><span class="opt"><i class="bx"></i>Not sure</span></div>
+            </div>
+            <div class="r">
+              <p class="q">Does it go in the dishwasher?<span class="fn">3</span></p>
+              <div class="opts"><span class="opt"><i class="bx"></i>That's fine</span><span class="opt"><i class="bx"></i>I'd rather avoid it</span></div>
+            </div>
+            <p class="foot">1 Some pans don't work on induction. Source: hob-compatibility · 2 Source: wear-material</p>
+          </div>
+        </div>
+
+        <div class="v v-c">
+          <div class="lb">
+            <span class="lab"><span class="k">hob</span>induction</span><span class="lab skip"><span class="k">dishwasher</span>not sure</span>
+            <div class="now">
+              <p class="q">How often do you cook with it?</p>
+              <p class="why">Daily use wears a coating faster, so it changes the cost per year.</p>
+              <p class="src">Source: wear-material</p>
+              <div class="chips"><span>Every day</span><span>A few times a week</span><span>Not sure</span></div>
+            </div>
+            <p class="next">2 more questions · or skip the rest</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script>
+    const tpl = document.getElementById("page");
+    document.querySelectorAll(".frame").forEach((frame) => frame.append(tpl.content.cloneNode(true)));
+  </script>
+</body>
+</html>

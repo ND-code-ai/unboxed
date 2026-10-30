@@ -1,0 +1,69 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "drill care maintenance and replacement parts",
+    "purpose": "category_care",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "x.com",
+        "twitter.com",
+        "linkedin.com",
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "reddit.com",
+        "quora.com",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com",
+        "amazon.com",
+        "amazon.nl",
+        "amazon.de",
+        "bol.com",
+        "coolblue.nl",
+        "mediamarkt.nl",
+        "blokker.nl",
+        "action.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-14T08:01:17.515859Z",
+  "response": {
+    "query": "drill care maintenance and replacement parts",
+    "results": [
+      {
+        "url": "https://www.titantec.com/blog/drill-maintenance",
+        "title": "Drill Maintenance: Best Practices to Prolong Tool Life",
+        "content": "Proper drill care focuses on safety, regular cleaning, correct lubrication, and dry storage.",
+        "score": 0.7906115
+      },
+      {
+        "url": "https://www.greenworkstools.com/blogs/greenworks-blog/how-to-maintain-a-drill-for-long-lasting-performance",
+        "title": "How to Maintain Your Drill for Long-Lasting Performance",
+        "content": "Avoid Overcharging or Undercharging the Battery",
+        "score": 0.49582586
+      }
+    ],
+    "usage": {
+      "credits": 1
+    }
+  }
+}

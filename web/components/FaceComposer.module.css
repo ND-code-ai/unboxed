@@ -1,0 +1,200 @@
+/* The box's face as the composer, and as it stays once the request is sent
+ * (docs/design/chat_page_brief.md, "The opening"): the face below the lip, inside its ink edge
+ * (298 to 598 down the drawing, 182 to 842 across), sized in the box's own units (the nearest
+ * container is the box). On a phone the hint and the button sit beside the question, to leave the
+ * face to the request. The first label settles over the request's first line: ProductBox's
+ * `--sink` follows this layout. */
+
+.face {
+  position: absolute;
+  top: 32.3cqi;
+  left: 14.6cqi;
+  width: 70.8cqi;
+  height: 32cqi;
+  padding: 3cqi 3.4cqi 2cqi;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-rows: auto auto minmax(0, 1fr);
+  grid-template-areas:
+    "question send"
+    "hint send"
+    "writing writing";
+  column-gap: 2cqi;
+  row-gap: 0.6cqi;
+  /* The face's own paper, so its type is read against it. */
+  background: var(--color-paper);
+}
+
+@media (min-width: 64rem) {
+  .face {
+    padding: 4.4cqi 4.4cqi 2.4cqi;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      "question question"
+      "writing writing"
+      "hint send";
+    align-items: center;
+    row-gap: 2.2cqi;
+  }
+}
+
+/* The question, as the face's heading: about 30 px at 1280 by 800. */
+.question {
+  grid-area: question;
+  font-size: max(15px, 3.4cqi);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.hint {
+  grid-area: hint;
+  color: var(--color-muted);
+  font-size: max(12px, 1.45cqi);
+  line-height: 1.3;
+}
+
+.send {
+  grid-area: send;
+  justify-self: end;
+  align-self: center;
+}
+
+/* What goes in the box, in the shopper's own type above a faint baseline: about 26 px at 1280 by
+ * 800, shrinking as the words grow so they fit without scrolling, never under 16 px (which a phone
+ * keeps; below it a phone zooms into the field). Only a request of several hundred characters
+ * scrolls. */
+.writing {
+  grid-area: writing;
+  align-self: stretch;
+  width: 100%;
+  min-height: 0;
+  padding: 0 0 0.15em;
+  border: 0;
+  border-bottom: 2px solid color-mix(in srgb, var(--color-ink) 18%, transparent);
+  background: transparent;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  --size: clamp(16px, calc(30cqi / sqrt(var(--chars, 1))), max(16px, 2.9cqi));
+  font-size: var(--size);
+  line-height: 1.3;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  resize: none;
+  scrollbar-width: none;
+}
+
+/* A step lighter than the typed words, so an empty face reads as empty; the heading above says
+ * what goes there. */
+.writing::placeholder {
+  color: var(--color-faint);
+}
+
+/* Focus darkens the baseline to ink, in place of the outline around a box. */
+.writing:focus-visible {
+  outline: none;
+  border-bottom-color: var(--color-ink);
+}
+
+.writing:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+/* The ask for a budget, floating just under the baseline, over the words below it: clear of Next,
+ * which is at the foot on a wide screen and beside the question on a phone. On a phone it reaches
+ * out past the face, over the examples. An anchor with no height, so the face keeps its layout. */
+.ask {
+  grid-area: writing;
+  align-self: end;
+  position: relative;
+  z-index: 10;
+  height: 0;
+}
+
+.ask > p {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 64rem) {
+  .ask > p {
+    right: auto;
+    width: 76%;
+  }
+}
+
+.notice {
+  grid-column: 1 / -1;
+  color: var(--color-muted);
+  font-size: max(12px, 1.45cqi);
+}
+
+/* Once sent, the request fades to pencil where it was typed, and its baseline goes. */
+.written .writing {
+  overflow: hidden;
+  border-bottom-color: transparent;
+  color: var(--color-muted);
+  animation: pencil 700ms ease both;
+}
+
+@keyframes pencil {
+  from {
+    border-bottom-color: color-mix(in srgb, var(--color-ink) 18%, transparent);
+    color: var(--color-ink);
+  }
+}
+
+.gone {
+  visibility: hidden;
+}
+
+/* Once the questions are asked the face gives way to their labels: the question fades where it
+ * stands, and the request is laid over the whole face, from its top (ProductBox moves it up there,
+ * and the labels with it). */
+.cleared .question {
+  animation: fade 200ms ease forwards;
+}
+
+@keyframes fade {
+  to {
+    opacity: 0;
+  }
+}
+
+.cleared .writing {
+  /* Out of its grid area, so it is laid over the face's whole padding box. */
+  grid-area: auto;
+  position: absolute;
+  inset: 0;
+  padding: inherit;
+}
+
+/* How many questions have an answer, printed small in the face's top right corner, as a carton
+ * carries its count; centred on the request's first line, which wraps round it. As wide as "5 of 5
+ * labelled", so the corner is the same with any count, and with none. */
+.tally {
+  float: right;
+  min-width: 10.5em;
+  margin-left: 1em;
+  color: var(--color-muted);
+  font-size: max(8px, 1.45cqi);
+  font-weight: 600;
+  line-height: calc(var(--size) * 1.3);
+  letter-spacing: 0.08em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .written .writing,
+  .cleared .question {
+    animation: none;
+  }
+
+  .cleared .question {
+    opacity: 0;
+  }
+}

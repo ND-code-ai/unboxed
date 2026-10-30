@@ -1,0 +1,3593 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "True Cost Copilot",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/sessions": {
+      "post": {
+        "summary": "Post Session",
+        "description": "Start a session under a new id and stream it to the pause, or to the report of a request\nthat does not run.",
+        "operationId": "post_session_sessions_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StartRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Server-Sent Events; each event's data is one StreamEvent, named by `event`",
+            "content": {
+              "text/event-stream": {
+                "schema": {
+                  "$ref": "#/components/schemas/StreamEvent"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "`invalid_request` or `input_too_long`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "`too_many_sessions` or `too_many_sessions_today`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "`internal_error`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sessions/{session_id}/answers": {
+      "post": {
+        "summary": "Post Answers",
+        "description": "Resume a paused session with the answers and the reply, or with neither for \"skip all\",\nand stream the reading of the reply and what it gave, the progress per agent and then the\nreport.",
+        "operationId": "post_answers_sessions__session_id__answers_post",
+        "parameters": [
+          {
+            "name": "session_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Session Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AnswersRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Server-Sent Events; each event's data is one StreamEvent, named by `event`",
+            "content": {
+              "text/event-stream": {
+                "schema": {
+                  "$ref": "#/components/schemas/StreamEvent"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "`session_not_found`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "`session_running` or `session_not_paused`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "`invalid_answers` or `invalid_request` or `reply_too_long`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "`internal_error`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sessions/{session_id}": {
+      "get": {
+        "summary": "Get Session",
+        "description": "The session as it is now, so a client that lost its stream can find it again.",
+        "operationId": "get_session_sessions__session_id__get",
+        "parameters": [
+          {
+            "name": "session_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Session Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SessionView"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "`session_not_found`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "`invalid_request`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "`internal_error`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sessions/{session_id}/recalculate": {
+      "post": {
+        "summary": "Post Recalculate",
+        "description": "The report recalculated with the complete assumptions given: no agent runs and nothing\nis saved, so the report keeps its own.",
+        "operationId": "post_recalculate_sessions__session_id__recalculate_post",
+        "parameters": [
+          {
+            "name": "session_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Session Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecalculateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Recalculation"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "`session_not_found`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "`no_report_yet` or `no_options`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "`unknown_option` or `invalid_assumptions` or `invalid_request`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "`internal_error`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "summary": "Health",
+        "description": "Liveness check for deployment, and whether the runs are traced, for the page's notice.",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Agent": {
+        "type": "string",
+        "enum": [
+          "supervisor",
+          "brief",
+          "tco",
+          "lca",
+          "second_hand"
+        ],
+        "title": "Agent"
+      },
+      "Answer": {
+        "properties": {
+          "factor_id": {
+            "type": "string",
+            "title": "Factor Id"
+          },
+          "status": {
+            "$ref": "#/components/schemas/AnswerStatus"
+          },
+          "choice_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Choice Id"
+          },
+          "stated_value": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Stated Value"
+          },
+          "stated_phrase": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Stated Phrase"
+          },
+          "uses_per_year": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Uses Per Year"
+          },
+          "stated_in": {
+            "$ref": "#/components/schemas/StatedIn",
+            "default": "request"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "factor_id",
+          "status",
+          "choice_id",
+          "stated_value",
+          "stated_phrase",
+          "uses_per_year",
+          "stated_in"
+        ],
+        "title": "Answer",
+        "description": "What is known about one decision factor. \"Not sure\" is a status, not a choice.\n\nOnly a stated answer, or a \"not sure\" read in the reply, comes from the reply; that \"not sure\"\nkeeps the phrase it was read from."
+      },
+      "AnswerStatus": {
+        "type": "string",
+        "enum": [
+          "chosen",
+          "stated",
+          "not_sure",
+          "skipped"
+        ],
+        "title": "AnswerStatus"
+      },
+      "AnswersRequest": {
+        "properties": {
+          "answers": {
+            "items": {
+              "$ref": "#/components/schemas/GivenAnswer"
+            },
+            "type": "array",
+            "title": "Answers",
+            "default": []
+          },
+          "reply": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2000
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reply",
+            "description": "At most 2000 characters (`maxLength`); a longer one is `reply_too_long`."
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "title": "AnswersRequest",
+        "description": "The user's answers and their reply in their own words, which a blank one is not; no\nanswers and no reply is \"skip all\"."
+      },
+      "ApiError": {
+        "properties": {
+          "code": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "session_not_found",
+                  "session_running",
+                  "session_not_paused",
+                  "invalid_answers",
+                  "invalid_request",
+                  "input_too_long",
+                  "reply_too_long",
+                  "no_report_yet",
+                  "no_options",
+                  "unknown_option",
+                  "invalid_assumptions",
+                  "too_many_sessions_today",
+                  "too_many_sessions"
+                ]
+              },
+              {
+                "type": "string",
+                "const": "internal_error"
+              }
+            ],
+            "title": "Code"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "code",
+          "message"
+        ],
+        "title": "ApiError",
+        "description": "The body of every response that is not a success."
+      },
+      "Assumptions": {
+        "properties": {
+          "horizon_years": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Horizon Years",
+            "default": 10
+          },
+          "uses_per_year": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Uses Per Year"
+          },
+          "lifespan_overrides": {
+            "additionalProperties": {
+              "type": "string",
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+            },
+            "type": "object",
+            "title": "Lifespan Overrides",
+            "default": {}
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "horizon_years",
+          "uses_per_year",
+          "lifespan_overrides"
+        ],
+        "title": "Assumptions",
+        "description": "The values the user may change. An override never replaces the option's own lifespan."
+      },
+      "Caveat": {
+        "properties": {
+          "code": {
+            "$ref": "#/components/schemas/CaveatCode"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "code"
+        ],
+        "title": "Caveat",
+        "description": "A fixed statement that follows from the scope. Its wording is applied when shown."
+      },
+      "CaveatCode": {
+        "type": "string",
+        "enum": [
+          "not_tuned",
+          "energy_heavy",
+          "clothing"
+        ],
+        "title": "CaveatCode"
+      },
+      "CheckGroup": {
+        "properties": {
+          "label": {
+            "$ref": "#/components/schemas/Line"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/Line"
+            },
+            "type": "array",
+            "title": "Items"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "label",
+          "items"
+        ],
+        "title": "CheckGroup",
+        "description": "The open factors under one label, each item one line."
+      },
+      "CheckItem": {
+        "properties": {
+          "factor_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Factor Id"
+          },
+          "option_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Option Id"
+          },
+          "reason": {
+            "$ref": "#/components/schemas/CheckReason"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "factor_id",
+          "option_id",
+          "reason"
+        ],
+        "title": "CheckItem"
+      },
+      "CheckLines": {
+        "properties": {
+          "groups": {
+            "items": {
+              "$ref": "#/components/schemas/CheckGroup"
+            },
+            "type": "array",
+            "title": "Groups",
+            "default": []
+          },
+          "confirm_price": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Line"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "groups",
+          "confirm_price"
+        ],
+        "title": "CheckLines",
+        "description": "The check-before-you-buy list, report-wide; an empty group is left out, and\n`confirm_price` is none when no price is to be confirmed."
+      },
+      "CheckReason": {
+        "type": "string",
+        "enum": [
+          "unanswered",
+          "unverified",
+          "price"
+        ],
+        "title": "CheckReason"
+      },
+      "Choice": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "text": {
+            "type": "string",
+            "title": "Text"
+          },
+          "uses_per_year": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Uses Per Year"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "text",
+          "uses_per_year"
+        ],
+        "title": "Choice"
+      },
+      "Comparison": {
+        "properties": {
+          "baseline_option_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Baseline Option Id"
+          },
+          "rows": {
+            "items": {
+              "$ref": "#/components/schemas/ComparisonRow"
+            },
+            "type": "array",
+            "title": "Rows",
+            "default": []
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "baseline_option_id",
+          "rows"
+        ],
+        "title": "Comparison"
+      },
+      "ComparisonRow": {
+        "properties": {
+          "option_id": {
+            "type": "string",
+            "title": "Option Id"
+          },
+          "cost_per_year": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Cost Per Year"
+          },
+          "cost_per_use": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Cost Per Use"
+          },
+          "purchases": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Purchases"
+          },
+          "horizon_cost": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Horizon Cost"
+          },
+          "horizon_co2e_low": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Horizon Co2E Low"
+          },
+          "horizon_co2e_high": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Horizon Co2E High"
+          },
+          "horizon_co2e_tier": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "enum": [
+                  1,
+                  2,
+                  3
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Horizon Co2E Tier"
+          },
+          "savings": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Savings"
+          },
+          "co2e_avoided_low": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Co2E Avoided Low"
+          },
+          "co2e_avoided_high": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Co2E Avoided High"
+          },
+          "co2e_avoided_tier": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "enum": [
+                  1,
+                  2,
+                  3
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Co2E Avoided Tier"
+          },
+          "missing_reasons": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "propertyNames": {
+              "$ref": "#/components/schemas/Figure"
+            },
+            "type": "object",
+            "title": "Missing Reasons",
+            "default": {}
+          },
+          "recurring_costs_not_found": {
+            "type": "boolean",
+            "title": "Recurring Costs Not Found",
+            "default": false
+          },
+          "recurring_cost_converted_from": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "USD",
+                  "GBP"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Recurring Cost Converted From"
+          },
+          "within_budget": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Within Budget"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "option_id",
+          "cost_per_year",
+          "cost_per_use",
+          "purchases",
+          "horizon_cost",
+          "horizon_co2e_low",
+          "horizon_co2e_high",
+          "horizon_co2e_tier",
+          "savings",
+          "co2e_avoided_low",
+          "co2e_avoided_high",
+          "co2e_avoided_tier",
+          "missing_reasons",
+          "recurring_costs_not_found",
+          "recurring_cost_converted_from",
+          "within_budget"
+        ],
+        "title": "ComparisonRow",
+        "description": "One option's figures. A missing figure has its reason in `missing_reasons`."
+      },
+      "ConfidencePart": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "const": "confidence",
+            "title": "Kind",
+            "default": "confidence"
+          },
+          "text": {
+            "type": "string",
+            "title": "Text"
+          },
+          "basis": {
+            "type": "string",
+            "enum": [
+              "published",
+              "benchmark",
+              "estimate"
+            ],
+            "title": "Basis"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "kind",
+          "text",
+          "basis"
+        ],
+        "title": "ConfidencePart",
+        "description": "A figure's confidence label: always its words, styled neutrally, never as a seal."
+      },
+      "ControlPart": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "const": "control",
+            "title": "Kind",
+            "default": "control"
+          },
+          "key": {
+            "type": "string",
+            "const": "edit",
+            "title": "Key"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "kind",
+          "key"
+        ],
+        "title": "ControlPart",
+        "description": "One of the page's controls, which only ends a line; the terminal app leaves it out."
+      },
+      "DecisionFactor": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "kind": {
+            "$ref": "#/components/schemas/FactorKind"
+          },
+          "why": {
+            "type": "string",
+            "title": "Why"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Source"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "typical_yearly_cost": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Typical Yearly Cost"
+          },
+          "typical_yearly_cost_source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Source"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "typical_yearly_cost_converted_from": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "USD",
+                  "GBP"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Typical Yearly Cost Converted From"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "kind",
+          "why",
+          "source",
+          "typical_yearly_cost",
+          "typical_yearly_cost_source",
+          "typical_yearly_cost_converted_from"
+        ],
+        "title": "DecisionFactor",
+        "description": "A researched factor's source is a web URL, the user's own factor's is the user, and the\nfactor of kind usage has none. Only a recurring-cost factor has a typical yearly cost, in\neuro, converted at a fixed rate when its source stated USD or GBP."
+      },
+      "DurabilityEvidence": {
+        "properties": {
+          "warranty": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Sourced_WarrantyTerm_"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "repairability": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Sourced_str_"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "wear_material": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Sourced_str_"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "care": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Sourced_str_"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "typical_lifespan": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Sourced_TypicalLifespan_"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "findings": {
+            "items": {
+              "$ref": "#/components/schemas/Finding"
+            },
+            "type": "array",
+            "title": "Findings",
+            "default": []
+          },
+          "findings_state": {
+            "$ref": "#/components/schemas/FindingsState",
+            "default": "not_searched"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "warranty",
+          "repairability",
+          "wear_material",
+          "care",
+          "typical_lifespan",
+          "findings",
+          "findings_state"
+        ],
+        "title": "DurabilityEvidence",
+        "description": "What supports a lifespan: one item per kind, the lifespan typical for the type, and what\ntesters and owners report, with the state that says why there are none."
+      },
+      "ErrorEvent": {
+        "properties": {
+          "event": {
+            "type": "string",
+            "const": "error",
+            "title": "Event",
+            "default": "error"
+          },
+          "code": {
+            "type": "string",
+            "enum": [
+              "model_call_failed",
+              "run_stopped",
+              "reply_unread",
+              "reply_unanswered"
+            ],
+            "title": "Code"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "event",
+          "code",
+          "message"
+        ],
+        "title": "ErrorEvent",
+        "description": "A run that ended without its last event once its stream had started."
+      },
+      "EvidenceSummary": {
+        "properties": {
+          "lifespans_sourced": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Lifespans Sourced",
+            "default": 0
+          },
+          "lifespans_estimated": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Lifespans Estimated",
+            "default": 0
+          },
+          "lifespans_user_set": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Lifespans User Set",
+            "default": 0
+          },
+          "lifespans_missing": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Lifespans Missing",
+            "default": 0
+          },
+          "footprints_published": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Footprints Published",
+            "default": 0
+          },
+          "footprints_benchmark": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Footprints Benchmark",
+            "default": 0
+          },
+          "footprints_model_estimate": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Footprints Model Estimate",
+            "default": 0
+          },
+          "footprints_missing": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Footprints Missing",
+            "default": 0
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "lifespans_sourced",
+          "lifespans_estimated",
+          "lifespans_user_set",
+          "lifespans_missing",
+          "footprints_published",
+          "footprints_benchmark",
+          "footprints_model_estimate",
+          "footprints_missing"
+        ],
+        "title": "EvidenceSummary",
+        "description": "Counts only; turning them into a sentence is presentation."
+      },
+      "FactorFigure": {
+        "properties": {
+          "factor_id": {
+            "type": "string",
+            "title": "Factor Id"
+          },
+          "figure": {
+            "$ref": "#/components/schemas/FigureLine"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "factor_id",
+          "figure"
+        ],
+        "title": "FactorFigure",
+        "description": "An option's value for one decision factor."
+      },
+      "FactorKind": {
+        "type": "string",
+        "enum": [
+          "compatibility",
+          "requirement",
+          "recurring_cost",
+          "care",
+          "usage"
+        ],
+        "title": "FactorKind"
+      },
+      "FactorValue": {
+        "properties": {
+          "factor_id": {
+            "type": "string",
+            "title": "Factor Id"
+          },
+          "value": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Value"
+          },
+          "fit": {
+            "$ref": "#/components/schemas/Fit"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "factor_id",
+          "value",
+          "fit",
+          "source"
+        ],
+        "title": "FactorValue",
+        "description": "A `meets` or `fails` says what its source states; an `unverified` value has no text."
+      },
+      "Figure": {
+        "type": "string",
+        "enum": [
+          "cost_per_year",
+          "cost_per_use",
+          "purchases",
+          "horizon_cost",
+          "horizon_co2e",
+          "savings",
+          "co2e_avoided"
+        ],
+        "title": "Figure",
+        "description": "The computed figures of a comparison row, as defined in calculations.md."
+      },
+      "FigureLine": {
+        "properties": {
+          "label": {
+            "$ref": "#/components/schemas/Line"
+          },
+          "value": {
+            "$ref": "#/components/schemas/Line"
+          },
+          "missing": {
+            "type": "boolean",
+            "title": "Missing",
+            "default": false
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "label",
+          "value",
+          "missing"
+        ],
+        "title": "FigureLine",
+        "description": "A \"Label: value\" line of the report as its two halves; the terminal app prints\n\"label: value\". `missing` when the value says why the figure is not there."
+      },
+      "Finding": {
+        "properties": {
+          "kind": {
+            "$ref": "#/components/schemas/FindingKind"
+          },
+          "summary": {
+            "type": "string",
+            "title": "Summary"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          },
+          "rating": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rating"
+          },
+          "review_count": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Review Count"
+          },
+          "published_date": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Published Date"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "kind",
+          "summary",
+          "source",
+          "rating",
+          "review_count",
+          "published_date"
+        ],
+        "title": "Finding",
+        "description": "One thing a tester or an owner reported, as a summary in the app's own words; the quote\nbehind it is never kept (docs/adr/0005-findings-summarised-quote-logged.md). The rating is\nkept as the source states it, and an owner report's rating only with its review count."
+      },
+      "FindingKind": {
+        "type": "string",
+        "enum": [
+          "test",
+          "owner_report"
+        ],
+        "title": "FindingKind"
+      },
+      "FindingsState": {
+        "type": "string",
+        "enum": [
+          "found",
+          "none_found",
+          "not_searched"
+        ],
+        "title": "FindingsState",
+        "description": "Whether findings were found, looked for and none found, or not looked up\n(option_evidence.md, \"Findings\")."
+      },
+      "FinishedSessionView": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "const": "finished",
+            "title": "Status",
+            "default": "finished"
+          },
+          "report": {
+            "$ref": "#/components/schemas/Report"
+          },
+          "lines": {
+            "$ref": "#/components/schemas/ReportLines"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "status",
+          "report",
+          "lines"
+        ],
+        "title": "FinishedSessionView",
+        "description": "A saved session that holds its report, with the lines of a `report` event."
+      },
+      "Fit": {
+        "type": "string",
+        "enum": [
+          "meets",
+          "fails",
+          "unverified"
+        ],
+        "title": "Fit"
+      },
+      "GivenAnswer": {
+        "properties": {
+          "factor_id": {
+            "type": "string",
+            "title": "Factor Id"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "chosen",
+              "not_sure"
+            ],
+            "title": "Status"
+          },
+          "choice_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Choice Id"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "factor_id",
+          "status"
+        ],
+        "title": "GivenAnswer",
+        "description": "An answer the user picked: a choice, or \"not sure\", which has none."
+      },
+      "Health": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "const": "ok",
+            "title": "Status",
+            "default": "ok"
+          },
+          "tracing": {
+            "type": "boolean",
+            "title": "Tracing"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "status",
+          "tracing"
+        ],
+        "title": "Health",
+        "description": "The API is up, and whether it traces its runs, so the page can say what is logged."
+      },
+      "InterruptedSession": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "const": "interrupted",
+            "title": "Status",
+            "default": "interrupted"
+          },
+          "code": {
+            "type": "string",
+            "const": "run_stopped",
+            "title": "Code",
+            "default": "run_stopped"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "status",
+          "code"
+        ],
+        "title": "InterruptedSession",
+        "description": "A saved session that neither waits for answers nor holds a report: its run stopped\npartway, on a restart or an unexpected exception, or its parsing call failed."
+      },
+      "LcaInput": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "form": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Form"
+          },
+          "form_source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Source"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "material_source": {
+            "$ref": "#/components/schemas/Source"
+          },
+          "component": {
+            "type": "boolean",
+            "title": "Component",
+            "default": false
+          },
+          "mass_kg": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Mass Kg"
+          },
+          "mass_source": {
+            "$ref": "#/components/schemas/Source"
+          },
+          "factor_low": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Factor Low"
+          },
+          "factor_high": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Factor High"
+          },
+          "factor_source": {
+            "$ref": "#/components/schemas/Source"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "name",
+          "form",
+          "form_source",
+          "material_source",
+          "component",
+          "mass_kg",
+          "mass_source",
+          "factor_low",
+          "factor_high",
+          "factor_source"
+        ],
+        "title": "LcaInput",
+        "description": "One material of an estimate: its mass and its emission factor range in kg CO2e per kg.\n\nThe form has its own source: a page can name a material and leave its form to the model. A\nseparate component (electronics, a motor, a battery) keeps its mass when the masses are\nscaled to the product's stated weight (docs/architecture/calculations.md)."
+      },
+      "LcaResult": {
+        "properties": {
+          "option_id": {
+            "type": "string",
+            "title": "Option Id"
+          },
+          "co2e_low": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Co2E Low"
+          },
+          "co2e_high": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Co2E High"
+          },
+          "tier": {
+            "type": "integer",
+            "enum": [
+              1,
+              2,
+              3
+            ],
+            "title": "Tier"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          },
+          "boundary": {
+            "type": "string",
+            "title": "Boundary"
+          },
+          "inputs": {
+            "items": {
+              "$ref": "#/components/schemas/LcaInput"
+            },
+            "type": "array",
+            "title": "Inputs",
+            "default": []
+          },
+          "manufacturing_low": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Manufacturing Low"
+          },
+          "manufacturing_high": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Manufacturing High"
+          },
+          "manufacturing_source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Source"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "option_id",
+          "co2e_low",
+          "co2e_high",
+          "tier",
+          "source",
+          "boundary",
+          "inputs",
+          "manufacturing_low",
+          "manufacturing_high",
+          "manufacturing_source"
+        ],
+        "title": "LcaResult",
+        "description": "A CO2e range in kg per unit. An option with no estimate has no LCA result at all.\n\nA model estimate (tier 3) always has inputs, a manufacturing and assembly range and the\nfixed boundary; a benchmark may cover materials only."
+      },
+      "Line": {
+        "properties": {
+          "parts": {
+            "items": {
+              "oneOf": [
+                {
+                  "$ref": "#/components/schemas/TextPart"
+                },
+                {
+                  "$ref": "#/components/schemas/LinkPart"
+                },
+                {
+                  "$ref": "#/components/schemas/ConfidencePart"
+                },
+                {
+                  "$ref": "#/components/schemas/ControlPart"
+                }
+              ],
+              "discriminator": {
+                "propertyName": "kind",
+                "mapping": {
+                  "confidence": "#/components/schemas/ConfidencePart",
+                  "control": "#/components/schemas/ControlPart",
+                  "link": "#/components/schemas/LinkPart",
+                  "text": "#/components/schemas/TextPart"
+                }
+              }
+            },
+            "type": "array",
+            "title": "Parts"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "parts"
+        ],
+        "title": "Line",
+        "description": "A finished line as parts the page lays out; the terminal app prints their text."
+      },
+      "LinkPart": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "const": "link",
+            "title": "Kind",
+            "default": "link"
+          },
+          "text": {
+            "type": "string",
+            "title": "Text"
+          },
+          "url": {
+            "type": "string",
+            "title": "Url"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "kind",
+          "text",
+          "url"
+        ],
+        "title": "LinkPart",
+        "description": "Words that link to a source, such as a site's name to the page it was read on."
+      },
+      "Listing": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "option_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Option Id"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "price": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Price"
+          },
+          "shipping_cost": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Shipping Cost"
+          },
+          "currency": {
+            "type": "string",
+            "const": "EUR",
+            "title": "Currency",
+            "default": "EUR"
+          },
+          "condition": {
+            "type": "string",
+            "title": "Condition"
+          },
+          "link": {
+            "type": "string",
+            "title": "Link"
+          },
+          "country": {
+            "type": "string",
+            "title": "Country"
+          },
+          "ships_to_nl": {
+            "type": "boolean",
+            "title": "Ships To Nl"
+          },
+          "marketplace": {
+            "type": "string",
+            "title": "Marketplace"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "option_id",
+          "title",
+          "price",
+          "shipping_cost",
+          "currency",
+          "condition",
+          "link",
+          "country",
+          "ships_to_nl",
+          "marketplace"
+        ],
+        "title": "Listing",
+        "description": "A used or refurbished item. A missing shipping cost means unknown, not free."
+      },
+      "Material": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "form": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Form"
+          },
+          "mass_kg": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Mass Kg"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "name",
+          "form",
+          "mass_kg",
+          "source"
+        ],
+        "title": "Material"
+      },
+      "OptionLines": {
+        "properties": {
+          "option_id": {
+            "type": "string",
+            "title": "Option Id"
+          },
+          "name": {
+            "$ref": "#/components/schemas/Line"
+          },
+          "price": {
+            "$ref": "#/components/schemas/FigureLine"
+          },
+          "shipping": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Line"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "price_seen": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Line"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "link": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/FigureLine"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "factor_values": {
+            "items": {
+              "$ref": "#/components/schemas/FactorFigure"
+            },
+            "type": "array",
+            "title": "Factor Values",
+            "default": []
+          },
+          "lifespan": {
+            "$ref": "#/components/schemas/FigureLine"
+          },
+          "rests_on": {
+            "items": {
+              "$ref": "#/components/schemas/FigureLine"
+            },
+            "type": "array",
+            "title": "Rests On",
+            "default": []
+          },
+          "rests_on_state": {
+            "items": {
+              "$ref": "#/components/schemas/Line"
+            },
+            "type": "array",
+            "title": "Rests On State",
+            "default": []
+          },
+          "recurring_cost": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/FigureLine"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "cost_per_year": {
+            "$ref": "#/components/schemas/FigureLine"
+          },
+          "cost_per_use": {
+            "$ref": "#/components/schemas/FigureLine"
+          },
+          "purchases": {
+            "$ref": "#/components/schemas/FigureLine"
+          },
+          "horizon_cost": {
+            "$ref": "#/components/schemas/FigureLine"
+          },
+          "co2e": {
+            "$ref": "#/components/schemas/FigureLine"
+          },
+          "built_from": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/FigureLine"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "co2e_less": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/FigureLine"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "marks": {
+            "items": {
+              "$ref": "#/components/schemas/Line"
+            },
+            "type": "array",
+            "title": "Marks",
+            "default": []
+          },
+          "over_budget": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Line"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "savings": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Line"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "option_id",
+          "name",
+          "price",
+          "shipping",
+          "price_seen",
+          "link",
+          "factor_values",
+          "lifespan",
+          "rests_on",
+          "rests_on_state",
+          "recurring_cost",
+          "cost_per_year",
+          "cost_per_use",
+          "purchases",
+          "horizon_cost",
+          "co2e",
+          "built_from",
+          "co2e_less",
+          "marks",
+          "over_budget",
+          "savings"
+        ],
+        "title": "OptionLines",
+        "description": "One option's block, in the terminal's order. `shipping` and `price_seen` are there only\nfor a price from a web page; `savings` only for an option set against the baseline."
+      },
+      "PausedSessionView": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "const": "paused",
+            "title": "Status",
+            "default": "paused"
+          },
+          "session": {
+            "$ref": "#/components/schemas/SessionStart"
+          },
+          "lines": {
+            "$ref": "#/components/schemas/SessionLines"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "status",
+          "session",
+          "lines"
+        ],
+        "title": "PausedSessionView",
+        "description": "A saved session waiting for the user's answers, with the lines of its `session` event."
+      },
+      "ProductOption": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "brand": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Brand"
+          },
+          "price": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Price"
+          },
+          "price_source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Source"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "price_seen_on": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Price Seen On"
+          },
+          "price_variant": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Price Variant"
+          },
+          "shipping": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Shipping"
+          },
+          "out_of_stock": {
+            "type": "boolean",
+            "title": "Out Of Stock",
+            "default": false
+          },
+          "incomplete": {
+            "type": "boolean",
+            "title": "Incomplete",
+            "default": false
+          },
+          "currency": {
+            "type": "string",
+            "const": "EUR",
+            "title": "Currency",
+            "default": "EUR"
+          },
+          "link": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Link"
+          },
+          "piece_count": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Piece Count"
+          },
+          "lifespan_years": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Lifespan Years"
+          },
+          "lifespan_source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Source"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "durability_evidence": {
+            "$ref": "#/components/schemas/DurabilityEvidence",
+            "default": {
+              "findings": [],
+              "findings_state": "not_searched"
+            }
+          },
+          "recurring_cost_per_year": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Recurring Cost Per Year"
+          },
+          "recurring_cost_source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Source"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "recurring_cost_state": {
+            "$ref": "#/components/schemas/RecurringCostState",
+            "default": "not_looked_for"
+          },
+          "recurring_cost_converted_from": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "USD",
+                  "GBP"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Recurring Cost Converted From"
+          },
+          "other_consumables_left_out": {
+            "type": "boolean",
+            "title": "Other Consumables Left Out",
+            "default": false
+          },
+          "factor_values": {
+            "items": {
+              "$ref": "#/components/schemas/FactorValue"
+            },
+            "type": "array",
+            "title": "Factor Values",
+            "default": []
+          },
+          "materials": {
+            "items": {
+              "$ref": "#/components/schemas/Material"
+            },
+            "type": "array",
+            "title": "Materials",
+            "default": []
+          },
+          "weight_kg": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Weight Kg"
+          },
+          "weight_source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Source"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "brand",
+          "price",
+          "price_source",
+          "price_seen_on",
+          "price_variant",
+          "shipping",
+          "out_of_stock",
+          "incomplete",
+          "currency",
+          "link",
+          "piece_count",
+          "lifespan_years",
+          "lifespan_source",
+          "durability_evidence",
+          "recurring_cost_per_year",
+          "recurring_cost_source",
+          "recurring_cost_state",
+          "recurring_cost_converted_from",
+          "other_consumables_left_out",
+          "factor_values",
+          "materials",
+          "weight_kg",
+          "weight_source"
+        ],
+        "title": "ProductOption",
+        "description": "A product the comparison is about. Its price comes with where and when it was seen, and\nthe size or variant it was quoted for when the source states one. `shipping` is the shipping\nthe offer states, missing when it states none. `out_of_stock` marks an option no offer has\nin stock, and `incomplete` one sold without a part it needs to work (option_research.md,\n\"Selection\")."
+      },
+      "ProgressEvent": {
+        "properties": {
+          "event": {
+            "type": "string",
+            "const": "progress",
+            "title": "Event",
+            "default": "progress"
+          },
+          "agent": {
+            "$ref": "#/components/schemas/Agent"
+          },
+          "status": {
+            "$ref": "#/components/schemas/ProgressStatus"
+          },
+          "step": {
+            "type": "string",
+            "enum": [
+              "research",
+              "reply"
+            ],
+            "title": "Step"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "event",
+          "agent",
+          "status",
+          "step",
+          "message"
+        ],
+        "title": "ProgressEvent"
+      },
+      "ProgressStatus": {
+        "type": "string",
+        "enum": [
+          "started",
+          "finished"
+        ],
+        "title": "ProgressStatus"
+      },
+      "Question": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "factor_id": {
+            "type": "string",
+            "title": "Factor Id"
+          },
+          "text": {
+            "type": "string",
+            "title": "Text"
+          },
+          "reason": {
+            "type": "string",
+            "title": "Reason"
+          },
+          "choices": {
+            "items": {
+              "$ref": "#/components/schemas/Choice"
+            },
+            "type": "array",
+            "maxItems": 4,
+            "minItems": 2,
+            "title": "Choices"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "factor_id",
+          "text",
+          "reason",
+          "choices"
+        ],
+        "title": "Question"
+      },
+      "RecalculateRequest": {
+        "properties": {
+          "horizon_years": {
+            "type": "integer",
+            "maximum": 30.0,
+            "minimum": 1.0,
+            "title": "Horizon Years"
+          },
+          "uses_per_year": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "maximum": 3650.0,
+                "minimum": 1.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Uses Per Year"
+          },
+          "lifespan_overrides": {
+            "additionalProperties": {
+              "type": "number",
+              "maximum": 100.0,
+              "minimum": 0.1
+            },
+            "type": "object",
+            "title": "Lifespan Overrides"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "horizon_years",
+          "uses_per_year",
+          "lifespan_overrides"
+        ],
+        "title": "RecalculateRequest",
+        "description": "The complete assumptions to recalculate a report with, not a change to them: the horizon,\nthe uses per year (none when not known) and a lifespan for any of its options."
+      },
+      "Recalculation": {
+        "properties": {
+          "assumptions": {
+            "$ref": "#/components/schemas/Assumptions"
+          },
+          "comparison": {
+            "$ref": "#/components/schemas/Comparison"
+          },
+          "evidence_summary": {
+            "$ref": "#/components/schemas/EvidenceSummary"
+          },
+          "lines": {
+            "$ref": "#/components/schemas/ReportLines"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "assumptions",
+          "comparison",
+          "evidence_summary",
+          "lines"
+        ],
+        "title": "Recalculation",
+        "description": "A report recalculated with other assumptions: the assumptions used, the new comparison\nand evidence summary, and beside them the lines of what changed with them, the evidence\nsummary and the options. Nothing of it is saved."
+      },
+      "RecurringCostState": {
+        "type": "string",
+        "enum": [
+          "found",
+          "not_found",
+          "not_looked_for"
+        ],
+        "title": "RecurringCostState",
+        "description": "Whether a recurring cost was found, looked for and not found, or not looked for because\nthe category has no consumables (option_research.md, \"Recurring cost\")."
+      },
+      "ReplyReadEvent": {
+        "properties": {
+          "event": {
+            "type": "string",
+            "const": "reply_read",
+            "title": "Event",
+            "default": "reply_read"
+          },
+          "stated_answers": {
+            "items": {
+              "$ref": "#/components/schemas/Answer"
+            },
+            "type": "array",
+            "title": "Stated Answers"
+          },
+          "factors": {
+            "items": {
+              "$ref": "#/components/schemas/DecisionFactor"
+            },
+            "type": "array",
+            "title": "Factors"
+          },
+          "asks_to_change_request": {
+            "type": "boolean",
+            "title": "Asks To Change Request"
+          },
+          "answered_already": {
+            "type": "boolean",
+            "title": "Answered Already"
+          },
+          "lines": {
+            "items": {
+              "$ref": "#/components/schemas/Line"
+            },
+            "type": "array",
+            "title": "Lines"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "event",
+          "stated_answers",
+          "factors",
+          "asks_to_change_request",
+          "answered_already",
+          "lines"
+        ],
+        "title": "ReplyReadEvent",
+        "description": "What the reply gave once it is read, before any agent runs: its answers that count, the\nfactors of the user's own it adds, whether it asked to change the request, and whether it\nanswered only what a choice picked or the request already answers; then its lines for the\nthread."
+      },
+      "Report": {
+        "properties": {
+          "request": {
+            "$ref": "#/components/schemas/Request"
+          },
+          "factors": {
+            "items": {
+              "$ref": "#/components/schemas/DecisionFactor"
+            },
+            "type": "array",
+            "maxItems": 12,
+            "title": "Factors",
+            "default": []
+          },
+          "questions": {
+            "items": {
+              "$ref": "#/components/schemas/Question"
+            },
+            "type": "array",
+            "maxItems": 5,
+            "title": "Questions",
+            "default": []
+          },
+          "answers": {
+            "items": {
+              "$ref": "#/components/schemas/Answer"
+            },
+            "type": "array",
+            "title": "Answers",
+            "default": []
+          },
+          "options": {
+            "items": {
+              "$ref": "#/components/schemas/ProductOption"
+            },
+            "type": "array",
+            "title": "Options",
+            "default": []
+          },
+          "lca_results": {
+            "items": {
+              "$ref": "#/components/schemas/LcaResult"
+            },
+            "type": "array",
+            "title": "Lca Results",
+            "default": []
+          },
+          "listings": {
+            "items": {
+              "$ref": "#/components/schemas/Listing"
+            },
+            "type": "array",
+            "title": "Listings",
+            "default": []
+          },
+          "assumptions": {
+            "$ref": "#/components/schemas/Assumptions",
+            "default": {
+              "horizon_years": 10,
+              "lifespan_overrides": {}
+            }
+          },
+          "comparison": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Comparison"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "evidence_summary": {
+            "$ref": "#/components/schemas/EvidenceSummary",
+            "default": {
+              "lifespans_sourced": 0,
+              "lifespans_estimated": 0,
+              "lifespans_user_set": 0,
+              "lifespans_missing": 0,
+              "footprints_published": 0,
+              "footprints_benchmark": 0,
+              "footprints_model_estimate": 0,
+              "footprints_missing": 0
+            }
+          },
+          "caveats": {
+            "items": {
+              "$ref": "#/components/schemas/Caveat"
+            },
+            "type": "array",
+            "title": "Caveats",
+            "default": []
+          },
+          "check_before_you_buy": {
+            "items": {
+              "$ref": "#/components/schemas/CheckItem"
+            },
+            "type": "array",
+            "title": "Check Before You Buy",
+            "default": []
+          },
+          "trail": {
+            "items": {
+              "$ref": "#/components/schemas/TrailEntry"
+            },
+            "type": "array",
+            "title": "Trail",
+            "default": []
+          },
+          "warnings": {
+            "items": {
+              "$ref": "#/components/schemas/Warning"
+            },
+            "type": "array",
+            "title": "Warnings",
+            "default": []
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "request",
+          "factors",
+          "questions",
+          "answers",
+          "options",
+          "lca_results",
+          "listings",
+          "assumptions",
+          "comparison",
+          "evidence_summary",
+          "caveats",
+          "check_before_you_buy",
+          "trail",
+          "warnings"
+        ],
+        "title": "Report",
+        "description": "One shape for every outcome: declined, unclear, all skipped and no options included."
+      },
+      "ReportEvent": {
+        "properties": {
+          "event": {
+            "type": "string",
+            "const": "report",
+            "title": "Event",
+            "default": "report"
+          },
+          "report": {
+            "$ref": "#/components/schemas/Report"
+          },
+          "lines": {
+            "$ref": "#/components/schemas/ReportLines"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "event",
+          "report",
+          "lines"
+        ],
+        "title": "ReportEvent"
+      },
+      "ReportLines": {
+        "properties": {
+          "declined": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Line"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "evidence_summary": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Line"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "caveats": {
+            "items": {
+              "$ref": "#/components/schemas/Line"
+            },
+            "type": "array",
+            "title": "Caveats",
+            "default": []
+          },
+          "warnings": {
+            "items": {
+              "$ref": "#/components/schemas/WarningLine"
+            },
+            "type": "array",
+            "title": "Warnings",
+            "default": []
+          },
+          "stated": {
+            "items": {
+              "$ref": "#/components/schemas/Line"
+            },
+            "type": "array",
+            "title": "Stated",
+            "default": []
+          },
+          "typical_costs": {
+            "items": {
+              "$ref": "#/components/schemas/Line"
+            },
+            "type": "array",
+            "title": "Typical Costs",
+            "default": []
+          },
+          "options": {
+            "items": {
+              "$ref": "#/components/schemas/OptionLines"
+            },
+            "type": "array",
+            "title": "Options",
+            "default": []
+          },
+          "check": {
+            "$ref": "#/components/schemas/CheckLines",
+            "default": {
+              "groups": []
+            }
+          },
+          "trail": {
+            "items": {
+              "$ref": "#/components/schemas/TrailLine"
+            },
+            "type": "array",
+            "title": "Trail",
+            "default": []
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "declined",
+          "evidence_summary",
+          "caveats",
+          "warnings",
+          "stated",
+          "typical_costs",
+          "options",
+          "check",
+          "trail"
+        ],
+        "title": "ReportLines",
+        "description": "The lines of a report. A request that does not run has its decline only."
+      },
+      "Request": {
+        "properties": {
+          "original_text": {
+            "type": "string",
+            "title": "Original Text"
+          },
+          "product_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Product Url"
+          },
+          "category": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Category"
+          },
+          "budget": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Budget"
+          },
+          "currency": {
+            "type": "string",
+            "const": "EUR",
+            "title": "Currency",
+            "default": "EUR"
+          },
+          "scope": {
+            "$ref": "#/components/schemas/Scope"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "original_text",
+          "product_url",
+          "category",
+          "budget",
+          "currency",
+          "scope"
+        ],
+        "title": "Request"
+      },
+      "RunningSession": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "const": "running",
+            "title": "Status",
+            "default": "running"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "status"
+        ],
+        "title": "RunningSession",
+        "description": "A session with a run going in this process; only the API knows."
+      },
+      "Scope": {
+        "type": "string",
+        "enum": [
+          "tuned",
+          "general",
+          "energy_heavy",
+          "clothing",
+          "not_a_product",
+          "several_products",
+          "unclear"
+        ],
+        "title": "Scope"
+      },
+      "SessionEvent": {
+        "properties": {
+          "event": {
+            "type": "string",
+            "const": "session",
+            "title": "Event",
+            "default": "session"
+          },
+          "session": {
+            "$ref": "#/components/schemas/SessionStart"
+          },
+          "lines": {
+            "$ref": "#/components/schemas/SessionLines"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "event",
+          "session",
+          "lines"
+        ],
+        "title": "SessionEvent",
+        "description": "The session at the pause, or with its report for a request that does not run, and its\nlines."
+      },
+      "SessionLines": {
+        "properties": {
+          "understood": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Line"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "label": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Line"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "declined": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Line"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "stated": {
+            "items": {
+              "$ref": "#/components/schemas/Line"
+            },
+            "type": "array",
+            "title": "Stated",
+            "default": []
+          },
+          "typical_costs": {
+            "items": {
+              "$ref": "#/components/schemas/Line"
+            },
+            "type": "array",
+            "title": "Typical Costs",
+            "default": []
+          },
+          "sources": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Line"
+            },
+            "type": "object",
+            "title": "Sources",
+            "default": {}
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "understood",
+          "label",
+          "declined",
+          "stated",
+          "typical_costs",
+          "sources"
+        ],
+        "title": "SessionLines",
+        "description": "The lines of a session at the pause: what was understood, and the same words as the box's\nfirst label, the \"From your request\" lines, the typical yearly costs and, by the question's\nid, the source line under each question about a researched factor. A request that does not\nrun has its decline only."
+      },
+      "SessionStart": {
+        "properties": {
+          "session_id": {
+            "type": "string",
+            "title": "Session Id"
+          },
+          "request": {
+            "$ref": "#/components/schemas/Request"
+          },
+          "warnings": {
+            "items": {
+              "$ref": "#/components/schemas/Warning"
+            },
+            "type": "array",
+            "title": "Warnings",
+            "default": []
+          },
+          "factors": {
+            "items": {
+              "$ref": "#/components/schemas/DecisionFactor"
+            },
+            "type": "array",
+            "title": "Factors",
+            "default": []
+          },
+          "questions": {
+            "items": {
+              "$ref": "#/components/schemas/Question"
+            },
+            "type": "array",
+            "title": "Questions",
+            "default": []
+          },
+          "stated_answers": {
+            "items": {
+              "$ref": "#/components/schemas/Answer"
+            },
+            "type": "array",
+            "title": "Stated Answers",
+            "default": []
+          },
+          "report": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Report"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "session_id",
+          "request",
+          "warnings",
+          "factors",
+          "questions",
+          "stated_answers",
+          "report"
+        ],
+        "title": "SessionStart",
+        "description": "What a new session returns: the questions with the decision factors they are drawn from\nand the answers the request states, or the report for a request that does not run."
+      },
+      "SessionStartedEvent": {
+        "properties": {
+          "event": {
+            "type": "string",
+            "const": "session_started",
+            "title": "Event",
+            "default": "session_started"
+          },
+          "session_id": {
+            "type": "string",
+            "title": "Session Id"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "event",
+          "session_id"
+        ],
+        "title": "SessionStartedEvent"
+      },
+      "SessionView": {
+        "oneOf": [
+          {
+            "$ref": "#/components/schemas/RunningSession"
+          },
+          {
+            "$ref": "#/components/schemas/PausedSessionView"
+          },
+          {
+            "$ref": "#/components/schemas/FinishedSessionView"
+          },
+          {
+            "$ref": "#/components/schemas/InterruptedSession"
+          }
+        ],
+        "title": "SessionView",
+        "description": "A session as it is now: running, or else as it is saved. An interrupted session is\nfinal: the page offers to start again with the text kept.",
+        "discriminator": {
+          "propertyName": "status",
+          "mapping": {
+            "finished": "#/components/schemas/FinishedSessionView",
+            "interrupted": "#/components/schemas/InterruptedSession",
+            "paused": "#/components/schemas/PausedSessionView",
+            "running": "#/components/schemas/RunningSession"
+          }
+        }
+      },
+      "Source": {
+        "properties": {
+          "kind": {
+            "$ref": "#/components/schemas/SourceKind"
+          },
+          "reference": {
+            "type": "string",
+            "title": "Reference"
+          },
+          "label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Label"
+          },
+          "stated_by": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/StatedBy"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "kind",
+          "reference",
+          "label",
+          "stated_by"
+        ],
+        "title": "Source",
+        "description": "Where a stated value came from. `stated_by` is known only for a web source that was read."
+      },
+      "SourceKind": {
+        "type": "string",
+        "enum": [
+          "url",
+          "dataset",
+          "model_estimate",
+          "user"
+        ],
+        "title": "SourceKind"
+      },
+      "Sourced_TypicalLifespan_": {
+        "properties": {
+          "value": {
+            "$ref": "#/components/schemas/TypicalLifespan"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "value",
+          "source"
+        ],
+        "title": "Sourced[TypicalLifespan]"
+      },
+      "Sourced_WarrantyTerm_": {
+        "properties": {
+          "value": {
+            "$ref": "#/components/schemas/WarrantyTerm"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "value",
+          "source"
+        ],
+        "title": "Sourced[WarrantyTerm]"
+      },
+      "Sourced_str_": {
+        "properties": {
+          "value": {
+            "type": "string",
+            "title": "Value"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "value",
+          "source"
+        ],
+        "title": "Sourced[str]"
+      },
+      "StartRequest": {
+        "properties": {
+          "input": {
+            "type": "string",
+            "maxLength": 2000,
+            "title": "Input",
+            "description": "At most 2000 characters (`maxLength`); a longer one is `input_too_long`."
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "input"
+        ],
+        "title": "StartRequest",
+        "description": "The input: one text that may hold a need, a product URL and a budget."
+      },
+      "StatedBy": {
+        "type": "string",
+        "enum": [
+          "tester",
+          "owner",
+          "manufacturer",
+          "seller"
+        ],
+        "title": "StatedBy",
+        "description": "Who is speaking in a web source, as the model that read it judged."
+      },
+      "StatedIn": {
+        "type": "string",
+        "enum": [
+          "request",
+          "reply"
+        ],
+        "title": "StatedIn",
+        "description": "Where the user's own words of an answer stand: the request, or the reply to the\nquestions."
+      },
+      "StreamEvent": {
+        "oneOf": [
+          {
+            "$ref": "#/components/schemas/SessionStartedEvent"
+          },
+          {
+            "$ref": "#/components/schemas/UnderstoodEvent"
+          },
+          {
+            "$ref": "#/components/schemas/ProgressEvent"
+          },
+          {
+            "$ref": "#/components/schemas/ReplyReadEvent"
+          },
+          {
+            "$ref": "#/components/schemas/SessionEvent"
+          },
+          {
+            "$ref": "#/components/schemas/ReportEvent"
+          },
+          {
+            "$ref": "#/components/schemas/ErrorEvent"
+          }
+        ],
+        "title": "StreamEvent",
+        "description": "The data of one event of a stream, named for the OpenAPI schema the frontend's types are\ngenerated from.",
+        "discriminator": {
+          "propertyName": "event",
+          "mapping": {
+            "error": "#/components/schemas/ErrorEvent",
+            "progress": "#/components/schemas/ProgressEvent",
+            "reply_read": "#/components/schemas/ReplyReadEvent",
+            "report": "#/components/schemas/ReportEvent",
+            "session": "#/components/schemas/SessionEvent",
+            "session_started": "#/components/schemas/SessionStartedEvent",
+            "understood": "#/components/schemas/UnderstoodEvent"
+          }
+        }
+      },
+      "TextPart": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "const": "text",
+            "title": "Kind",
+            "default": "text"
+          },
+          "text": {
+            "type": "string",
+            "title": "Text"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "kind",
+          "text"
+        ],
+        "title": "TextPart",
+        "description": "Words, with no markup."
+      },
+      "TrailEntry": {
+        "properties": {
+          "agent": {
+            "$ref": "#/components/schemas/Agent"
+          },
+          "kind": {
+            "$ref": "#/components/schemas/TrailKind"
+          },
+          "summary": {
+            "type": "string",
+            "title": "Summary"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Source"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reason"
+          },
+          "model_tier": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "small",
+                  "medium",
+                  "large"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Model Tier"
+          },
+          "model": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Model"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "agent",
+          "kind",
+          "summary",
+          "source",
+          "reason",
+          "model_tier",
+          "model"
+        ],
+        "title": "TrailEntry"
+      },
+      "TrailKind": {
+        "type": "string",
+        "enum": [
+          "found",
+          "decided",
+          "excluded"
+        ],
+        "title": "TrailKind"
+      },
+      "TrailLine": {
+        "properties": {
+          "agent": {
+            "$ref": "#/components/schemas/Agent"
+          },
+          "by": {
+            "$ref": "#/components/schemas/Line"
+          },
+          "line": {
+            "$ref": "#/components/schemas/Line"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "agent",
+          "by",
+          "line"
+        ],
+        "title": "TrailLine",
+        "description": "One trail entry: `by` names the agent, its tier and its model; `line` is the rest."
+      },
+      "TypicalLifespan": {
+        "properties": {
+          "low": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Low"
+          },
+          "high": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "High"
+          },
+          "type": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Type"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "low",
+          "high",
+          "type"
+        ],
+        "title": "TypicalLifespan",
+        "description": "The lifespan typical for a kind of product, as a range of years, with the kind its quote\nnames (\"non-stick pans\") when it names one."
+      },
+      "UnderstoodEvent": {
+        "properties": {
+          "event": {
+            "type": "string",
+            "const": "understood",
+            "title": "Event",
+            "default": "understood"
+          },
+          "request": {
+            "$ref": "#/components/schemas/Request"
+          },
+          "line": {
+            "$ref": "#/components/schemas/Line"
+          },
+          "label": {
+            "$ref": "#/components/schemas/Line"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "event",
+          "request",
+          "line",
+          "label"
+        ],
+        "title": "UnderstoodEvent",
+        "description": "The request, once it is known to run, the line that shows it, and the same words as the\npage's box carries them on its first label."
+      },
+      "Warning": {
+        "properties": {
+          "code": {
+            "$ref": "#/components/schemas/WarningCode"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          },
+          "option_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Option Id"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "option_id"
+        ],
+        "title": "Warning"
+      },
+      "WarningCode": {
+        "type": "string",
+        "enum": [
+          "budget_unreadable",
+          "budget_not_positive",
+          "budget_other_currency",
+          "nothing_within_budget",
+          "link_unreadable",
+          "link_price_other_currency",
+          "research_unavailable",
+          "questions_unavailable",
+          "stated_answers_unavailable",
+          "one_option_only",
+          "no_options_found",
+          "co2e_unavailable"
+        ],
+        "title": "WarningCode",
+        "description": "The closed set of warning codes; the table is in docs/architecture/agents.md."
+      },
+      "WarningLine": {
+        "properties": {
+          "code": {
+            "$ref": "#/components/schemas/WarningCode"
+          },
+          "option_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Option Id"
+          },
+          "line": {
+            "$ref": "#/components/schemas/Line"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "code",
+          "option_id",
+          "line"
+        ],
+        "title": "WarningLine",
+        "description": "A warning's message as one text part, with its code and the option it is about."
+      },
+      "WarrantyTerm": {
+        "properties": {
+          "years": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Years"
+          },
+          "lifetime": {
+            "type": "boolean",
+            "title": "Lifetime",
+            "default": false
+          },
+          "limited": {
+            "type": "boolean",
+            "title": "Limited",
+            "default": false
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "years",
+          "lifetime",
+          "limited"
+        ],
+        "title": "WarrantyTerm",
+        "description": "A warranty of a number of years, or for a lifetime; `limited` when its quote says so, as a\n\"limited lifetime warranty\" that excludes wear does."
+      }
+    }
+  }
+}

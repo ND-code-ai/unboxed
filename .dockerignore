@@ -1,0 +1,9 @@
+# The image copies only what the Dockerfile names; this keeps the rest out of the build context,
+# .env and the cache above all.
+*
+!pyproject.toml
+!uv.lock
+!README.md
+!src
+!tests/fixtures
+**/__pycache__

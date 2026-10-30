@@ -1,0 +1,25 @@
+{
+  "service": "firecrawl",
+  "request": {
+    "url": "https://example.org/shop/gone",
+    "parameters": {
+      "formats": [
+        "markdown",
+        "rawHtml"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-13T09:00:00Z",
+  "response": {
+    "success": true,
+    "data": {
+      "markdown": "Not found",
+      "rawHtml": "<html><body>Not found</body></html>",
+      "metadata": {
+        "statusCode": 404,
+        "sourceURL": "https://example.org/shop/gone",
+        "creditsUsed": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "service": "tavily",
+  "request": {
+    "search_query": "Ryobi R18PD3-215GZ replacement battery price",
+    "purpose": "evidence",
+    "parameters": {
+      "search_depth": "basic",
+      "auto_parameters": false,
+      "max_results": 8,
+      "chunks_per_source": 3,
+      "topic": "general",
+      "include_answer": false,
+      "include_usage": true,
+      "country": "netherlands",
+      "exclude_domains": [
+        "youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "pinterest.com",
+        "pinterest.nl",
+        "pinterest.co.uk",
+        "ebay.com",
+        "ebay.nl",
+        "ebay.de",
+        "marktplaats.nl",
+        "vinted.nl",
+        "aliexpress.com",
+        "temu.com"
+      ]
+    }
+  },
+  "retrieved_at": "2026-10-16T14:52:24.024985Z",
+  "response": {
+    "query": "Ryobi R18PD3-215GZ replacement battery price",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://www.idealo.co.uk/compare/6111931/ryobi-r18pd3.html",
+        "title": "Buy Ryobi R18PD3 from £69.00 (October 2026)",
+        "content": "Product Details ; Battery Voltage, 18 V ; Battery System for All Devices, Ryobi ONE+ ; Type of Battery, Li-Ion ; Battery Management, Replaceable Battery.",
+        "score": 0.77913743,
+        "raw_content": null,
+        "id": "35e649-00"
+      },
+      {
+        "url": "https://www.ebay.co.uk/b/bn_7079073985",
+        "title": "Ryobi Cordless Drills 18 V Battery Included for sale",
+        "content": "Shop on eBay $479.99 Free shipping. [...] Ryobi R18PD3 18V Drill Green Spare Battery (43) £80.00 New £64.29 Used",
+        "score": 0.7742597,
+        "raw_content": null,
+        "id": "9c6356-01"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/91ClYhtxuyL.pdf",
+        "title": "User Manual of Product 1: Ryobi R18PD3-215GZ 18 V ONE+ ...",
+        "content": "- Lo speed 0 - 500 min-1 - Hi speed 0 - 1800- min-1 No load speed (Percussion drill mode): - Lo speed 0 - 6500 IPM - Hi speed 0 - 23400 IPM Clutch (positions) 24 Maximum torque 50 Nm Maximum drilling capacity in wood 38 mm Maximum drilling capacity in metal 13 mm Maximum drilling capacity in masonry 13 mm Weight $FFRUGLQJ\u0003WR\u0003(37$\u0003SURFHGXUH\u0003\u0013\u0014\u0012\u0015\u0013\u0014\u0017 1.7 kg (1.3Ah) - 2.5 kg (9.0Ah) Weight - not incl. battery pack 1.3 kg Measured sound values determined according to EN 62841: A-weighted sound [...] 5. $\u0003UHSDLU\u0003\u0012\u0003UHSODFHPHQW\u0003XQGHU\u0003WKLV\u0003ZDUUDQW\\\u0003LV\u0003IUHH\u0003RI\u0003FKDUJH\u0011\u0003,W\u0003GRHV\u0003QRW\u0003FRQVWLWXWH\u0003DQ\u0003H[WHQVLRQ\u0003RU\u0003D\u0003QHZ\u0003VWDUW\u0003RI\u0003WKH\u0003 warranty period.",
+        "score": 0.6506676,
+        "raw_content": null,
+        "id": "1dbe30-02"
+      },
+      {
+        "url": "https://www.amazon.co.uk/ryobi-battery-starter-kit/s?k=ryobi+battery+starter+kit",
+        "title": "Ryobi Battery Starter Kit",
+        "content": "R18PD3-215GZ, Hyper Green, hammer drill, 2 x 1.5 ... 18V 5.5Ah Li-ion Battery Replacement for Ryobi P108 and Charger for ONE+ | ...",
+        "score": 0.62934244,
+        "raw_content": null,
+        "id": "ee2e70-03"
+      },
+      {
+        "url": "https://www.facebook.com/groups/758857547500286/posts/27303941942565152",
+        "title": "RYOBI Cordless 18v Combi Drill set - NEW BOXED",
+        "content": "Drill RYOBI R18PD3-215GZ x2 1.5Ah RYOBIONE+ 【Large 1500mAh Battery】 The Li-ion battery pack provides a high-power output level … 1 X Lithium-",
+        "score": 0.5052006,
+        "raw_content": null,
+        "id": "02f5d5-04"
+      },
+      {
+        "url": "https://tooltechltd.com/products/ryobi-r18pd3-percussion-drill",
+        "title": "RYOBI R18PD3 PERCUSSION DRILL Replacement Spare ...",
+        "content": "Replacement Spare Parts Genuine … 1 year warranty on the battery.",
+        "score": 0.43698296,
+        "raw_content": null,
+        "id": "c85612-05"
+      },
+      {
+        "url": "https://www.reddit.com/r/ryobi/comments/h0x0zq/just_bought_into_ryobi_for_the_first_time",
+        "title": "Just bought into Ryobi for the first time. Cordless combi drill ...",
+        "content": "Cordless combi drill starter kit with two 1.5ah and a charger for £75 from Amazon UK. you can buy replacement parts and do your own repairs",
+        "score": 0.32869154,
+        "raw_content": null,
+        "id": "010de7-06"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DVb1cKzkUAf",
+        "title": "Small fix? Big project? Get powered up the right way⚡⁠ ⁠ ...",
+        "content": "£39.99 seems like an absolute bargain considering the amount of damage done over the years.",
+        "score": 0.24799696,
+        "raw_content": null,
+        "id": "3fa325-07"
+      }
+    ],
+    "response_time": 1.19,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "f925ed59-ed42-4f94-a3b4-2ed25393bbc3"
+  }
+}
